@@ -18,9 +18,7 @@
     <meta property="og:image" content="https://ejudata0328.github.io/images/hero-bg.jpg">
     <link rel="alternate" hreflang="ko" href="https://ejudata0328.github.io/datacenter-product.html">
     <link rel="canonical" href="https://ejudata0328.github.io/datacenter-product.html">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -121,7 +119,17 @@
                     </div>
                     <div class="content-body">
                         <img src="images/datacenter-product.jpg" alt="이주데이타시스템 제품자료 다운로드" class="content-img">
-                        <div id="boardContainer" data-board="datacenter-product" data-icon="box-open" data-label="제품자료"></div>
+                        <div class="product-tabs">
+                            <button class="product-tab active" data-board="product-rfid-asset">RFID자산관리</button>
+                            <button class="product-tab" data-board="product-contract">계약관리</button>
+                            <button class="product-tab" data-board="product-material">자재관리</button>
+                            <button class="product-tab" data-board="product-public-property">국공유관리</button>
+                            <button class="product-tab" data-board="product-vat">부가세관리</button>
+                            <button class="product-tab" data-board="product-consumables">소모품관리</button>
+                            <button class="product-tab" data-board="product-print-cost">인쇄원가관리</button>
+                            <button class="product-tab" data-board="product-vehicle">차량관리</button>
+                        </div>
+                        <div id="boardContainer" data-board="product-rfid-asset" data-icon="box-open" data-label="제품자료"></div>
                     </div>
                 </div>
             </div>

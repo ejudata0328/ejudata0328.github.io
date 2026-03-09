@@ -1,6 +1,6 @@
 /* ===== Reset & Base ===== */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Noto Sans KR', sans-serif; font-size: 15px; line-height: 1.6; color: #333; background: #fff; }
+body { font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.6; color: #333; background: #fff; }
 a { text-decoration: none; color: inherit; }
 ul, ol { list-style: none; }
 img { max-width: 100%; height: auto; }
@@ -303,6 +303,12 @@ img { max-width: 100%; height: auto; }
 .attach-list li a:hover { background: #1a5276; color: #fff; border-color: #1a5276; }
 .attach-list li a:hover .attach-size { color: rgba(255,255,255,0.7); }
 .attach-size { font-size: 12px; color: #888; font-weight: 400; }
+
+/* ===== Product Tabs ===== */
+.product-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.product-tab { padding: 10px 20px; background: #f0f0f0; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; font-weight: 500; color: #555; cursor: pointer; transition: all 0.3s; }
+.product-tab:hover { background: #e0e8ef; color: #1a5276; border-color: #b0c4d8; }
+.product-tab.active { background: #1a5276; color: #fff; border-color: #1a5276; font-weight: 600; }
 
 /* ===== Back to Top ===== */
 .back-to-top { position: fixed; bottom: 30px; right: 30px; width: 45px; height: 45px; background: #1a5276; color: #fff; border-radius: 50%; display: none; align-items: center; justify-content: center; font-size: 18px; box-shadow: 0 3px 10px rgba(0,0,0,0.2); transition: all 0.3s; z-index: 999; }

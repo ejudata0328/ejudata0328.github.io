@@ -10,20 +10,22 @@
     var container = document.getElementById('boardContainer');
     if (!container) return;
 
-    var boardName = container.dataset.board;
     var boardIcon = container.dataset.icon || 'folder-open';
     var boardLabel = container.dataset.label || '게시판';
-    var jsonPath = 'data/' + boardName + '.json';
 
-    fetch(jsonPath)
-        .then(function (res) { return res.json(); })
-        .then(function (posts) { renderBoard(posts); })
-        .catch(function () {
-            container.innerHTML = '<p style="color:#999;text-align:center;padding:40px 0;">게시글을 불러올 수 없습니다.</p>';
-        });
+    function loadBoard(boardName) {
+        container.innerHTML = '<p style="color:#999;text-align:center;padding:40px 0;"><i class="fas fa-spinner fa-spin"></i> 불러오는 중...</p>';
+        var jsonPath = 'data/' + boardName + '.json';
+
+        fetch(jsonPath)
+            .then(function (res) { return res.json(); })
+            .then(function (posts) { renderBoard(posts); })
+            .catch(function () {
+                container.innerHTML = '<p style="color:#999;text-align:center;padding:40px 0;">게시글을 불러올 수 없습니다.</p>';
+            });
+    }
 
     function renderBoard(posts) {
-        // Build table
         var html = '<table class="board-table">';
         html += '<thead><tr><th>번호</th><th>제목</th><th>첨부</th><th>작성일</th><th>조회수</th></tr></thead>';
         html += '<tbody>';
@@ -39,7 +41,6 @@
         });
         html += '</tbody></table>';
 
-        // Build modal
         html += '<div class="board-overlay" id="boardOverlay">';
         html += '  <div class="board-modal">';
         html += '    <div class="board-modal-header">';
@@ -63,7 +64,6 @@
 
         container.innerHTML = html;
 
-        // Event bindings
         var overlay = document.getElementById('boardOverlay');
 
         document.getElementById('btnCloseModal').addEventListener('click', closeModal);
@@ -86,7 +86,6 @@
             document.getElementById('modalViews').textContent = post.views.toLocaleString();
             document.getElementById('modalContent').innerHTML = post.content;
 
-            // Render attachments
             var attachEl = document.getElementById('modalAttachments');
             if (post.attachments && post.attachments.length > 0) {
                 var attachHtml = '<div class="attach-section">';
@@ -115,6 +114,23 @@
             document.body.style.overflow = '';
         }
     }
+
+    // Product tab switching
+    var tabs = document.querySelectorAll('.product-tab');
+    if (tabs.length > 0) {
+        tabs.forEach(function (tab) {
+            tab.addEventListener('click', function () {
+                tabs.forEach(function (t) { t.classList.remove('active'); });
+                tab.classList.add('active');
+                var newBoard = tab.dataset.board;
+                container.dataset.board = newBoard;
+                loadBoard(newBoard);
+            });
+        });
+    }
+
+    // Initial load
+    loadBoard(container.dataset.board);
 
     function escapeHtml(str) {
         var div = document.createElement('div');
