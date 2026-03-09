@@ -1,10 +1,6 @@
 /**
  * EJUDATA Board Loader
- * JSON 데이터 기반 게시판 렌더링 모듈
- *
- * 사용법:
- * <div id="boardContainer" data-board="community-notice" data-icon="bullhorn" data-label="공지사항"></div>
- * <script src="js/board.js"></script>
+ * JSON 데이터 기반 게시판 렌더링 모듈 + Firebase 조회수 연동
  */
 (function () {
     var container = document.getElementById('boardContainer');
@@ -12,6 +8,38 @@
 
     var boardIcon = container.dataset.icon || 'folder-open';
     var boardLabel = container.dataset.label || '게시판';
+    var db = typeof ejuFirebaseDB !== 'undefined' ? ejuFirebaseDB : null;
+
+    function getFirebaseViews(boardName, postId, callback) {
+        if (!db) return callback(null);
+        db.ref('views/' + boardName + '/' + postId).once('value', function (snap) {
+            callback(snap.val());
+        });
+    }
+
+    function incrementViews(boardName, postId, callback) {
+        if (!db) return callback(null);
+        var ref = db.ref('views/' + boardName + '/' + postId);
+        ref.transaction(function (current) {
+            return (current || 0) + 1;
+        }, function (error, committed, snapshot) {
+            if (!error && committed) {
+                callback(snapshot.val());
+            }
+        });
+    }
+
+    function initFirebaseViews(boardName, posts) {
+        if (!db) return;
+        posts.forEach(function (post) {
+            var ref = db.ref('views/' + boardName + '/' + post.id);
+            ref.once('value', function (snap) {
+                if (snap.val() === null) {
+                    ref.set(post.views || 0);
+                }
+            });
+        });
+    }
 
     function loadBoard(boardName) {
         container.innerHTML = '<p style="color:#999;text-align:center;padding:40px 0;"><i class="fas fa-spinner fa-spin"></i> 불러오는 중...</p>';
@@ -19,13 +47,16 @@
 
         fetch(jsonPath)
             .then(function (res) { return res.json(); })
-            .then(function (posts) { renderBoard(posts); })
+            .then(function (posts) {
+                initFirebaseViews(boardName, posts);
+                renderBoard(boardName, posts);
+            })
             .catch(function () {
                 container.innerHTML = '<p style="color:#999;text-align:center;padding:40px 0;">게시글을 불러올 수 없습니다.</p>';
             });
     }
 
-    function renderBoard(posts) {
+    function renderBoard(boardName, posts) {
         var html = '<table class="board-table">';
         html += '<thead><tr><th>번호</th><th>제목</th><th>첨부</th><th>작성일</th><th>조회수</th></tr></thead>';
         html += '<tbody>';
@@ -36,7 +67,7 @@
             html += '<td><a href="#">' + escapeHtml(post.title) + '</a></td>';
             html += '<td class="td-attach">' + (hasFile ? '<i class="fas fa-paperclip" aria-hidden="true"></i>' : '') + '</td>';
             html += '<td>' + post.date + '</td>';
-            html += '<td>' + post.views.toLocaleString() + '</td>';
+            html += '<td class="td-views">' + post.views.toLocaleString() + '</td>';
             html += '</tr>';
         });
         html += '</tbody></table>';
@@ -64,6 +95,18 @@
 
         container.innerHTML = html;
 
+        // Firebase 조회수를 테이블에 반영
+        posts.forEach(function (post) {
+            getFirebaseViews(boardName, post.id, function (fbViews) {
+                if (fbViews !== null) {
+                    var row = container.querySelector('tr[data-id="' + post.id + '"]');
+                    if (row) {
+                        row.querySelector('.td-views').textContent = fbViews.toLocaleString();
+                    }
+                }
+            });
+        });
+
         var overlay = document.getElementById('boardOverlay');
 
         document.getElementById('btnCloseModal').addEventListener('click', closeModal);
@@ -76,15 +119,31 @@
                 e.preventDefault();
                 var id = parseInt(row.dataset.id, 10);
                 var post = posts.find(function (p) { return p.id === id; });
-                if (post) openModal(post);
+                if (post) openModal(post, row);
             });
         });
 
-        function openModal(post) {
+        function openModal(post, row) {
             document.getElementById('modalTitle').textContent = post.title;
             document.getElementById('modalDate').textContent = post.date;
-            document.getElementById('modalViews').textContent = post.views.toLocaleString();
             document.getElementById('modalContent').innerHTML = post.content;
+
+            // Firebase 조회수 +1 증가
+            incrementViews(boardName, post.id, function (newCount) {
+                if (newCount !== null) {
+                    document.getElementById('modalViews').textContent = newCount.toLocaleString();
+                    if (row) {
+                        row.querySelector('.td-views').textContent = newCount.toLocaleString();
+                    }
+                } else {
+                    document.getElementById('modalViews').textContent = post.views.toLocaleString();
+                }
+            });
+
+            // Firebase 없을 경우 fallback
+            if (!db) {
+                document.getElementById('modalViews').textContent = post.views.toLocaleString();
+            }
 
             var attachEl = document.getElementById('modalAttachments');
             if (post.attachments && post.attachments.length > 0) {

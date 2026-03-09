@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Firebase 조회수 초기화</title>
+    <style>
+        body { font-family: 'Pretendard', sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
+        h1 { font-size: 22px; margin-bottom: 20px; }
+        .log { background: #f5f5f5; padding: 16px; border-radius: 8px; font-size: 13px; line-height: 1.8; max-height: 500px; overflow-y: auto; }
+        .log .ok { color: #27ae60; }
+        .log .skip { color: #999; }
+        .log .err { color: #e74c3c; }
+        button { padding: 12px 28px; background: #1a5276; color: #fff; border: none; border-radius: 6px; font-size: 15px; cursor: pointer; margin-bottom: 20px; }
+        button:hover { background: #2980b9; }
+        button:disabled { background: #999; cursor: not-allowed; }
+    </style>
+</head>
+<body>
+    <h1>Firebase 조회수 초기화</h1>
+    <p>각 JSON 파일의 views 값을 Firebase에 초기값으로 등록합니다. (이미 값이 있으면 건너뜁니다)</p>
+    <button id="btnInit">초기화 실행</button>
+    <div class="log" id="log">대기 중...</div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script>
+        var boards = [
+            'community-notice',
+            'community-news',
+            'datacenter-promotion',
+            'product-rfid-asset',
+            'product-contract',
+            'product-material',
+            'product-public-property',
+            'product-vat',
+            'product-consumables',
+            'product-print-cost',
+            'product-vehicle'
+        ];
+
+        var logEl = document.getElementById('log');
+        var btn = document.getElementById('btnInit');
+
+        function log(msg, cls) {
+            logEl.innerHTML += '<div class="' + (cls || '') + '">' + msg + '</div>';
+            logEl.scrollTop = logEl.scrollHeight;
+        }
+
+        btn.addEventListener('click', async function () {
+            btn.disabled = true;
+            logEl.innerHTML = '';
+            log('초기화 시작...');
+
+            var db = ejuFirebaseDB;
+            var totalSet = 0;
+            var totalSkip = 0;
+
+            for (var i = 0; i < boards.length; i++) {
+                var boardName = boards[i];
+                log('<br><b>[' + boardName + ']</b> 로딩 중...');
+
+                try {
+                    var res = await fetch('data/' + boardName + '.json');
+                    var posts = await res.json();
+                    log('  ' + posts.length + '개 게시글 발견');
+
+                    for (var j = 0; j < posts.length; j++) {
+                        var post = posts[j];
+                        var ref = db.ref('views/' + boardName + '/' + post.id);
+                        var snap = await ref.once('value');
+
+                        if (snap.val() === null) {
+                            await ref.set(post.views || 0);
+                            log('  #' + post.id + ' "' + post.title + '" → 초기값 ' + post.views + ' 설정', 'ok');
+                            totalSet++;
+                        } else {
+                            log('  #' + post.id + ' 이미 존재 (현재값: ' + snap.val() + ') → 건너뜀', 'skip');
+                            totalSkip++;
+                        }
+                    }
+                } catch (e) {
+                    log('  오류: ' + e.message, 'err');
+                }
+            }
+
+            log('<br><b>완료!</b> 새로 설정: ' + totalSet + '건, 건너뜀: ' + totalSkip + '건', 'ok');
+            btn.disabled = false;
+        });
+    </script>
+</body>
+</html>
