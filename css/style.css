@@ -276,6 +276,18 @@ img { max-width: 100%; height: auto; }
 .board-table tbody tr td:nth-child(2) a { transition: color 0.2s; }
 .board-table tbody tr:hover td:nth-child(2) a { color: #1a5276; font-weight: 500; }
 
+/* ===== Board Attachments ===== */
+.td-attach { text-align: center; width: 50px; color: #1a5276; }
+.attach-section { margin-top: 24px; padding-top: 20px; border-top: 1px solid #eee; }
+.attach-section h5 { font-size: 14px; font-weight: 700; color: #2c3e50; margin-bottom: 10px; }
+.attach-section h5 i { color: #1a5276; margin-right: 6px; }
+.attach-list { list-style: none; }
+.attach-list li { padding: 8px 0; }
+.attach-list li a { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; background: #f0f7fc; border: 1px solid #d4e6f1; border-radius: 6px; font-size: 13px; color: #1a5276; font-weight: 500; transition: all 0.3s; }
+.attach-list li a:hover { background: #1a5276; color: #fff; border-color: #1a5276; }
+.attach-list li a:hover .attach-size { color: rgba(255,255,255,0.7); }
+.attach-size { font-size: 12px; color: #888; font-weight: 400; }
+
 /* ===== Back to Top ===== */
 .back-to-top { position: fixed; bottom: 30px; right: 30px; width: 45px; height: 45px; background: #1a5276; color: #fff; border-radius: 50%; display: none; align-items: center; justify-content: center; font-size: 18px; box-shadow: 0 3px 10px rgba(0,0,0,0.2); transition: all 0.3s; z-index: 999; }
 .back-to-top.show { display: flex; }
