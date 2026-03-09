@@ -111,8 +111,6 @@
 
         document.getElementById('btnCloseModal').addEventListener('click', closeModal);
         document.getElementById('btnListModal').addEventListener('click', closeModal);
-        overlay.addEventListener('click', function (e) { if (e.target === overlay) closeModal(); });
-        document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
 
         container.querySelectorAll('.board-table tbody tr').forEach(function (row) {
             row.addEventListener('click', function (e) {
@@ -150,9 +148,9 @@
                 var attachHtml = '<div class="attach-section">';
                 attachHtml += '<h5><i class="fas fa-paperclip" aria-hidden="true"></i> 첨부파일</h5>';
                 attachHtml += '<ul class="attach-list">';
-                post.attachments.forEach(function (file) {
+                post.attachments.forEach(function (file, idx) {
                     attachHtml += '<li>';
-                    attachHtml += '<a href="' + file.url + '" target="_blank" rel="noopener noreferrer" download>';
+                    attachHtml += '<a href="#" class="attach-download" data-url="' + file.url + '" data-name="' + escapeHtml(file.name) + '">';
                     attachHtml += '<i class="fas fa-file-download" aria-hidden="true"></i> ';
                     attachHtml += escapeHtml(file.name);
                     if (file.size) attachHtml += ' <span class="attach-size">(' + file.size + ')</span>';
@@ -163,6 +161,36 @@
             } else {
                 attachEl.innerHTML = '';
             }
+
+            // Blob 다운로드 이벤트 바인딩 (cross-origin 파일명 지정)
+            attachEl.querySelectorAll('.attach-download').forEach(function (link) {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    var url = link.dataset.url;
+                    var name = link.dataset.name;
+                    if (!url || url === '#') return;
+                    link.style.opacity = '0.5';
+                    link.querySelector('i').className = 'fas fa-spinner fa-spin';
+                    fetch(url)
+                        .then(function (res) { return res.blob(); })
+                        .then(function (blob) {
+                            var a = document.createElement('a');
+                            a.href = URL.createObjectURL(blob);
+                            a.download = name;
+                            document.body.appendChild(a);
+                            a.click();
+                            document.body.removeChild(a);
+                            URL.revokeObjectURL(a.href);
+                            link.style.opacity = '1';
+                            link.querySelector('i').className = 'fas fa-file-download';
+                        })
+                        .catch(function () {
+                            window.open(url, '_blank');
+                            link.style.opacity = '1';
+                            link.querySelector('i').className = 'fas fa-file-download';
+                        });
+                });
+            });
 
             overlay.classList.add('show');
             document.body.style.overflow = 'hidden';
