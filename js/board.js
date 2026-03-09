@@ -162,33 +162,18 @@
                 attachEl.innerHTML = '';
             }
 
-            // Blob 다운로드 이벤트 바인딩 (cross-origin 파일명 지정)
+            // 첨부파일 다운로드 이벤트
             attachEl.querySelectorAll('.attach-download').forEach(function (link) {
                 link.addEventListener('click', function (e) {
                     e.preventDefault();
                     var url = link.dataset.url;
                     var name = link.dataset.name;
                     if (!url || url === '#') return;
-                    link.style.opacity = '0.5';
-                    link.querySelector('i').className = 'fas fa-spinner fa-spin';
-                    fetch(url)
-                        .then(function (res) { return res.blob(); })
-                        .then(function (blob) {
-                            var a = document.createElement('a');
-                            a.href = URL.createObjectURL(blob);
-                            a.download = name;
-                            document.body.appendChild(a);
-                            a.click();
-                            document.body.removeChild(a);
-                            URL.revokeObjectURL(a.href);
-                            link.style.opacity = '1';
-                            link.querySelector('i').className = 'fas fa-file-download';
-                        })
-                        .catch(function () {
-                            window.open(url, '_blank');
-                            link.style.opacity = '1';
-                            link.querySelector('i').className = 'fas fa-file-download';
-                        });
+                    // 원본 파일명 안내 후 다운로드
+                    var msg = '파일명: ' + name + '\n\n다운로드 후 위 파일명으로 저장해 주세요.\n다운로드를 진행하시겠습니까?';
+                    if (confirm(msg)) {
+                        window.location.href = url;
+                    }
                 });
             });
 
