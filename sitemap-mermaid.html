@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJUDATA 사이트맵 - Mermaid Diagram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a5276;
+            --accent: #2980b9;
+            --dark: #2c3e50;
+            --bg: #f0f3f6;
+            --card: #ffffff;
+            --text-muted: #7f8c8d;
+            --border-light: #dce1e6;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background: var(--bg);
+            color: var(--dark);
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 24px;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .back-link:hover { color: var(--primary); text-decoration: underline; }
+        .page-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .page-header h1 {
+            font-size: 34px;
+            font-weight: 900;
+            color: var(--primary);
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+        .page-header p {
+            color: var(--text-muted);
+            font-size: 15px;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+        .diagram-section {
+            max-width: 1200px;
+            margin: 0 auto 48px;
+            background: var(--card);
+            border-radius: 12px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+            padding: 40px;
+            border: 1px solid var(--border-light);
+        }
+        .diagram-section h2 {
+            font-size: 21px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 6px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--accent);
+            display: inline-block;
+        }
+        .diagram-section .desc {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-bottom: 24px;
+            margin-top: 8px;
+        }
+        .mermaid {
+            display: flex;
+            justify-content: center;
+            overflow-x: auto;
+            padding: 20px 0;
+        }
+        .legend {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 24px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border-light);
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+            flex-shrink: 0;
+        }
+        .section-number {
+            display: inline-block;
+            background: var(--primary);
+            color: #fff;
+            width: 28px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 13px;
+            font-weight: 700;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        @media (max-width: 768px) {
+            body { padding: 20px 12px; }
+            .diagram-section { padding: 20px 16px; }
+            .page-header h1 { font-size: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">&larr; 홈페이지로 돌아가기</a>
+
+    <div class="page-header">
+        <h1>EJUDATA 홈페이지 구조 분석</h1>
+        <p>이주데이타시스템 웹사이트의 메뉴 구조, 솔루션 체계, 조직도, 사용자 플로우, 페이지 구성, 파일 구조, SEO 전략을 Mermaid 다이어그램으로 시각화합니다.</p>
+    </div>
+
+    <!-- 1. 사이트맵 (메뉴 구조) -->
+    <div class="diagram-section">
+        <h2><span class="section-number">1</span>사이트맵 (메뉴 구조)</h2>
+        <p class="desc">전체 네비게이션 메뉴와 페이지 계층 구조</p>
+        <div class="mermaid">
+graph TD
+    HOME["HOME<br/>EJUDATA 메인"]
+
+    HOME --> A["About EJUDATA<br/>회사소개"]
+    HOME --> B["Our Business<br/>사업영역"]
+    HOME --> C["Data Center<br/>자료실"]
+    HOME --> D["Community<br/>커뮤니티"]
+    HOME --> E["Recruit<br/>채용"]
+    HOME --> F["English<br/>영문 페이지"]
+
+    A --> A1["인사말"]
+    A --> A2["비전"]
+    A --> A3["연혁"]
+    A --> A4["조직도"]
+    A --> A5["오시는길"]
+
+    B --> B1["사업영역"]
+    B --> B2["RFID"]
+    B --> B3["Solution"]
+
+    B3 --> S1["RFID자산관리시스템"]
+    B3 --> S2["계약관리시스템 ECS"]
+    B3 --> S3["자재관리시스템 MMS"]
+    B3 --> S4["원가관리시스템 PCS"]
+    B3 --> S5["재산관리시스템 PMS"]
+    B3 --> S6["차량관리시스템 TCS"]
+
+    C --> C1["홍보자료"]
+    C --> C2["제품자료"]
+    C2 --> C2a["RFID자산관리"]
+    C2 --> C2b["계약관리"]
+    C2 --> C2c["국공유관리"]
+    C2 --> C2d["부가세관리"]
+    C2 --> C2e["소모품관리"]
+    C2 --> C2f["인쇄원가관리"]
+    C2 --> C2g["자재관리"]
+    C2 --> C2h["차량관리"]
+
+    D --> D1["공지사항"]
+    D --> D2["관련소식"]
+    D --> D3["자주하는 질문"]
+    D --> D4["1:1문의"]
+
+    E --> E1["채용정보"]
+    E --> E2["인재상"]
+
+    classDef home fill:#1a5276,color:#fff,stroke:#0d2b3e,stroke-width:2px
+    classDef menu fill:#2980b9,color:#fff,stroke:#1a5276,stroke-width:1px
+    classDef sub fill:#5dade2,color:#fff,stroke:#2980b9,stroke-width:1px
+    classDef solution fill:#d6eaf8,color:#1a5276,stroke:#2980b9,stroke-width:1px
+    classDef data fill:#eaf2f8,color:#2c3e50,stroke:#aed6f1,stroke-width:1px
+
+    class HOME home
+    class A,B,C,D,E,F menu
+    class A1,A2,A3,A4,A5,B1,B2,B3,C1,C2,D1,D2,D3,D4,E1,E2 sub
+    class S1,S2,S3,S4,S5,S6 solution
+    class C2a,C2b,C2c,C2d,C2e,C2f,C2g,C2h data
+        </div>
+        <div class="legend">
+            <div class="legend-item"><div class="legend-color" style="background:#1a5276"></div> 메인 홈</div>
+            <div class="legend-item"><div class="legend-color" style="background:#2980b9"></div> 주 메뉴 (GNB)</div>
+            <div class="legend-item"><div class="legend-color" style="background:#5dade2"></div> 서브 메뉴</div>
+            <div class="legend-item"><div class="legend-color" style="background:#d6eaf8"></div> 솔루션 상세</div>
+            <div class="legend-item"><div class="legend-color" style="background:#eaf2f8"></div> 제품 자료</div>
+        </div>
+    </div>
+
+    <!-- 2. 솔루션 체계도 -->
+    <div class="diagram-section">
+        <h2><span class="section-number">2</span>솔루션 체계도</h2>
+        <p class="desc">RFID 기반 솔루션과 업무용 솔루션 제품군의 기술 구성 관계</p>
+        <div class="mermaid">
+graph LR
+    CORE["EJUDATA<br/>솔루션 플랫폼"]
+
+    CORE --> RFID["RFID 기반 솔루션"]
+    CORE --> BIZ["업무용 솔루션"]
+
+    RFID --> R1["RFID<br/>무선식별시스템"]
+    RFID --> R2["자산관리시스템<br/>RFID AMS"]
+
+    R1 --> TAG["Tag<br/>96bit+ 저장"]
+    R1 --> ANT["Antenna<br/>데이터 송수신"]
+    R1 --> RDR["Reader<br/>RF 신호 해독"]
+
+    BIZ --> B1["계약관리 ECS"]
+    BIZ --> B2["자재관리 MMS"]
+    BIZ --> B3["원가관리 PCS"]
+    BIZ --> B4["재산관리 PMS"]
+    BIZ --> B5["차량관리 TCS"]
+
+    R2 --> EFF["도입효과"]
+    EFF --> E1["예산 절감"]
+    EFF --> E2["실시간 통계"]
+    EFF --> E3["효율적 관리"]
+
+    B1 --> F1["Report/HWP/Excel"]
+    B2 --> F2["G2B/XML 연계"]
+    B3 --> F3["GS인증 획득"]
+
+    classDef core fill:#1a5276,color:#fff,stroke-width:2px
+    classDef rfid fill:#2980b9,color:#fff,stroke-width:1px
+    classDef biz fill:#2c3e50,color:#fff,stroke-width:1px
+    classDef detail fill:#d6eaf8,color:#1a5276,stroke:#2980b9
+    classDef effect fill:#d5f5e3,color:#1a5276,stroke:#27ae60
+
+    class CORE core
+    class RFID,R1,R2 rfid
+    class BIZ,B1,B2,B3,B4,B5 biz
+    class TAG,ANT,RDR,F1,F2,F3 detail
+    class EFF,E1,E2,E3 effect
+        </div>
+        <div class="legend">
+            <div class="legend-item"><div class="legend-color" style="background:#1a5276"></div> 플랫폼 코어</div>
+            <div class="legend-item"><div class="legend-color" style="background:#2980b9"></div> RFID 솔루션</div>
+            <div class="legend-item"><div class="legend-color" style="background:#2c3e50"></div> 업무용 솔루션</div>
+            <div class="legend-item"><div class="legend-color" style="background:#d6eaf8"></div> 기술 상세</div>
+            <div class="legend-item"><div class="legend-color" style="background:#d5f5e3"></div> 도입 효과</div>
+        </div>
+    </div>
+
+    <!-- 3. 조직 구조 -->
+    <div class="diagram-section">
+        <h2><span class="section-number">3</span>조직 구조</h2>
+        <p class="desc">이주데이타시스템 조직 구성도 (CEO 직속 4개 부서)</p>
+        <div class="mermaid">
+graph TD
+    CEO["대표이사<br/>CEO"]
+    CEO --> MG["경영지원팀<br/>Management Support"]
+    CEO --> SI["SI사업팀<br/>SI Business"]
+    CEO --> SW["솔루션개발팀<br/>Solution Development"]
+    CEO --> RF["RFID사업팀<br/>RFID Business"]
+
+    MG --> MG1["인사/총무"]
+    MG --> MG2["재무/회계"]
+
+    SI --> SI1["시스템 통합"]
+    SI --> SI2["컨설팅"]
+
+    SW --> SW1["패키지 개발"]
+    SW --> SW2["유지보수"]
+
+    RF --> RF1["RFID 구축"]
+    RF --> RF2["하드웨어 연동"]
+
+    classDef ceo fill:#1a5276,color:#fff,stroke-width:2px,font-size:16px
+    classDef dept fill:#2980b9,color:#fff,stroke-width:1px
+    classDef team fill:#d6eaf8,color:#1a5276,stroke:#2980b9
+
+    class CEO ceo
+    class MG,SI,SW,RF dept
+    class MG1,MG2,SI1,SI2,SW1,SW2,RF1,RF2 team
+        </div>
+        <div class="legend">
+            <div class="legend-item"><div class="legend-color" style="background:#1a5276"></div> 대표이사</div>
+            <div class="legend-item"><div class="legend-color" style="background:#2980b9"></div> 부서</div>
+            <div class="legend-item"><div class="legend-color" style="background:#d6eaf8"></div> 팀/업무</div>
+        </div>
+    </div>
+
+    <!-- 4. 사용자 탐색 플로우 -->
+    <div class="diagram-section">
+        <h2><span class="section-number">4</span>사용자 탐색 플로우</h2>
+        <p class="desc">웹사이트 방문자의 주요 탐색 경로 및 전환 흐름</p>
+        <div class="mermaid">
+flowchart TD
+    START(("방문자"))
+    START --> LANG{"언어 선택"}
+    LANG -->|한국어| KOR["메인 페이지<br/>index.html"]
+    LANG -->|English| ENG["English Page<br/>eng.html"]
+
+    KOR --> INFO["회사 정보 탐색"]
+    KOR --> PROD["솔루션/제품 탐색"]
+    KOR --> COMM["커뮤니케이션"]
+    KOR --> RECRUIT["채용 정보"]
+
+    INFO --> ABOUT["인사말/비전"]
+    INFO --> HIST["연혁/조직도"]
+    INFO --> MAP["오시는길"]
+
+    PROD --> BIZ["사업영역 확인"]
+    PROD --> SOL["솔루션 상세"]
+    PROD --> DATA["제품자료 다운로드"]
+
+    COMM --> NOTICE["공지사항 확인"]
+    COMM --> FAQ["FAQ 조회"]
+    COMM --> QNA["1:1 문의 작성"]
+
+    SOL --> CONTACT["도입 문의"]
+    QNA --> CONTACT
+    MAP --> VISIT["방문 상담"]
+    RECRUIT --> APPLY["지원하기"]
+
+    classDef start fill:#1a5276,color:#fff,stroke-width:2px
+    classDef decision fill:#f9e79f,color:#2c3e50,stroke:#f1c40f,stroke-width:2px
+    classDef page fill:#2980b9,color:#fff,stroke:#1a5276
+    classDef category fill:#d6eaf8,color:#1a5276,stroke:#2980b9
+    classDef leaf fill:#eaf2f8,color:#2c3e50,stroke:#aed6f1
+    classDef action fill:#27ae60,color:#fff,stroke:#1e8449
+
+    class START start
+    class LANG decision
+    class KOR,ENG page
+    class INFO,PROD,COMM,RECRUIT category
+    class ABOUT,HIST,MAP,BIZ,SOL,DATA,NOTICE,FAQ,QNA leaf
+    class CONTACT,VISIT,APPLY action
+        </div>
+        <div class="legend">
+            <div class="legend-item"><div class="legend-color" style="background:#1a5276"></div> 시작점</div>
+            <div class="legend-item"><div class="legend-color" style="background:#f9e79f"></div> 분기 판단</div>
+            <div class="legend-item"><div class="legend-color" style="background:#2980b9"></div> 랜딩 페이지</div>
+            <div class="legend-item"><div class="legend-color" style="background:#d6eaf8"></div> 탐색 카테고리</div>
+            <div class="legend-item"><div class="legend-color" style="background:#eaf2f8"></div> 상세 페이지</div>
+            <div class="legend-item"><div class="legend-color" style="background:#27ae60"></div> 전환 액션</div>
+        </div>
+    </div>
+
+    <!-- 5. 페이지 구성 요소 -->
+    <div class="diagram-section">
+        <h2><span class="section-number">5</span>페이지 구성 요소</h2>
+        <p class="desc">홈페이지의 공통 레이아웃 구조와 구성 요소</p>
+        <div class="mermaid">
+graph TD
+    PAGE["페이지 구조"]
+
+    PAGE --> TOPBAR["Top Bar<br/>연락처 / 언어전환"]
+    PAGE --> HEADER["Header<br/>로고 + 네비게이션"]
+    PAGE --> MAIN["Main Content"]
+    PAGE --> FOOTER["Footer<br/>회사정보 / 링크 / 연락처"]
+
+    HEADER --> LOGO["EJU DATA 로고"]
+    HEADER --> NAV["네비게이션 메뉴<br/>5개 주 메뉴"]
+    HEADER --> MOBILE["모바일 토글<br/>햄버거 메뉴"]
+
+    MAIN -->|메인페이지| HERO["Hero Slider<br/>3개 슬라이드"]
+    MAIN -->|메인페이지| BIZ_SEC["Business Section<br/>5개 아이콘 카드"]
+    MAIN -->|메인페이지| ABOUT_SEC["About Section<br/>회사 소개"]
+    MAIN -->|메인페이지| SOL_SEC["Solution Section<br/>6개 솔루션 카드"]
+    MAIN -->|메인페이지| CTA["CTA Section<br/>행동 유도"]
+
+    MAIN -->|서브페이지| PH["Page Header<br/>타이틀 + 경로"]
+    MAIN -->|서브페이지| SIDEBAR["사이드바 메뉴"]
+    MAIN -->|서브페이지| CONTENT["컨텐츠 영역"]
+
+    classDef struct fill:#1a5276,color:#fff,stroke-width:2px
+    classDef comp fill:#2980b9,color:#fff,stroke-width:1px
+    classDef detail fill:#d6eaf8,color:#1a5276,stroke:#2980b9
+
+    class PAGE struct
+    class TOPBAR,HEADER,MAIN,FOOTER comp
+    class LOGO,NAV,MOBILE,HERO,BIZ_SEC,ABOUT_SEC,SOL_SEC,CTA,PH,SIDEBAR,CONTENT detail
+        </div>
+        <div class="legend">
+            <div class="legend-item"><div class="legend-color" style="background:#1a5276"></div> 전체 구조</div>
+            <div class="legend-item"><div class="legend-color" style="background:#2980b9"></div> 레이아웃 영역</div>
+            <div class="legend-item"><div class="legend-color" style="background:#d6eaf8"></div> 세부 구성 요소</div>
+        </div>
+    </div>
+
+    <!-- 6. 파일 구조 -->
+    <div class="diagram-section">
+        <h2><span class="section-number">6</span>파일 구조</h2>
+        <p class="desc">GitHub Pages 배포를 위한 프로젝트 파일 구성</p>
+        <div class="mermaid">
+graph TD
+    ROOT["ejudata-clone/"]
+
+    ROOT --> CSS["css/"]
+    ROOT --> JS["js/"]
+    ROOT --> IDX["index.html<br/>메인 페이지"]
+    ROOT --> ENG_F["eng.html<br/>영문 페이지"]
+    ROOT --> MAP_F["sitemap-mermaid.html<br/>사이트맵 다이어그램"]
+
+    CSS --> STYLE["style.css<br/>전체 스타일시트"]
+    JS --> MAINJS["main.js<br/>인터랙션 스크립트"]
+
+    ROOT --> ABOUT_G["About 그룹"]
+    ABOUT_G --> AB1["about.html"]
+    ABOUT_G --> AB2["vision.html"]
+    ABOUT_G --> AB3["history.html"]
+    ABOUT_G --> AB4["organization.html"]
+    ABOUT_G --> AB5["contact.html"]
+
+    ROOT --> BIZ_G["Business 그룹"]
+    BIZ_G --> BZ1["business.html"]
+    BIZ_G --> BZ2["rfid.html"]
+    BIZ_G --> BZ3["solution-asset.html"]
+    BIZ_G --> BZ4["solution-contract.html"]
+    BIZ_G --> BZ5["solution-material.html"]
+    BIZ_G --> BZ6["solution-cost.html"]
+    BIZ_G --> BZ7["solution-property.html"]
+    BIZ_G --> BZ8["solution-vehicle.html"]
+
+    ROOT --> DC_G["DataCenter 그룹"]
+    DC_G --> DC1["datacenter.html"]
+    DC_G --> DC2["datacenter-product.html"]
+
+    ROOT --> CM_G["Community 그룹"]
+    CM_G --> CM1["community.html"]
+    CM_G --> CM2["community-news.html"]
+    CM_G --> CM3["community-faq.html"]
+    CM_G --> CM4["community-qna.html"]
+
+    ROOT --> RC_G["Recruit 그룹"]
+    RC_G --> RC1["recruit.html"]
+    RC_G --> RC2["recruit-talent.html"]
+
+    classDef root fill:#1a5276,color:#fff,stroke-width:2px
+    classDef folder fill:#2980b9,color:#fff
+    classDef file fill:#d6eaf8,color:#1a5276,stroke:#2980b9
+    classDef group fill:#eaf2f8,color:#2c3e50,stroke:#aed6f1
+
+    class ROOT root
+    class CSS,JS folder
+    class IDX,ENG_F,MAP_F,STYLE,MAINJS file
+    class ABOUT_G,BIZ_G,DC_G,CM_G,RC_G group
+    class AB1,AB2,AB3,AB4,AB5,BZ1,BZ2,BZ3,BZ4,BZ5,BZ6,BZ7,BZ8,DC1,DC2,CM1,CM2,CM3,CM4,RC1,RC2 file
+        </div>
+        <div class="legend">
+            <div class="legend-item"><div class="legend-color" style="background:#1a5276"></div> 루트 디렉토리</div>
+            <div class="legend-item"><div class="legend-color" style="background:#2980b9"></div> 폴더</div>
+            <div class="legend-item"><div class="legend-color" style="background:#eaf2f8"></div> 파일 그룹</div>
+            <div class="legend-item"><div class="legend-color" style="background:#d6eaf8"></div> HTML/CSS/JS 파일</div>
+        </div>
+    </div>
+
+    <!-- 7. SEO 구조 -->
+    <div class="diagram-section">
+        <h2><span class="section-number">7</span>SEO 구조</h2>
+        <p class="desc">각 페이지에 적용된 SEO 요소 (메타 태그, Canonical URL, Open Graph 태그) 구조도</p>
+        <div class="mermaid">
+graph TD
+    SEO["SEO 전략<br/>검색엔진 최적화"]
+
+    SEO --> META["Meta Tags"]
+    SEO --> CANON["Canonical URL"]
+    SEO --> OG["Open Graph Tags"]
+    SEO --> STRUCT["구조화 데이터"]
+
+    META --> MT1["title<br/>페이지별 고유 타이틀"]
+    META --> MT2["description<br/>페이지 요약 설명"]
+    META --> MT3["keywords<br/>RFID, 자산관리, 솔루션 등"]
+    META --> MT4["viewport<br/>반응형 대응"]
+
+    CANON --> CA1["메인: ejudata.com"]
+    CANON --> CA2["서브: ejudata.com/about"]
+    CANON --> CA3["중복 방지<br/>canonical link rel"]
+
+    OG --> OG1["og:title<br/>SNS 공유 제목"]
+    OG --> OG2["og:description<br/>SNS 공유 설명"]
+    OG --> OG3["og:image<br/>공유 썸네일"]
+    OG --> OG4["og:url<br/>페이지 정규 URL"]
+    OG --> OG5["og:type<br/>website"]
+
+    STRUCT --> SD1["Organization<br/>회사 정보 스키마"]
+    STRUCT --> SD2["BreadcrumbList<br/>탐색 경로"]
+    STRUCT --> SD3["Product<br/>솔루션 제품 정보"]
+
+    SEO --> PAGES["페이지별 적용"]
+    PAGES --> P1["index.html<br/>title: EJUDATA 이주데이타시스템<br/>desc: RFID 자산관리 전문기업"]
+    PAGES --> P2["about.html<br/>title: 회사소개 - EJUDATA<br/>desc: 이주데이타시스템 인사말"]
+    PAGES --> P3["solution-*.html<br/>title: 솔루션명 - EJUDATA<br/>desc: 솔루션별 상세 설명"]
+    PAGES --> P4["community.html<br/>title: 커뮤니티 - EJUDATA<br/>desc: 공지사항 및 소식"]
+
+    classDef core fill:#1a5276,color:#fff,stroke-width:2px
+    classDef category fill:#2980b9,color:#fff,stroke-width:1px
+    classDef item fill:#d6eaf8,color:#1a5276,stroke:#2980b9
+    classDef page fill:#eaf2f8,color:#2c3e50,stroke:#aed6f1
+    classDef schema fill:#d5f5e3,color:#1a5276,stroke:#27ae60
+
+    class SEO core
+    class META,CANON,OG,STRUCT,PAGES category
+    class MT1,MT2,MT3,MT4,CA1,CA2,CA3,OG1,OG2,OG3,OG4,OG5 item
+    class SD1,SD2,SD3 schema
+    class P1,P2,P3,P4 page
+        </div>
+        <div class="legend">
+            <div class="legend-item"><div class="legend-color" style="background:#1a5276"></div> SEO 전략 코어</div>
+            <div class="legend-item"><div class="legend-color" style="background:#2980b9"></div> SEO 카테고리</div>
+            <div class="legend-item"><div class="legend-color" style="background:#d6eaf8"></div> SEO 요소</div>
+            <div class="legend-item"><div class="legend-color" style="background:#d5f5e3"></div> 구조화 데이터</div>
+            <div class="legend-item"><div class="legend-color" style="background:#eaf2f8"></div> 페이지별 적용 예시</div>
+        </div>
+    </div>
+
+    <!-- 8. 콘텐츠 품질 검토 -->
+    <div class="diagram-section">
+        <h2><span class="section-number">8</span>콘텐츠 품질 검토</h2>
+        <p class="desc">리뷰 에이전트를 통한 콘텐츠 품질 검토 및 수정 사항 추적</p>
+        <div class="mermaid">
+graph TD
+    REVIEW["콘텐츠 품질 검토<br/>4개 병렬 에이전트"]
+
+    REVIEW --> LINK["링크 검증 에이전트"]
+    REVIEW --> DESIGN["디자인 검증 에이전트"]
+    REVIEW --> CONTENT["콘텐츠 검증 에이전트"]
+    REVIEW --> JSCHECK["JS 인터랙션 에이전트"]
+
+    LINK --> L1["✅ 24개 HTML 파일<br/>내부 링크 정상"]
+    LINK --> L2["✅ 136개 깨진 링크<br/>수정 완료"]
+
+    DESIGN --> D1["✅ CSS 클래스 통일<br/>nav-menu, sub-menu 등"]
+    DESIGN --> D2["✅ Unsplash 배경<br/>hero, page-header, CTA"]
+    DESIGN --> D3["✅ 반응형 대응<br/>992px, 768px, 480px"]
+
+    CONTENT --> C1["✅ vision.html<br/>문법 오류 수정"]
+    CONTENT --> C2["✅ history.html<br/>연혁 순서 정정"]
+    CONTENT --> C3["✅ rfid.html<br/>장점 7개로 확장"]
+    CONTENT --> C4["✅ contact.html<br/>지도 좌표 수정"]
+
+    JSCHECK --> J1["✅ Back-to-Top 동작"]
+    JSCHECK --> J2["✅ FAQ 토글 동작"]
+    JSCHECK --> J3["✅ 문의 폼 구성"]
+
+    classDef core fill:#1a5276,color:#fff,stroke-width:2px
+    classDef agent fill:#2980b9,color:#fff,stroke-width:1px
+    classDef pass fill:#d5f5e3,color:#1a5276,stroke:#27ae60
+    classDef fixed fill:#fdebd0,color:#7d6608,stroke:#f39c12
+
+    class REVIEW core
+    class LINK,DESIGN,CONTENT,JSCHECK agent
+    class L1,D1,D2,D3,J1,J2,J3 pass
+    class L2,C1,C2,C3,C4 fixed
+        </div>
+        <div class="legend">
+            <div class="legend-item"><div class="legend-color" style="background:#1a5276"></div> 검토 프로세스</div>
+            <div class="legend-item"><div class="legend-color" style="background:#2980b9"></div> 검증 에이전트</div>
+            <div class="legend-item"><div class="legend-color" style="background:#d5f5e3"></div> 정상 확인</div>
+            <div class="legend-item"><div class="legend-color" style="background:#fdebd0"></div> 수정 완료</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                primaryColor: '#d6eaf8',
+                primaryTextColor: '#1a5276',
+                primaryBorderColor: '#2980b9',
+                lineColor: '#7f8c8d',
+                secondaryColor: '#eaf2f8',
+                tertiaryColor: '#fff',
+                fontSize: '14px',
+                fontFamily: 'Noto Sans KR, sans-serif'
+            },
+            flowchart: {
+                htmlLabels: true,
+                curve: 'basis',
+                padding: 20,
+                nodeSpacing: 30,
+                rankSpacing: 50
+            }
+        });
+    </script>
+</body>
+</html>
