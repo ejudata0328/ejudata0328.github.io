@@ -142,10 +142,20 @@
     <main>
     <!-- Hero -->
     <section class="hero">
-        <div class="container">
+        <canvas id="heroCanvas"></canvas>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-badge">AI & RFID Technology</span>
             <h1>RFID 컨설팅 및<br>시스템 구축 전문기업</h1>
             <p>이주데이타시스템은 RFID컨설팅 및 시스템구축과 함께<br>업무용 소프트웨어 분야의 선두주자입니다.</p>
-            <a href="about.html" class="btn">회사소개 보기 <i class="fas fa-arrow-right"></i></a>
+            <div class="hero-buttons">
+                <a href="about.html" class="btn">회사소개 보기 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                <a href="solution-asset.html" class="btn btn-outline-hero">솔루션 둘러보기 <i class="fas fa-th-large" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>SCROLL</span>
+            <div class="hero-scroll-line"></div>
         </div>
     </section>
 
@@ -306,5 +316,6 @@
     <a href="#" class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></a>
 
     <script src="js/main.js"></script>
+    <script src="js/hero-particles.js"></script>
 </body>
 </html>
