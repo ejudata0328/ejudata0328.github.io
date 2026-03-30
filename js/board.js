@@ -9,6 +9,7 @@
     var boardIcon = container.dataset.icon || 'folder-open';
     var boardLabel = container.dataset.label || '게시판';
     var db = typeof ejuFirebaseDB !== 'undefined' ? ejuFirebaseDB : null;
+    var lastFocusedRow = null;
 
     function getFirebaseViews(boardName, postId, callback) {
         if (!db) return callback(null);
@@ -42,41 +43,55 @@
     }
 
     function loadBoard(boardName) {
-        container.innerHTML = '<p style="color:#999;text-align:center;padding:40px 0;"><i class="fas fa-spinner fa-spin"></i> 불러오는 중...</p>';
+        container.setAttribute('aria-busy', 'true');
+        container.innerHTML = '<p class="board-loading"><i class="fas fa-spinner fa-spin" aria-hidden="true"></i> 불러오는 중...</p>';
         var jsonPath = 'data/' + boardName + '.json';
 
         fetch(jsonPath)
-            .then(function (res) { return res.json(); })
+            .then(function (res) {
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                return res.json();
+            })
             .then(function (posts) {
                 initFirebaseViews(boardName, posts);
                 renderBoard(boardName, posts);
             })
             .catch(function () {
-                container.innerHTML = '<p style="color:#999;text-align:center;padding:40px 0;">게시글을 불러올 수 없습니다.</p>';
+                container.innerHTML = '<p class="board-loading"><i class="fas fa-exclamation-circle" aria-hidden="true"></i> 게시글을 불러올 수 없습니다. <button class="btn-retry" onclick="location.reload()">다시 시도</button></p>';
+            })
+            .finally(function () {
+                container.setAttribute('aria-busy', 'false');
             });
     }
 
     function renderBoard(boardName, posts) {
+        // Empty state
+        if (!posts || posts.length === 0) {
+            container.innerHTML = '<div class="board-empty"><i class="fas fa-inbox" aria-hidden="true"></i><p>등록된 게시글이 없습니다.</p></div>';
+            return;
+        }
+
         var html = '<table class="board-table">';
-        html += '<thead><tr><th>번호</th><th>제목</th><th>첨부</th><th>작성일</th><th>조회수</th></tr></thead>';
+        html += '<caption class="sr-only">' + escapeHtml(boardLabel) + ' 게시판 목록</caption>';
+        html += '<thead><tr><th scope="col">번호</th><th scope="col">제목</th><th scope="col">첨부</th><th scope="col">작성일</th><th scope="col">조회수</th></tr></thead>';
         html += '<tbody>';
         posts.forEach(function (post) {
             var hasFile = post.attachments && post.attachments.length > 0;
-            html += '<tr data-id="' + post.id + '">';
+            html += '<tr data-id="' + post.id + '" tabindex="0" role="button" aria-label="' + escapeHtml(post.title) + ' 상세보기">';
             html += '<td>' + post.id + '</td>';
             html += '<td><a href="#">' + escapeHtml(post.title) + '</a></td>';
-            html += '<td class="td-attach">' + (hasFile ? '<i class="fas fa-paperclip" aria-hidden="true"></i>' : '') + '</td>';
+            html += '<td class="td-attach">' + (hasFile ? '<i class="fas fa-paperclip" aria-hidden="true"></i><span class="sr-only">첨부파일 있음</span>' : '') + '</td>';
             html += '<td>' + post.date + '</td>';
             html += '<td class="td-views">' + post.views.toLocaleString() + '</td>';
             html += '</tr>';
         });
         html += '</tbody></table>';
 
-        html += '<div class="board-overlay" id="boardOverlay">';
+        html += '<div class="board-overlay" id="boardOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">';
         html += '  <div class="board-modal">';
         html += '    <div class="board-modal-header">';
         html += '      <h4><i class="fas fa-' + boardIcon + '" aria-hidden="true"></i> ' + escapeHtml(boardLabel) + '</h4>';
-        html += '      <button class="board-modal-close" id="btnCloseModal"><i class="fas fa-times" aria-hidden="true"></i></button>';
+        html += '      <button class="board-modal-close" id="btnCloseModal" aria-label="모달 닫기"><i class="fas fa-times" aria-hidden="true"></i></button>';
         html += '    </div>';
         html += '    <div class="board-modal-body">';
         html += '      <div class="board-detail-title" id="modalTitle"></div>';
@@ -112,12 +127,27 @@
         document.getElementById('btnCloseModal').addEventListener('click', closeModal);
         document.getElementById('btnListModal').addEventListener('click', closeModal);
 
+        // Overlay click to close
+        overlay.addEventListener('click', function (e) {
+            if (e.target === overlay) closeModal();
+        });
+
         container.querySelectorAll('.board-table tbody tr').forEach(function (row) {
-            row.addEventListener('click', function (e) {
+            function handleOpen(e) {
                 e.preventDefault();
                 var id = parseInt(row.dataset.id, 10);
                 var post = posts.find(function (p) { return p.id === id; });
-                if (post) openModal(post, row);
+                if (post) {
+                    lastFocusedRow = row;
+                    openModal(post, row);
+                }
+            }
+            row.addEventListener('click', handleOpen);
+            row.addEventListener('keydown', function (e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    handleOpen(e);
+                }
             });
         });
 
@@ -148,7 +178,7 @@
                 var attachHtml = '<div class="attach-section">';
                 attachHtml += '<h5><i class="fas fa-paperclip" aria-hidden="true"></i> 첨부파일</h5>';
                 attachHtml += '<ul class="attach-list">';
-                post.attachments.forEach(function (file, idx) {
+                post.attachments.forEach(function (file) {
                     attachHtml += '<li>';
                     attachHtml += '<a href="#" class="attach-download" data-url="' + file.url + '" data-name="' + escapeHtml(file.name) + '">';
                     attachHtml += '<i class="fas fa-file-download" aria-hidden="true"></i> ';
@@ -169,7 +199,6 @@
                     var url = link.dataset.url;
                     var name = link.dataset.name;
                     if (!url || url === '#') return;
-                    // 원본 파일명 안내 후 다운로드
                     var msg = '파일명: ' + name + '\n\n다운로드 후 위 파일명으로 저장해 주세요.\n다운로드를 진행하시겠습니까?';
                     if (confirm(msg)) {
                         window.location.href = url;
@@ -179,11 +208,28 @@
 
             overlay.classList.add('show');
             document.body.style.overflow = 'hidden';
+
+            // Focus trap: move focus to close button
+            var closeBtn = document.getElementById('btnCloseModal');
+            closeBtn.focus();
+
+            // ESC key handler
+            document.addEventListener('keydown', handleEscKey);
+        }
+
+        function handleEscKey(e) {
+            if (e.key === 'Escape') closeModal();
         }
 
         function closeModal() {
             overlay.classList.remove('show');
             document.body.style.overflow = '';
+            document.removeEventListener('keydown', handleEscKey);
+            // Restore focus to the row that opened the modal
+            if (lastFocusedRow) {
+                lastFocusedRow.focus();
+                lastFocusedRow = null;
+            }
         }
     }
 

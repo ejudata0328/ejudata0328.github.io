@@ -27,11 +27,11 @@
     <div class="top-bar">
         <div class="container">
             <div class="top-bar-right">
-                <span><i class="fas fa-phone"></i> 02-6925-4700</span>
-                <span style="margin: 0 8px; opacity:0.4;">|</span>
-                <span><i class="fas fa-envelope"></i> eju@ejudata.co.kr</span>
-                <span style="margin: 0 8px; opacity:0.4;">|</span>
-                <a href="index.html" style="color:#fff; font-weight:600;">KOR</a>
+                <a href="tel:02-6925-4700"><i class="fas fa-phone" aria-hidden="true"></i> 02-6925-4700</a>
+                <span class="top-bar-separator">|</span>
+                <a href="mailto:eju@ejudata.co.kr"><i class="fas fa-envelope" aria-hidden="true"></i> eju@ejudata.co.kr</a>
+                <span class="top-bar-separator">|</span>
+                <a href="index.html" class="lang-active">KOR</a>
                 <a href="eng.html">ENG</a>
             </div>
         </div>
@@ -41,6 +41,11 @@
     <header class="header">
         <div class="container">
             <div class="logo"><a href="index.html"><img src="images/logo.png" alt="EJUDATA 이주데이타시스템" class="logo-img"></a></div>
+            <button class="nav-toggle" aria-label="메뉴 열기" aria-expanded="false">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
             <nav aria-label="주요 메뉴">
                 <ul class="nav-menu">
                     <li class="nav-item"><a href="about.html">About EJUDATA</a>
@@ -173,13 +178,13 @@
         <div class="container">
             <div class="footer-info">
                 <p><strong>이주데이타시스템(주)</strong></p>
-                <p><i class="fas fa-map-marker-alt"></i> 서울특별시 구로구 디지털로 30길 28, 1217호 (구로동 마리오타워)</p>
-                <p><i class="fas fa-phone"></i> 02-6925-4700 &nbsp;&nbsp; <i class="fas fa-envelope"></i> eju@ejudata.co.kr</p>
+                <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 서울특별시 구로구 디지털로 30길 28, 1217호 (구로동 마리오타워)</p>
+                <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:02-6925-4700">02-6925-4700</a> &nbsp;&nbsp; <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:eju@ejudata.co.kr">eju@ejudata.co.kr</a></p>
             </div>
             <div class="footer-copyright"><p>&copy; EJUDATA Systems Co., Ltd. All Rights Reserved.</p></div>
         </div>
     </footer>
-    <a href="#" class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></a>
+    <a href="#" class="back-to-top" id="backToTop" aria-label="페이지 상단으로 이동"><i class="fas fa-chevron-up" aria-hidden="true"></i></a>
     <script src="js/main.js"></script>
 </body>
 </html>

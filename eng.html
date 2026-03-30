@@ -29,12 +29,12 @@
     <div class="top-bar">
         <div class="container">
             <div class="top-bar-right">
-                <span><i class="fas fa-phone"></i> 02-6925-4700</span>
-                <span style="margin: 0 8px; opacity:0.4;">|</span>
-                <span><i class="fas fa-envelope"></i> eju@ejudata.co.kr</span>
-                <span style="margin: 0 8px; opacity:0.4;">|</span>
+                <a href="tel:02-6925-4700"><i class="fas fa-phone" aria-hidden="true"></i> 02-6925-4700</a>
+                <span class="top-bar-separator">|</span>
+                <a href="mailto:eju@ejudata.co.kr"><i class="fas fa-envelope" aria-hidden="true"></i> eju@ejudata.co.kr</a>
+                <span class="top-bar-separator">|</span>
                 <a href="index.html">KOR</a>
-                <a href="eng.html" style="color:#fff; font-weight:600;">ENG</a>
+                <a href="eng.html" class="lang-active">ENG</a>
             </div>
         </div>
     </div>
@@ -42,6 +42,11 @@
     <header class="header">
         <div class="container">
             <div class="logo"><a href="eng.html"><img src="images/logo.png" alt="EJUDATA Systems" class="logo-img"></a></div>
+            <button class="nav-toggle" aria-label="메뉴 열기" aria-expanded="false">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
             <nav aria-label="주요 메뉴">
                 <ul class="nav-menu">
                     <li class="nav-item">
@@ -150,7 +155,7 @@
             <h2>Start Digital Management<br>with EJUDATA Systems</h2>
             <p>We are committed to leading customer success.</p>
             <div class="cta-buttons">
-                <a href="contact.html" class="btn-white"><i class="fas fa-map-marker-alt"></i> Location</a>
+                <a href="contact.html" class="btn-white"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Location</a>
                 <a href="community-qna.html" class="btn-ghost"><i class="fas fa-comment-dots"></i> Contact Us</a>
             </div>
         </div>
@@ -160,8 +165,8 @@
         <div class="container">
             <div class="footer-info">
                 <p><strong>EJUDATA Systems Co., Ltd.</strong></p>
-                <p><i class="fas fa-map-marker-alt"></i> #1217, Mario Tower, 28, Digital-ro 30-gil, Guro-gu, Seoul, Korea</p>
-                <p><i class="fas fa-phone"></i> 02-6925-4700 &nbsp;&nbsp; <i class="fas fa-envelope"></i> eju@ejudata.co.kr</p>
+                <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> #1217, Mario Tower, 28, Digital-ro 30-gil, Guro-gu, Seoul, Korea</p>
+                <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:02-6925-4700">02-6925-4700</a> &nbsp;&nbsp; <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:eju@ejudata.co.kr">eju@ejudata.co.kr</a></p>
             </div>
             <div class="footer-copyright">
                 <p>&copy; EJUDATA Systems Co., Ltd. All Rights Reserved.</p>
@@ -169,7 +174,7 @@
         </div>
     </footer>
 
-    <a href="#" class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></a>
+    <a href="#" class="back-to-top" id="backToTop" aria-label="페이지 상단으로 이동"><i class="fas fa-chevron-up" aria-hidden="true"></i></a>
     <script src="js/main.js"></script>
 </body>
 </html>
