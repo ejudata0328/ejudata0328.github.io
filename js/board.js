@@ -71,13 +71,22 @@
             return;
         }
 
-        var html = '<table class="board-table">';
+        var html = '<div class="board-search">';
+        html += '  <div class="board-search-input-wrap">';
+        html += '    <i class="fas fa-search board-search-icon" aria-hidden="true"></i>';
+        html += '    <input type="text" id="boardSearchInput" class="board-search-input" placeholder="제목 또는 내용으로 검색..." aria-label="게시판 검색">';
+        html += '    <button type="button" id="boardSearchClear" class="board-search-clear" aria-label="검색어 지우기" style="display:none;"><i class="fas fa-times" aria-hidden="true"></i></button>';
+        html += '  </div>';
+        html += '  <div class="board-search-result" id="boardSearchResult" aria-live="polite"></div>';
+        html += '</div>';
+
+        html += '<table class="board-table">';
         html += '<caption class="sr-only">' + escapeHtml(boardLabel) + ' 게시판 목록</caption>';
         html += '<thead><tr><th scope="col">번호</th><th scope="col">제목</th><th scope="col">첨부</th><th scope="col">작성일</th><th scope="col">조회수</th></tr></thead>';
-        html += '<tbody>';
+        html += '<tbody id="boardTbody">';
         posts.forEach(function (post) {
             var hasFile = post.attachments && post.attachments.length > 0;
-            html += '<tr data-id="' + post.id + '" tabindex="0" role="button" aria-label="' + escapeHtml(post.title) + ' 상세보기">';
+            html += '<tr data-id="' + post.id + '" data-title="' + escapeHtml(post.title).toLowerCase() + '" data-content="' + escapeHtml(stripHtml(post.content || '')).toLowerCase() + '" tabindex="0" role="button" aria-label="' + escapeHtml(post.title) + ' 상세보기">';
             html += '<td>' + post.id + '</td>';
             html += '<td><a href="#">' + escapeHtml(post.title) + '</a></td>';
             html += '<td class="td-attach">' + (hasFile ? '<i class="fas fa-paperclip" aria-hidden="true"></i><span class="sr-only">첨부파일 있음</span>' : '') + '</td>';
@@ -86,6 +95,7 @@
             html += '</tr>';
         });
         html += '</tbody></table>';
+        html += '<div class="board-no-result" id="boardNoResult" style="display:none;"><i class="fas fa-search" aria-hidden="true"></i><p>검색 결과가 없습니다.</p></div>';
 
         html += '<div class="board-overlay" id="boardOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">';
         html += '  <div class="board-modal">';
@@ -130,6 +140,58 @@
         // Overlay click to close
         overlay.addEventListener('click', function (e) {
             if (e.target === overlay) closeModal();
+        });
+
+        // 검색 기능
+        var searchInput = document.getElementById('boardSearchInput');
+        var searchClear = document.getElementById('boardSearchClear');
+        var searchResult = document.getElementById('boardSearchResult');
+        var noResult = document.getElementById('boardNoResult');
+        var tbody = document.getElementById('boardTbody');
+        var totalCount = posts.length;
+
+        function runSearch() {
+            var query = searchInput.value.trim().toLowerCase();
+            var rows = tbody.querySelectorAll('tr');
+            var matchCount = 0;
+            rows.forEach(function (row) {
+                if (!query) {
+                    row.style.display = '';
+                    matchCount++;
+                } else {
+                    var title = row.dataset.title || '';
+                    var content = row.dataset.content || '';
+                    if (title.indexOf(query) !== -1 || content.indexOf(query) !== -1) {
+                        row.style.display = '';
+                        matchCount++;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                }
+            });
+            // UI 업데이트
+            searchClear.style.display = query ? 'flex' : 'none';
+            if (query) {
+                searchResult.textContent = '검색 결과: ' + matchCount + '건 / 전체 ' + totalCount + '건';
+                searchResult.style.display = 'block';
+            } else {
+                searchResult.textContent = '';
+                searchResult.style.display = 'none';
+            }
+            noResult.style.display = (query && matchCount === 0) ? 'block' : 'none';
+        }
+
+        searchInput.addEventListener('input', runSearch);
+        searchInput.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                searchInput.value = '';
+                runSearch();
+            }
+        });
+        searchClear.addEventListener('click', function () {
+            searchInput.value = '';
+            runSearch();
+            searchInput.focus();
         });
 
         container.querySelectorAll('.board-table tbody tr').forEach(function (row) {
@@ -283,5 +345,11 @@
         var div = document.createElement('div');
         div.appendChild(document.createTextNode(str));
         return div.innerHTML;
+    }
+
+    function stripHtml(html) {
+        var div = document.createElement('div');
+        div.innerHTML = html;
+        return (div.textContent || div.innerText || '').replace(/\s+/g, ' ').trim();
     }
 })();

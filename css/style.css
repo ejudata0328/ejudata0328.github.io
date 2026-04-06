@@ -407,6 +407,22 @@ img { max-width: 100%; height: auto; }
 .board-detail-title { font-size: 22px; font-weight: 800; color: var(--color-primary); margin-bottom: var(--space-3); line-height: 1.4; }
 .board-detail-meta { display: flex; gap: var(--space-5); padding-bottom: var(--space-4); margin-bottom: var(--space-5); border-bottom: 1px solid var(--border-light); font-size: var(--text-sm); color: var(--text-hint); }
 .board-detail-meta span i { margin-right: 5px; color: #bbb; }
+/* 게시판 검색 */
+.board-search { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); margin-bottom: var(--space-4); flex-wrap: wrap; }
+.board-search-input-wrap { position: relative; flex: 1; min-width: 240px; max-width: 420px; }
+.board-search-icon { position: absolute; left: var(--space-3); top: 50%; transform: translateY(-50%); color: var(--text-hint); font-size: var(--text-sm); pointer-events: none; }
+.board-search-input { width: 100%; padding: var(--space-2) var(--space-10) var(--space-2) var(--space-8); font-size: var(--text-sm); border: 1px solid var(--border-color); border-radius: var(--radius-md); background: #fff; transition: border-color var(--transition-base), box-shadow var(--transition-base); }
+.board-search-input:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.1); }
+.board-search-clear { position: absolute; right: var(--space-2); top: 50%; transform: translateY(-50%); width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; background: #e5e5e5; color: #666; border: none; border-radius: 50%; cursor: pointer; font-size: 11px; transition: background var(--transition-base); }
+.board-search-clear:hover { background: #ccc; color: #000; }
+.board-search-result { font-size: var(--text-sm); color: var(--color-primary); font-weight: 600; }
+.board-no-result { text-align: center; padding: var(--space-10) var(--space-4); color: var(--text-hint); }
+.board-no-result i { font-size: 2.5rem; margin-bottom: var(--space-3); color: #ccc; display: block; }
+.board-no-result p { font-size: var(--text-md); margin: 0; }
+@media (max-width: 600px) {
+    .board-search-input-wrap { max-width: 100%; }
+}
+
 .board-detail-content { line-height: 1.9; color: #444; font-size: var(--text-md); }
 .board-detail-content p { margin-bottom: var(--space-4); }
 .board-detail-content a { color: var(--color-primary); text-decoration: underline; text-underline-offset: 2px; font-weight: 500; word-break: break-all; transition: color var(--transition-base); }
