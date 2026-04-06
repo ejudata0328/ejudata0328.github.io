@@ -409,6 +409,13 @@ img { max-width: 100%; height: auto; }
 .board-detail-meta span i { margin-right: 5px; color: #bbb; }
 .board-detail-content { line-height: 1.9; color: #444; font-size: var(--text-md); }
 .board-detail-content p { margin-bottom: var(--space-4); }
+.board-detail-content a { color: var(--color-primary); text-decoration: underline; text-underline-offset: 2px; font-weight: 500; word-break: break-all; transition: color var(--transition-base); }
+.board-detail-content a:hover { color: #003d7a; text-decoration-thickness: 2px; background: rgba(0, 86, 179, 0.06); }
+.board-detail-content a[target="_blank"]::after { content: "\f35d"; font-family: "Font Awesome 6 Free"; font-weight: 900; font-size: 0.75em; margin-left: 4px; opacity: 0.7; }
+.board-detail-content ul { margin: var(--space-3) 0 var(--space-4) var(--space-5); list-style: disc; }
+.board-detail-content ul li { margin-bottom: var(--space-2); line-height: 1.7; }
+.board-detail-content h4 { font-size: var(--text-lg); font-weight: 700; color: var(--color-dark); margin: var(--space-5) 0 var(--space-3); padding-left: var(--space-2); border-left: 3px solid var(--color-primary); }
+.board-detail-content strong { color: var(--color-dark); }
 .board-modal-footer { padding: var(--space-4) var(--space-6); border-top: 1px solid var(--border-light); display: flex; justify-content: flex-end; gap: var(--space-2); }
 .board-modal-footer .btn-list { display: inline-flex; align-items: center; gap: var(--space-1); padding: var(--space-2) var(--space-5); background: #f0f0f0; color: var(--text-secondary); font-size: var(--text-sm); font-weight: 600; border: none; border-radius: var(--radius-sm); cursor: pointer; transition: background var(--transition-base); }
 .board-modal-footer .btn-list:hover { background: var(--border-color); }
