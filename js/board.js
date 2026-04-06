@@ -192,16 +192,45 @@
                 attachEl.innerHTML = '';
             }
 
-            // 첨부파일 다운로드 이벤트
+            // 첨부파일 다운로드 이벤트 (fetch + Blob으로 한글 파일명 다운로드)
             attachEl.querySelectorAll('.attach-download').forEach(function (link) {
                 link.addEventListener('click', function (e) {
                     e.preventDefault();
                     var url = link.dataset.url;
                     var name = link.dataset.name;
                     if (!url || url === '#') return;
-                    var msg = '파일명: ' + name + '\n\n다운로드 후 위 파일명으로 저장해 주세요.\n다운로드를 진행하시겠습니까?';
-                    if (confirm(msg)) {
-                        window.location.href = url;
+
+                    // 로컬 파일(same-origin): fetch + Blob으로 한글 파일명 다운로드
+                    if (url.startsWith('downloads/')) {
+                        link.classList.add('downloading');
+                        link.innerHTML = '<i class="fas fa-spinner fa-spin" aria-hidden="true"></i> 다운로드 중...';
+                        fetch(url)
+                            .then(function (res) {
+                                if (!res.ok) throw new Error('HTTP ' + res.status);
+                                return res.blob();
+                            })
+                            .then(function (blob) {
+                                var a = document.createElement('a');
+                                a.href = URL.createObjectURL(blob);
+                                a.download = name;
+                                document.body.appendChild(a);
+                                a.click();
+                                document.body.removeChild(a);
+                                URL.revokeObjectURL(a.href);
+                            })
+                            .catch(function () {
+                                alert('파일 다운로드에 실패했습니다. 잠시 후 다시 시도해 주세요.');
+                            })
+                            .finally(function () {
+                                link.classList.remove('downloading');
+                                link.innerHTML = '<i class="fas fa-file-download" aria-hidden="true"></i> ' + escapeHtml(name);
+                            });
+                    } else {
+                        // 외부 URL(cross-origin): 기존 방식 fallback
+                        var msg = '파일명: ' + name + '\n\n다운로드 후 위 파일명으로 저장해 주세요.\n다운로드를 진행하시겠습니까?';
+                        if (confirm(msg)) {
+                            window.location.href = url;
+                        }
                     }
                 });
             });
