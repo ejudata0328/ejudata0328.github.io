@@ -1,6 +1,6 @@
 [
     {
-        "id": 2,
+        "id": 8,
         "title": "국가를 당사자로 하는 계약에 관한 법률 시행규칙 - 별표 및 계약서식",
         "date": "2026-01-02",
         "views": 0,
@@ -99,7 +99,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 7,
         "title": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행규칙 - 별표 및 계약서식",
         "date": "2026-01-02",
         "views": 0,
@@ -194,6 +194,465 @@
                 "name": "[서식 15] 지방계약전문기관 지정신청서.hwp",
                 "url": "downloads/datacenter-etc/지방계약법시행규칙/[서식 15] 지방계약전문기관 지정신청서.hwp",
                 "size": "14.5KB"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "조달사업에 관한 법률 시행규칙 - 별표 및 서식",
+        "date": "2026-01-02",
+        "views": 0,
+        "content": "<p><strong>조달사업에 관한 법률 시행규칙</strong>에서 규정하는 공식 별표 및 서식입니다. 조달청이 수행하는 물품·공사·용역 조달 업무 전반에 사용되는 서식으로, 수요기관이 조달청에 조달을 요청할 때 필요한 서식이 포함되어 있습니다.</p><h4>서식 (Forms)</h4><ul><li><strong>[서식 1]</strong> 조달요청서, 수요물자(물품ㆍ용역) 명세</li><li><strong>[서식 2]</strong> 제3자 단가계약 분할납품 요구서</li><li><strong>[서식 3]</strong> 물품납품 및 영수증</li><li><strong>[서식 4]</strong> 외자조달요청서, 조달요청서(외자)</li><li><strong>[서식 5]</strong> 공사계약 요청서</li><li><strong>[서식 6]</strong> 공사 개요서</li><li><strong>[서식 7]</strong> 계약체결 통지서</li><li><strong>[서식 8]</strong> 공사집행 계획서</li><li><strong>[서식 9]</strong> 공사계약내용 변경 요청서</li><li><strong>[서식 10]</strong> 합의서</li><li><strong>[서식 11]</strong> 준공통지서</li><li><strong>[서식 12]</strong> 공사계약 해제요청서</li><li><strong>[서식 13]</strong> 이의신청서</li><li><strong>[서식 13의2]</strong> 혁신제품 지원센터 지정신청서</li><li><strong>[서식 13의3]</strong> 혁신제품 지원센터 지정서</li><li><strong>[서식 13의4]</strong> 혁신제품 지원센터 지정 변경 신청서</li><li><strong>[서식 14]</strong> 비축물자 배정통지서</li><li><strong>[서식 15]</strong> 비축물자 인수증</li></ul><h4>근거 법령 및 출처</h4><ul><li>법령명: 조달사업에 관한 법률 시행규칙</li><li>소관부처: 기획재정부·조달청</li><li>데이터 출처: <a href=\"https://www.law.go.kr/법령/조달사업에관한법률시행규칙\" target=\"_blank\" rel=\"noopener noreferrer\">국가법령정보센터</a> (공공데이터포털 법제처 OpenAPI 수집)</li></ul><p><em>※ 각 서식은 아래 첨부파일(HWP)에서 다운로드할 수 있습니다. 최신 개정사항은 국가법령정보센터에서 확인하세요.</em></p>",
+        "attachments": [
+            {
+                "name": "[서식 1] 조달요청서, 수요물자(물품ㆍ용역) 명세.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 1] 조달요청서, 수요물자(물품ㆍ용역) 명세.hwp",
+                "size": "38.0KB"
+            },
+            {
+                "name": "[서식 2] 제3자 단가계약 분할납품 요구서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 2] 제3자 단가계약 분할납품 요구서.hwp",
+                "size": "16.5KB"
+            },
+            {
+                "name": "[서식 3] 물품납품 및 영수증.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 3] 물품납품 및 영수증.hwp",
+                "size": "17.0KB"
+            },
+            {
+                "name": "[서식 4] 외자조달요청서, 조달요청서(외자).hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 4] 외자조달요청서, 조달요청서(외자).hwp",
+                "size": "18.5KB"
+            },
+            {
+                "name": "[서식 5] 공사계약 요청서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 5] 공사계약 요청서.hwp",
+                "size": "16.0KB"
+            },
+            {
+                "name": "[서식 6] 공사 개요서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 6] 공사 개요서.hwp",
+                "size": "14.5KB"
+            },
+            {
+                "name": "[서식 7] 계약체결 통지서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 7] 계약체결 통지서.hwp",
+                "size": "15.0KB"
+            },
+            {
+                "name": "[서식 8] 공사집행 계획서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 8] 공사집행 계획서.hwp",
+                "size": "14.0KB"
+            },
+            {
+                "name": "[서식 9] 공사계약내용 변경 요청서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 9] 공사계약내용 변경 요청서.hwp",
+                "size": "16.0KB"
+            },
+            {
+                "name": "[서식 10] 합의서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 10] 합의서.hwp",
+                "size": "12.5KB"
+            },
+            {
+                "name": "[서식 11] 준공통지서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 11] 준공통지서.hwp",
+                "size": "16.0KB"
+            },
+            {
+                "name": "[서식 12] 공사계약 해제요청서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 12] 공사계약 해제요청서.hwp",
+                "size": "15.0KB"
+            },
+            {
+                "name": "[서식 13] 이의신청서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 13] 이의신청서.hwp",
+                "size": "14.5KB"
+            },
+            {
+                "name": "[서식 13의2] 혁신제품 지원센터 지정신청서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 13의2] 혁신제품 지원센터 지정신청서.hwp",
+                "size": "47.5KB"
+            },
+            {
+                "name": "[서식 13의3] 혁신제품 지원센터 지정서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 13의3] 혁신제품 지원센터 지정서.hwp",
+                "size": "30.0KB"
+            },
+            {
+                "name": "[서식 13의4] 혁신제품 지원센터 지정 변경 신청서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 13의4] 혁신제품 지원센터 지정 변경 신청서.hwp",
+                "size": "77.5KB"
+            },
+            {
+                "name": "[서식 14] 비축물자 배정통지서.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 14] 비축물자 배정통지서.hwp",
+                "size": "18.5KB"
+            },
+            {
+                "name": "[서식 15] 비축물자 인수증.hwp",
+                "url": "downloads/datacenter-etc/조달사업법시행규칙/[서식 15] 비축물자 인수증.hwp",
+                "size": "15.0KB"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "건설산업기본법 시행규칙 - 별표 및 서식",
+        "date": "2026-01-02",
+        "views": 0,
+        "content": "<p><strong>건설산업기본법 시행규칙</strong>에서 규정하는 공식 별표 및 서식입니다. 건설업 등록, 건설도급계약, 하도급 관리 등 건설 계약 전반에 사용되는 서식입니다.</p><h4>별표 (Reference Tables)</h4><ul><li><strong>[별표 1]</strong> 종합공사를 시공하는 업종을 등록한 건설사업자의 시공능력의 평가방법(제23조제2항 관련)</li><li><strong>[별표 2]</strong> 전문공사를 시공하는 업종을 등록한 건설사업자의 시공능력의 평가방법(제23조제2항 관련)</li><li><strong>[별표 3]</strong> 공사실적의 주력분야 및 세부공사종류(제25조제2항 관련)</li><li><strong>[별표 4]</strong> 건설공사의 현황(제32조제1항 관련)</li><li><strong>[별표 5]</strong> 건설업등록 등의 수수료액(제38조제1항관련)</li><li><strong>[별표 6]</strong> 건설근로자 고용평가 방법(제32조의2제2항 관련)</li></ul><h4>서식 (Forms)</h4><ul><li><strong>[서식 1]</strong> 건설업 등록신청서</li><li><strong>[서식 1의2]</strong> 건설업등록신청서 심사결과 통보서</li><li><strong>[서식 1의3]</strong> 주력분야 등록말소 신청서</li><li><strong>[서식 2]</strong> 건설업등록 등 정보관리대장</li><li><strong>[서식 3]</strong> 건설업등록증</li><li><strong>[서식 4]</strong> 건설업등록수첩</li><li><strong>[서식 5]</strong> 건설업등록증ㆍ건설업등록수첩의 기재사항변경신청서</li><li><strong>[서식 6]</strong> 건설업 등록증(등록수첩) 재발급신청서</li><li><strong>[서식 8]</strong> 건설업등록대장</li><li><strong>[서식 9의2]</strong> 건설업 교육기관 지정서</li><li><strong>[서식 9의3]</strong> 건설업 교육수료증</li><li><strong>[서식 9의4]</strong> 교육 결과 통보</li><li><strong>[서식 14]</strong> 건설업양도신고서</li><li><strong>[서식 15]</strong> 법인합병신고서</li><li><strong>[서식 16]</strong> 건설업상속신고서</li><li><strong>[서식 16의2]</strong> 건설업폐업신고서</li><li><strong>[서식 17]</strong> 건설공사대장</li><li><strong>[서식 17의2]</strong> 하도급 건설공사대장</li><li><strong>[서식 18]</strong> 건설공사 기성실적신고서</li><li><strong>[서식 19]</strong> 건설공사기성실적증명(신청)서</li><li>...외 26건 (첨부파일 전체 참고)</li></ul><h4>근거 법령 및 출처</h4><ul><li>법령명: 건설산업기본법 시행규칙</li><li>소관부처: 국토교통부</li><li>데이터 출처: <a href=\"https://www.law.go.kr/법령/건설산업기본법시행규칙\" target=\"_blank\" rel=\"noopener noreferrer\">국가법령정보센터</a> (공공데이터포털 법제처 OpenAPI 수집)</li></ul><p><em>※ 각 서식은 아래 첨부파일(HWP)에서 다운로드할 수 있습니다. 최신 개정사항은 국가법령정보센터에서 확인하세요.</em></p>",
+        "attachments": [
+            {
+                "name": "[별표 1] 종합공사를 시공하는 업종을 등록한 건설사업자의 시공능력의 평가방법(제23조제2항 관련).hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[별표 1] 종합공사를 시공하는 업종을 등록한 건설사업자의 시공능력의 평가방법(제23조제2항 관련).hwp",
+                "size": "83.0KB"
+            },
+            {
+                "name": "[별표 2] 전문공사를 시공하는 업종을 등록한 건설사업자의 시공능력의 평가방법(제23조제2항 관련).hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[별표 2] 전문공사를 시공하는 업종을 등록한 건설사업자의 시공능력의 평가방법(제23조제2항 관련).hwp",
+                "size": "78.0KB"
+            },
+            {
+                "name": "[별표 3] 공사실적의 주력분야 및 세부공사종류(제25조제2항 관련).hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[별표 3] 공사실적의 주력분야 및 세부공사종류(제25조제2항 관련).hwp",
+                "size": "61.0KB"
+            },
+            {
+                "name": "[별표 4] 건설공사의 현황(제32조제1항 관련).hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[별표 4] 건설공사의 현황(제32조제1항 관련).hwp",
+                "size": "11.0KB"
+            },
+            {
+                "name": "[별표 5] 건설업등록 등의 수수료액(제38조제1항관련).hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[별표 5] 건설업등록 등의 수수료액(제38조제1항관련).hwp",
+                "size": "40.0KB"
+            },
+            {
+                "name": "[별표 6] 건설근로자 고용평가 방법(제32조의2제2항 관련).hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[별표 6] 건설근로자 고용평가 방법(제32조의2제2항 관련).hwp",
+                "size": "52.5KB"
+            },
+            {
+                "name": "[서식 1] 건설업 등록신청서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 1] 건설업 등록신청서.hwp",
+                "size": "106.5KB"
+            },
+            {
+                "name": "[서식 1의2] 건설업등록신청서 심사결과 통보서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 1의2] 건설업등록신청서 심사결과 통보서.hwp",
+                "size": "50.5KB"
+            },
+            {
+                "name": "[서식 1의3] 주력분야 등록말소 신청서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 1의3] 주력분야 등록말소 신청서.hwp",
+                "size": "67.5KB"
+            },
+            {
+                "name": "[서식 2] 건설업등록 등 정보관리대장.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 2] 건설업등록 등 정보관리대장.hwp",
+                "size": "59.5KB"
+            },
+            {
+                "name": "[서식 3] 건설업등록증.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 3] 건설업등록증.hwp",
+                "size": "35.5KB"
+            },
+            {
+                "name": "[서식 4] 건설업등록수첩.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 4] 건설업등록수첩.hwp",
+                "size": "40.5KB"
+            },
+            {
+                "name": "[서식 5] 건설업등록증ㆍ건설업등록수첩의 기재사항변경신청서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 5] 건설업등록증ㆍ건설업등록수첩의 기재사항변경신청서.hwp",
+                "size": "116.5KB"
+            },
+            {
+                "name": "[서식 6] 건설업 등록증(등록수첩) 재발급신청서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 6] 건설업 등록증(등록수첩) 재발급신청서.hwp",
+                "size": "41.0KB"
+            },
+            {
+                "name": "[서식 8] 건설업등록대장.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 8] 건설업등록대장.hwp",
+                "size": "42.5KB"
+            },
+            {
+                "name": "[서식 9의2] 건설업 교육기관 지정서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 9의2] 건설업 교육기관 지정서.hwp",
+                "size": "12.0KB"
+            },
+            {
+                "name": "[서식 9의3] 건설업 교육수료증.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 9의3] 건설업 교육수료증.hwp",
+                "size": "12.5KB"
+            },
+            {
+                "name": "[서식 9의4] 교육 결과 통보.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 9의4] 교육 결과 통보.hwp",
+                "size": "15.5KB"
+            },
+            {
+                "name": "[서식 14] 건설업양도신고서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 14] 건설업양도신고서.hwp",
+                "size": "108.5KB"
+            },
+            {
+                "name": "[서식 15] 법인합병신고서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 15] 법인합병신고서.hwp",
+                "size": "103.5KB"
+            },
+            {
+                "name": "[서식 16] 건설업상속신고서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 16] 건설업상속신고서.hwp",
+                "size": "83.5KB"
+            },
+            {
+                "name": "[서식 16의2] 건설업폐업신고서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 16의2] 건설업폐업신고서.hwp",
+                "size": "15.0KB"
+            },
+            {
+                "name": "[서식 17] 건설공사대장.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 17] 건설공사대장.hwp",
+                "size": "71.0KB"
+            },
+            {
+                "name": "[서식 17의2] 하도급 건설공사대장.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 17의2] 하도급 건설공사대장.hwp",
+                "size": "65.5KB"
+            },
+            {
+                "name": "[서식 18] 건설공사 기성실적신고서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 18] 건설공사 기성실적신고서.hwp",
+                "size": "83.0KB"
+            },
+            {
+                "name": "[서식 19] 건설공사기성실적증명(신청)서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 19] 건설공사기성실적증명(신청)서.hwp",
+                "size": "55.5KB"
+            },
+            {
+                "name": "[서식 19의2] Certification of Construction Project Progress(Application for Construction Proj.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 19의2] Certification of Construction Project Progress(Application for Construction Proj.hwp",
+                "size": "63.5KB"
+            },
+            {
+                "name": "[서식 20] 건설공사 기성실적통보서(공공기관용).hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 20] 건설공사 기성실적통보서(공공기관용).hwp",
+                "size": "154.5KB"
+            },
+            {
+                "name": "[서식 21] 건설기술인력보유현황표.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 21] 건설기술인력보유현황표.hwp",
+                "size": "11.5KB"
+            },
+            {
+                "name": "[서식 22] 건설공사용시설·장비의보유현황표.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 22] 건설공사용시설·장비의보유현황표.hwp",
+                "size": "11.5KB"
+            },
+            {
+                "name": "[서식 22의2] 건설사업관리능력평가ㆍ공시신청서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 22의2] 건설사업관리능력평가ㆍ공시신청서.hwp",
+                "size": "79.0KB"
+            },
+            {
+                "name": "[서식 22의3] 건설사업관리실적현황표.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 22의3] 건설사업관리실적현황표.hwp",
+                "size": "61.5KB"
+            },
+            {
+                "name": "[서식 22의4] 건설사업관리자재무정보현황표.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 22의4] 건설사업관리자재무정보현황표.hwp",
+                "size": "46.0KB"
+            },
+            {
+                "name": "[서식 22의5] 건설사업관리관련인력보유현황표.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 22의5] 건설사업관리관련인력보유현황표.hwp",
+                "size": "15.0KB"
+            },
+            {
+                "name": "[서식 22의6] 건설공사의 직접시공계획서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 22의6] 건설공사의 직접시공계획서.hwp",
+                "size": "50.0KB"
+            },
+            {
+                "name": "[서식 23] 건설공사의 하도급계약 통보서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 23] 건설공사의 하도급계약 통보서.hwp",
+                "size": "46.5KB"
+            },
+            {
+                "name": "[서식 23의2] 재하도급 승낙통보서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 23의2] 재하도급 승낙통보서.hwp",
+                "size": "13.5KB"
+            },
+            {
+                "name": "[서식 23의3] 건설공사의 재하도급 계약통보서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 23의3] 건설공사의 재하도급 계약통보서.hwp",
+                "size": "52.5KB"
+            },
+            {
+                "name": "[서식 24] [별지 제24의4서식]으로 이동 &lt;2020. 3. 2.&gt;.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 24] [별지 제24의4서식]으로 이동 &lt;2020. 3. 2.&gt;.hwp",
+                "size": "9.0KB"
+            },
+            {
+                "name": "[서식 24의3] 하도급 참여제한 확인서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 24의3] 하도급 참여제한 확인서.hwp",
+                "size": "14.5KB"
+            },
+            {
+                "name": "[서식 24의4] 하도급계획서(입찰시).hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 24의4] 하도급계획서(입찰시).hwp",
+                "size": "15.5KB"
+            },
+            {
+                "name": "[서식 24의5] 하도급대금 직접지급 합의서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 24의5] 하도급대금 직접지급 합의서.hwp",
+                "size": "15.5KB"
+            },
+            {
+                "name": "[서식 25] 현장배치확인표.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 25] 현장배치확인표.hwp",
+                "size": "11.0KB"
+            },
+            {
+                "name": "[서식 25의2] 건설근로자 고용평가 신청서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 25의2] 건설근로자 고용평가 신청서.hwp",
+                "size": "13.5KB"
+            },
+            {
+                "name": "[서식 26] 조사·검사공무원증.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 26] 조사·검사공무원증.hwp",
+                "size": "13.5KB"
+            },
+            {
+                "name": "[서식 26의3] 건설기계 대여대금 현장별 지급보증 안내.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 26의3] 건설기계 대여대금 현장별 지급보증 안내.hwp",
+                "size": "14.5KB"
+            },
+            {
+                "name": "[서식 26의4] 타워크레인 대여계약 통보서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 26의4] 타워크레인 대여계약 통보서.hwp",
+                "size": "15.0KB"
+            },
+            {
+                "name": "[서식 27] 건설분쟁조정신청서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 27] 건설분쟁조정신청서.hwp",
+                "size": "15.5KB"
+            },
+            {
+                "name": "[서식 28] 건설공사 직접시공분 기성실적 전환신청서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 28] 건설공사 직접시공분 기성실적 전환신청서.hwp",
+                "size": "15.5KB"
+            },
+            {
+                "name": "[서식 29] 건설공사 직접시공분 기성실적 증명(신청)서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 29] 건설공사 직접시공분 기성실적 증명(신청)서.hwp",
+                "size": "56.5KB"
+            },
+            {
+                "name": "[서식 30] 복합공사 기성실적 전환신청서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 30] 복합공사 기성실적 전환신청서.hwp",
+                "size": "15.0KB"
+            },
+            {
+                "name": "[서식 31] 2개 업종 이상의 전문공사로 구성된 종합공사 기성실적 증명(신청)서.hwp",
+                "url": "downloads/datacenter-etc/건설산업기본법시행규칙/[서식 31] 2개 업종 이상의 전문공사로 구성된 종합공사 기성실적 증명(신청)서.hwp",
+                "size": "49.5KB"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "공기업·준정부기관 계약사무규칙 - 별표 및 서식",
+        "date": "2026-01-02",
+        "views": 0,
+        "content": "<p><strong>공기업·준정부기관 계약사무규칙</strong>에서 규정하는 공식 별표 및 서식입니다. 공기업 및 준정부기관이 체결하는 계약에 적용되는 기준을 규정한 별표입니다.</p><h4>별표 (Reference Tables)</h4><ul><li><strong>[별표 1]</strong> 국제입찰의 방법으로 조달계약을 해야 하는 공기업·준정부기관(제4조제1항 관련)</li><li><strong>[별표 2]</strong> 국제입찰의 방법으로 조달계약을 해야 하는 물품·용역 및 공사(제4조제1항관련)</li><li><strong>[별표 3]</strong> 부정당업자의 책임이 경미한 경우의 입찰참가자격 제한을 갈음하는 납부금액(제15조제3항 관련)</li><li><strong>[별표 4]</strong> 입찰참가자격 제한으로 유효한 경쟁입찰이 명백히 성립되지 않는 경우의 입찰참가자격 제한을 갈음하는 납부금액(제15조제5항 관련)</li></ul><h4>근거 법령 및 출처</h4><ul><li>법령명: 공기업·준정부기관 계약사무규칙</li><li>소관부처: 기획재정부</li><li>데이터 출처: <a href=\"https://www.law.go.kr/법령/공기업·준정부기관계약사무규칙\" target=\"_blank\" rel=\"noopener noreferrer\">국가법령정보센터</a> (공공데이터포털 법제처 OpenAPI 수집)</li></ul><p><em>※ 각 서식은 아래 첨부파일(HWP)에서 다운로드할 수 있습니다. 최신 개정사항은 국가법령정보센터에서 확인하세요.</em></p>",
+        "attachments": [
+            {
+                "name": "[별표 1] 국제입찰의 방법으로 조달계약을 해야 하는 공기업·준정부기관(제4조제1항 관련).hwp",
+                "url": "downloads/datacenter-etc/공기업준정부기관계약사무규칙/[별표 1] 국제입찰의 방법으로 조달계약을 해야 하는 공기업·준정부기관(제4조제1항 관련).hwp",
+                "size": "16.0KB"
+            },
+            {
+                "name": "[별표 2] 국제입찰의 방법으로 조달계약을 해야 하는 물품·용역 및 공사(제4조제1항관련).hwp",
+                "url": "downloads/datacenter-etc/공기업준정부기관계약사무규칙/[별표 2] 국제입찰의 방법으로 조달계약을 해야 하는 물품·용역 및 공사(제4조제1항관련).hwp",
+                "size": "91.0KB"
+            },
+            {
+                "name": "[별표 3] 부정당업자의 책임이 경미한 경우의 입찰참가자격 제한을 갈음하는 납부금액(제15조제3항 관련).hwp",
+                "url": "downloads/datacenter-etc/공기업준정부기관계약사무규칙/[별표 3] 부정당업자의 책임이 경미한 경우의 입찰참가자격 제한을 갈음하는 납부금액(제15조제3항 관련).hwp",
+                "size": "76.0KB"
+            },
+            {
+                "name": "[별표 4] 입찰참가자격 제한으로 유효한 경쟁입찰이 명백히 성립되지 않는 경우의 입찰참가자격 제한을 갈음하는 납부금액(제15조제5항 관련).hwp",
+                "url": "downloads/datacenter-etc/공기업준정부기관계약사무규칙/[별표 4] 입찰참가자격 제한으로 유효한 경쟁입찰이 명백히 성립되지 않는 경우의 입찰참가자격 제한을 갈음하는 납부금액(제15조제5항 관련).hwp",
+                "size": "78.5KB"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "전자조달의 이용 및 촉진에 관한 법률 시행규칙 - 별표 및 서식",
+        "date": "2026-01-02",
+        "views": 0,
+        "content": "<p><strong>전자조달의 이용 및 촉진에 관한 법률 시행규칙</strong>에서 규정하는 공식 별표 및 서식입니다. 국가종합전자조달시스템(나라장터) 관련 전자입찰 및 전자조달지원센터 지정 등에 사용되는 서식입니다.</p><h4>서식 (Forms)</h4><ul><li><strong>[서식 1]</strong> 전자입찰 취소 신청서</li><li><strong>[서식 2]</strong> 전자조달지원센터 지정 신청서</li><li><strong>[서식 3]</strong> 전자조달지원센터 지정서</li><li><strong>[서식 4]</strong> 전자조달지원센터 지정 변경 신청서</li></ul><h4>근거 법령 및 출처</h4><ul><li>법령명: 전자조달의 이용 및 촉진에 관한 법률 시행규칙</li><li>소관부처: 기획재정부</li><li>데이터 출처: <a href=\"https://www.law.go.kr/법령/전자조달의이용및촉진에관한법률시행규칙\" target=\"_blank\" rel=\"noopener noreferrer\">국가법령정보센터</a> (공공데이터포털 법제처 OpenAPI 수집)</li></ul><p><em>※ 각 서식은 아래 첨부파일(HWP)에서 다운로드할 수 있습니다. 최신 개정사항은 국가법령정보센터에서 확인하세요.</em></p>",
+        "attachments": [
+            {
+                "name": "[서식 1] 전자입찰 취소 신청서.hwp",
+                "url": "downloads/datacenter-etc/전자조달법시행규칙/[서식 1] 전자입찰 취소 신청서.hwp",
+                "size": "12.5KB"
+            },
+            {
+                "name": "[서식 2] 전자조달지원센터 지정 신청서.hwp",
+                "url": "downloads/datacenter-etc/전자조달법시행규칙/[서식 2] 전자조달지원센터 지정 신청서.hwp",
+                "size": "14.5KB"
+            },
+            {
+                "name": "[서식 3] 전자조달지원센터 지정서.hwp",
+                "url": "downloads/datacenter-etc/전자조달법시행규칙/[서식 3] 전자조달지원센터 지정서.hwp",
+                "size": "12.0KB"
+            },
+            {
+                "name": "[서식 4] 전자조달지원센터 지정 변경 신청서.hwp",
+                "url": "downloads/datacenter-etc/전자조달법시행규칙/[서식 4] 전자조달지원센터 지정 변경 신청서.hwp",
+                "size": "14.0KB"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "특정물품등의조달에관한 국가를 당사자로 하는 계약에 관한 법률 시행특례규칙 - 별표 및 서식",
+        "date": "2026-01-02",
+        "views": 0,
+        "content": "<p><strong>특정물품등의조달에관한 국가를 당사자로 하는 계약에 관한 법률 시행특례규칙</strong>에서 규정하는 공식 별표 및 서식입니다. WTO 정부조달협정 등 특정물품 조달에 적용되는 특례규칙의 별표 및 서식입니다.</p><h4>별표 (Reference Tables)</h4><ul><li><strong>[별표 0]</strong> 특례조달계약에 의하여 특정물품등을 조달받는 기관(제2조제1항제2호관련)</li></ul><h4>서식 (Forms)</h4><ul><li><strong>[서식 0]</strong> 계약실적[총]보고서</li></ul><h4>근거 법령 및 출처</h4><ul><li>법령명: 특정물품등의조달에관한 국가를 당사자로 하는 계약에 관한 법률 시행특례규칙</li><li>소관부처: 기획재정부</li><li>데이터 출처: <a href=\"https://www.law.go.kr/법령/특정물품등의조달에관한국가를당사자로하는계약에관한법률시행특례규칙\" target=\"_blank\" rel=\"noopener noreferrer\">국가법령정보센터</a> (공공데이터포털 법제처 OpenAPI 수집)</li></ul><p><em>※ 각 서식은 아래 첨부파일(HWP)에서 다운로드할 수 있습니다. 최신 개정사항은 국가법령정보센터에서 확인하세요.</em></p>",
+        "attachments": [
+            {
+                "name": "[별표 0] 특례조달계약에 의하여 특정물품등을 조달받는 기관(제2조제1항제2호관련).hwp",
+                "url": "downloads/datacenter-etc/특정물품조달특례규칙/[별표 0] 특례조달계약에 의하여 특정물품등을 조달받는 기관(제2조제1항제2호관련).hwp",
+                "size": "37.0KB"
+            },
+            {
+                "name": "[서식 0] 계약실적[총]보고서.hwp",
+                "url": "downloads/datacenter-etc/특정물품조달특례규칙/[서식 0] 계약실적[총]보고서.hwp",
+                "size": "62.0KB"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "방위산업에 관한 계약사무 처리규칙 - 별표 및 서식",
+        "date": "2026-01-02",
+        "views": 0,
+        "content": "<p><strong>방위산업에 관한 계약사무 처리규칙</strong>에서 규정하는 공식 별표 및 서식입니다. 방위산업 관련 계약사무 처리에 적용되는 기준 별표입니다.</p><h4>별표 (Reference Tables)</h4><ul><li><strong>[별표 0]</strong> 경쟁입찰로 체결한 개산계약의 품목조정률 산정 기준(제4조의3제2항 단서 및 제3항 전단 관련)</li></ul><h4>근거 법령 및 출처</h4><ul><li>법령명: 방위산업에 관한 계약사무 처리규칙</li><li>소관부처: 국방부</li><li>데이터 출처: <a href=\"https://www.law.go.kr/법령/방위산업에관한계약사무처리규칙\" target=\"_blank\" rel=\"noopener noreferrer\">국가법령정보센터</a> (공공데이터포털 법제처 OpenAPI 수집)</li></ul><p><em>※ 각 서식은 아래 첨부파일(HWP)에서 다운로드할 수 있습니다. 최신 개정사항은 국가법령정보센터에서 확인하세요.</em></p>",
+        "attachments": [
+            {
+                "name": "[별표 0] 경쟁입찰로 체결한 개산계약의 품목조정률 산정 기준(제4조의3제2항 단서 및 제3항 전단 관련).hwp",
+                "url": "downloads/datacenter-etc/방위산업계약사무처리규칙/[별표 0] 경쟁입찰로 체결한 개산계약의 품목조정률 산정 기준(제4조의3제2항 단서 및 제3항 전단 관련).hwp",
+                "size": "57.5KB"
             }
         ]
     }
