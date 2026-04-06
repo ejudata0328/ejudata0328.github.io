@@ -11,21 +11,52 @@
     var db = typeof ejuFirebaseDB !== 'undefined' ? ejuFirebaseDB : null;
     var lastFocusedRow = null;
 
-    function getFirebaseViews(boardName, postId, callback) {
-        if (!db) return callback(null);
-        db.ref('views/' + boardName + '/' + postId).once('value', function (snap) {
-            callback(snap.val());
-        });
+    // localStorage 백업 (Firebase 쓰기가 차단된 경로를 위한 fallback)
+    function getLocalViews(boardName, postId) {
+        try {
+            var key = 'views_' + boardName + '_' + postId;
+            var v = localStorage.getItem(key);
+            return v ? parseInt(v, 10) : null;
+        } catch (e) { return null; }
+    }
+    function setLocalViews(boardName, postId, value) {
+        try {
+            localStorage.setItem('views_' + boardName + '_' + postId, String(value));
+        } catch (e) {}
     }
 
-    function incrementViews(boardName, postId, callback) {
+    function getFirebaseViews(boardName, postId, callback) {
         if (!db) return callback(null);
+        try {
+            db.ref('views/' + boardName + '/' + postId).once('value', function (snap) {
+                callback(snap.val());
+            }, function () { callback(null); });
+        } catch (e) { callback(null); }
+    }
+
+    function incrementViews(boardName, postId, baseViews, callback) {
+        if (!db) {
+            // Firebase 없음 → localStorage fallback
+            var local = getLocalViews(boardName, postId);
+            var next = (local !== null ? local : (baseViews || 0)) + 1;
+            setLocalViews(boardName, postId, next);
+            return callback(next);
+        }
         var ref = db.ref('views/' + boardName + '/' + postId);
+        var called = false;
         ref.transaction(function (current) {
             return (current || 0) + 1;
         }, function (error, committed, snapshot) {
-            if (!error && committed) {
+            if (called) return;
+            called = true;
+            if (!error && committed && snapshot) {
                 callback(snapshot.val());
+            } else {
+                // Firebase 쓰기 실패 → localStorage fallback
+                var local = getLocalViews(boardName, postId);
+                var next = (local !== null ? local : (baseViews || 0)) + 1;
+                setLocalViews(boardName, postId, next);
+                callback(next);
             }
         });
     }
@@ -33,12 +64,14 @@
     function initFirebaseViews(boardName, posts) {
         if (!db) return;
         posts.forEach(function (post) {
-            var ref = db.ref('views/' + boardName + '/' + post.id);
-            ref.once('value', function (snap) {
-                if (snap.val() === null) {
-                    ref.set(post.views || 0);
-                }
-            });
+            try {
+                var ref = db.ref('views/' + boardName + '/' + post.id);
+                ref.once('value', function (snap) {
+                    if (snap.val() === null) {
+                        ref.set(post.views || 0);
+                    }
+                }, function () {});
+            } catch (e) {}
         });
     }
 
@@ -120,13 +153,19 @@
 
         container.innerHTML = html;
 
-        // Firebase 조회수를 테이블에 반영
+        // Firebase/localStorage 조회수를 테이블에 반영
         posts.forEach(function (post) {
             getFirebaseViews(boardName, post.id, function (fbViews) {
-                if (fbViews !== null) {
+                var views = fbViews;
+                if (views === null) {
+                    // Firebase 값 없음 → localStorage 확인
+                    var local = getLocalViews(boardName, post.id);
+                    if (local !== null) views = local;
+                }
+                if (views !== null) {
                     var row = container.querySelector('tr[data-id="' + post.id + '"]');
                     if (row) {
-                        row.querySelector('.td-views').textContent = fbViews.toLocaleString();
+                        row.querySelector('.td-views').textContent = views.toLocaleString();
                     }
                 }
             });
@@ -218,22 +257,17 @@
             document.getElementById('modalDate').textContent = post.date;
             document.getElementById('modalContent').innerHTML = post.content;
 
-            // Firebase 조회수 +1 증가
-            incrementViews(boardName, post.id, function (newCount) {
+            // 조회수 +1 증가 (Firebase 실패 시 localStorage fallback)
+            incrementViews(boardName, post.id, post.views || 0, function (newCount) {
                 if (newCount !== null) {
                     document.getElementById('modalViews').textContent = newCount.toLocaleString();
                     if (row) {
                         row.querySelector('.td-views').textContent = newCount.toLocaleString();
                     }
                 } else {
-                    document.getElementById('modalViews').textContent = post.views.toLocaleString();
+                    document.getElementById('modalViews').textContent = (post.views || 0).toLocaleString();
                 }
             });
-
-            // Firebase 없을 경우 fallback
-            if (!db) {
-                document.getElementById('modalViews').textContent = post.views.toLocaleString();
-            }
 
             var attachEl = document.getElementById('modalAttachments');
             if (post.attachments && post.attachments.length > 0) {
