@@ -1,3 +1,3 @@
-# ejudata0328.github.io
+# www.ejudata.co.kr
 
-ejudata0328.github.io
+www.ejudata.co.kr
