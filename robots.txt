@@ -1,4 +1,12 @@
 User-agent: *
 Allow: /
+Disallow: /firebase-init.html
+Disallow: /sitemap-mermaid.html
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
 
 Sitemap: https://ejudata0328.github.io/sitemap.xml

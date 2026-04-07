@@ -1,118 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ejudata0328.github.io/</loc>
+    <lastmod>2026-04-07</lastmod>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ejudata0328.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ejudata0328.github.io/eng.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ejudata0328.github.io/"/>
   </url>
-  <url>
-    <loc>https://ejudata0328.github.io/about.html</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/vision.html</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/history.html</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/organization.html</loc>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/contact.html</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/business.html</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/rfid.html</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/solution-asset.html</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/solution-contract.html</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/solution-material.html</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/solution-cost.html</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/solution-property.html</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/solution-vehicle.html</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/datacenter.html</loc>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/datacenter-product.html</loc>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/community.html</loc>
-    <priority>0.6</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/community-news.html</loc>
-    <priority>0.6</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/community-faq.html</loc>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/community-qna.html</loc>
-    <priority>0.5</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/recruit.html</loc>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://ejudata0328.github.io/recruit-talent.html</loc>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
+  <url><loc>https://ejudata0328.github.io/about.html</loc><lastmod>2026-04-07</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/vision.html</loc><lastmod>2026-04-07</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/history.html</loc><lastmod>2026-04-07</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/organization.html</loc><lastmod>2026-04-07</lastmod><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/contact.html</loc><lastmod>2026-04-07</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/business.html</loc><lastmod>2026-04-07</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/rfid.html</loc><lastmod>2026-04-07</lastmod><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/solution-asset.html</loc><lastmod>2026-04-07</lastmod><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/solution-contract.html</loc><lastmod>2026-04-07</lastmod><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/solution-material.html</loc><lastmod>2026-04-07</lastmod><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/solution-cost.html</loc><lastmod>2026-04-07</lastmod><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/solution-property.html</loc><lastmod>2026-04-07</lastmod><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/solution-vehicle.html</loc><lastmod>2026-04-07</lastmod><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/datacenter.html</loc><lastmod>2026-04-07</lastmod><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/datacenter-product.html</loc><lastmod>2026-04-07</lastmod><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/datacenter-etc.html</loc><lastmod>2026-04-07</lastmod><priority>0.6</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/community.html</loc><lastmod>2026-04-07</lastmod><priority>0.6</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/community-news.html</loc><lastmod>2026-04-07</lastmod><priority>0.6</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/community-faq.html</loc><lastmod>2026-04-07</lastmod><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/community-qna.html</loc><lastmod>2026-04-07</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/recruit.html</loc><lastmod>2026-04-07</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://ejudata0328.github.io/recruit-talent.html</loc><lastmod>2026-04-07</lastmod><priority>0.6</priority><changefreq>monthly</changefreq></url>
   <url>
     <loc>https://ejudata0328.github.io/eng.html</loc>
+    <lastmod>2026-04-07</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ejudata0328.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ejudata0328.github.io/eng.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ejudata0328.github.io/"/>
   </url>
 </urlset>
