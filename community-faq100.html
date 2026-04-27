@@ -710,7 +710,7 @@
             const keyword = document.getElementById('faq100Search').value.trim().toLowerCase();
             return faqData.filter(item => {
                 if (cat && item.category !== cat) return false;
-                if (keyword && !item.question.toLowerCase().includes(keyword)) return false;
+                if (keyword && !item.question.toLowerCase().includes(keyword) && !item.answer.toLowerCase().includes(keyword)) return false;
                 return true;
             });
         }
