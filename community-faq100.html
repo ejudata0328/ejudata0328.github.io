@@ -123,121 +123,347 @@
             color: #1a56db;
             white-space: nowrap;
         }
-        /* Modal */
+        /* Modal Overlay */
         .faq100-modal-overlay {
             display: none;
             position: fixed;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(0,0,0,0.5);
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
             z-index: 10000;
             justify-content: center;
             align-items: center;
-            padding: 20px;
+            padding: 24px;
+            opacity: 0;
+            transition: opacity 0.25s ease;
         }
         .faq100-modal-overlay.active {
             display: flex;
+            opacity: 1;
         }
+        /* Modal Container */
         .faq100-modal {
-            background: #fff;
-            border-radius: 12px;
-            max-width: 800px;
+            background: #ffffff;
+            border-radius: 16px;
+            max-width: 860px;
             width: 100%;
-            max-height: 85vh;
-            overflow-y: auto;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-height: 88vh;
+            overflow: hidden;
+            box-shadow: 0 25px 80px rgba(0,0,0,0.2), 0 8px 24px rgba(0,0,0,0.1);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            transform: translateY(12px);
+            animation: faq100SlideUp 0.3s ease forwards;
+        }
+        @keyframes faq100SlideUp {
+            to { transform: translateY(0); }
+        }
+        /* Modal Header */
+        .faq100-modal-header {
+            flex-shrink: 0;
+            background: linear-gradient(135deg, #0B3D91 0%, #1e5bb8 100%);
+            padding: 28px 32px 22px;
             position: relative;
         }
-        .faq100-modal-header {
-            position: sticky;
-            top: 0;
-            background: #fff;
-            padding: 24px 28px 16px;
-            border-bottom: 1px solid #eee;
-            border-radius: 12px 12px 0 0;
-            z-index: 1;
+        .faq100-modal-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #f59e0b, #ef4444, #8b5cf6, #3b82f6);
         }
         .faq100-modal-header h3 {
             margin: 0;
-            font-size: 18px;
-            color: #1a1a1a;
-            padding-right: 40px;
-            line-height: 1.4;
+            font-size: 19px;
+            color: #ffffff;
+            padding-right: 44px;
+            line-height: 1.5;
+            font-weight: 600;
+            letter-spacing: -0.02em;
         }
         .faq100-modal-header .faq100-modal-meta {
-            margin-top: 8px;
-            font-size: 13px;
-            color: #666;
+            margin-top: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
         }
+        .faq100-modal-meta .faq100-modal-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+            backdrop-filter: blur(4px);
+        }
+        .faq100-modal-meta .faq100-modal-rank {
+            font-size: 13px;
+            color: rgba(255,255,255,0.85);
+            font-weight: 500;
+        }
+        /* Close Button */
         .faq100-modal-close {
             position: absolute;
-            top: 20px;
-            right: 20px;
-            background: none;
+            top: 22px;
+            right: 22px;
+            background: rgba(255,255,255,0.15);
             border: none;
-            font-size: 24px;
+            font-size: 20px;
             cursor: pointer;
-            color: #666;
-            width: 36px;
-            height: 36px;
+            color: #fff;
+            width: 38px;
+            height: 38px;
             display: flex;
             align-items: center;
             justify-content: center;
             border-radius: 50%;
-            transition: background 0.15s;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(4px);
         }
         .faq100-modal-close:hover {
-            background: #f0f0f0;
+            background: rgba(255,255,255,0.3);
+            transform: rotate(90deg);
         }
+        /* Modal Body */
         .faq100-modal-body {
-            padding: 24px 28px 28px;
-            line-height: 1.8;
+            flex: 1;
+            overflow-y: auto;
+            padding: 28px 32px 32px;
+            line-height: 1.85;
             font-size: 15px;
-            color: #333;
+            color: #374151;
+            scroll-behavior: smooth;
         }
-        .faq100-modal-body strong {
-            color: #1a1a1a;
+        .faq100-modal-body::-webkit-scrollbar {
+            width: 6px;
         }
-        .faq100-modal-body table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 12px 0;
+        .faq100-modal-body::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .faq100-modal-body::-webkit-scrollbar-thumb {
+            background: #d1d5db;
+            border-radius: 3px;
+        }
+        .faq100-modal-body::-webkit-scrollbar-thumb:hover {
+            background: #9ca3af;
+        }
+        /* Section Cards */
+        .faq100-section {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 20px 22px;
+            margin-bottom: 16px;
+            transition: border-color 0.2s;
+        }
+        .faq100-section:hover {
+            border-color: #cbd5e1;
+        }
+        .faq100-section-title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
             font-size: 14px;
+            font-weight: 700;
+            color: #0B3D91;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
         }
-        .faq100-modal-body table th,
-        .faq100-modal-body table td {
-            border: 1px solid #ddd;
-            padding: 8px 10px;
-            text-align: left;
+        .faq100-section-title i {
+            font-size: 13px;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #e0ecff;
+            border-radius: 6px;
+            color: #0B3D91;
         }
-        .faq100-modal-body table th {
-            background: #f8f9fa;
+        .faq100-section-content {
+            font-size: 14.5px;
+            color: #475569;
+            line-height: 1.8;
+        }
+        .faq100-section-content strong {
+            color: #1e293b;
             font-weight: 600;
         }
+        /* Conclusion highlight */
+        .faq100-section.faq100-conclusion {
+            background: linear-gradient(135deg, #eff6ff 0%, #f0f9ff 100%);
+            border-color: #bfdbfe;
+            border-left: 4px solid #3b82f6;
+        }
+        .faq100-section.faq100-conclusion .faq100-section-title {
+            color: #1d4ed8;
+        }
+        .faq100-section.faq100-conclusion .faq100-section-title i {
+            background: #dbeafe;
+            color: #1d4ed8;
+        }
+        /* Warning section */
+        .faq100-section.faq100-warning {
+            background: linear-gradient(135deg, #fffbeb 0%, #fef9c3 50%, #fffbeb 100%);
+            border-color: #fde68a;
+            border-left: 4px solid #f59e0b;
+        }
+        .faq100-section.faq100-warning .faq100-section-title {
+            color: #b45309;
+        }
+        .faq100-section.faq100-warning .faq100-section-title i {
+            background: #fef3c7;
+            color: #b45309;
+        }
+        /* Tables inside modal */
+        .faq100-modal-body table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin: 14px 0;
+            font-size: 13.5px;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+        .faq100-modal-body table th {
+            background: #f1f5f9;
+            font-weight: 600;
+            color: #334155;
+            padding: 11px 14px;
+            text-align: left;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        .faq100-modal-body table td {
+            padding: 10px 14px;
+            text-align: left;
+            border-bottom: 1px solid #f1f5f9;
+            color: #475569;
+        }
+        .faq100-modal-body table tbody tr:last-child td {
+            border-bottom: none;
+        }
+        .faq100-modal-body table tbody tr:hover {
+            background: #f8fafc;
+        }
+        /* Note/disclaimer */
+        .faq100-note {
+            margin-top: 6px;
+            padding: 12px 16px;
+            background: #f9fafb;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #6b7280;
+            line-height: 1.7;
+            border-left: 3px solid #d1d5db;
+        }
+        /* Cafe articles section */
         .faq100-modal-cafe {
-            margin-top: 20px;
-            padding-top: 16px;
-            border-top: 1px solid #eee;
+            margin-top: 24px;
+            padding: 20px 22px;
+            background: #fafafa;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
         }
         .faq100-modal-cafe h4 {
             font-size: 14px;
-            color: #555;
-            margin: 0 0 10px;
+            font-weight: 700;
+            color: #374151;
+            margin: 0 0 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .faq100-modal-cafe h4 i {
+            color: #10b981;
+            font-size: 15px;
         }
         .faq100-modal-cafe ul {
             list-style: none;
             padding: 0;
             margin: 0;
+            display: grid;
+            gap: 8px;
         }
         .faq100-modal-cafe li {
-            margin-bottom: 6px;
+            margin: 0;
         }
         .faq100-modal-cafe a {
-            color: #1a56db;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #374151;
             text-decoration: none;
-            font-size: 13px;
+            font-size: 13.5px;
+            padding: 10px 14px;
+            border-radius: 8px;
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            transition: all 0.2s ease;
+        }
+        .faq100-modal-cafe a::before {
+            content: '\f0c1';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            font-size: 11px;
+            color: #9ca3af;
+            flex-shrink: 0;
         }
         .faq100-modal-cafe a:hover {
-            text-decoration: underline;
+            background: #f0f9ff;
+            border-color: #bfdbfe;
+            color: #1d4ed8;
+            transform: translateX(4px);
+        }
+        .faq100-modal-cafe a:hover::before {
+            color: #3b82f6;
+        }
+        /* Source section */
+        .faq100-sources {
+            margin-top: 16px;
+            padding: 16px 20px;
+            background: #f9fafb;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+        }
+        .faq100-sources h4 {
+            font-size: 13px;
+            font-weight: 700;
+            color: #6b7280;
+            margin: 0 0 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .faq100-sources ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .faq100-sources li {
+            font-size: 13px;
+            color: #6b7280;
+            padding: 3px 0;
+            padding-left: 14px;
+            position: relative;
+        }
+        .faq100-sources li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 11px;
+            width: 5px;
+            height: 5px;
+            background: #d1d5db;
+            border-radius: 50%;
         }
         .faq100-empty {
             text-align: center;
@@ -255,15 +481,29 @@
             .faq100-table td:nth-child(2) {
                 display: none;
             }
+            .faq100-modal-overlay {
+                padding: 12px;
+                align-items: flex-end;
+            }
             .faq100-modal {
-                max-height: 90vh;
-                border-radius: 8px;
+                max-height: 92vh;
+                border-radius: 16px 16px 0 0;
             }
             .faq100-modal-header {
-                padding: 18px 20px 12px;
+                padding: 22px 20px 16px;
+            }
+            .faq100-modal-header h3 {
+                font-size: 16px;
             }
             .faq100-modal-body {
-                padding: 18px 20px 22px;
+                padding: 20px 18px 24px;
+            }
+            .faq100-section {
+                padding: 16px 16px;
+            }
+            .faq100-modal-cafe a {
+                padding: 9px 12px;
+                font-size: 13px;
             }
             .faq100-controls {
                 flex-direction: column;
@@ -502,12 +742,9 @@
             return div.innerHTML;
         }
 
-        function markdownToHtml(md) {
-            let html = md;
-            // Bold
-            html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-            // Tables
-            html = html.replace(/\n\|(.+)\|\n\|[-| ]+\|\n([\s\S]*?)(?=\n\n|\n\*|$)/g, function(match, headerRow, bodyRows) {
+        function parseTableBlock(text) {
+            const tableRegex = /\|(.+)\|\n\|[-| ]+\|\n([\s\S]*?)(?=\n\n|\n\*|$)/g;
+            return text.replace(tableRegex, function(match, headerRow, bodyRows) {
                 const headers = headerRow.split('|').map(h => h.trim()).filter(Boolean);
                 let table = '<table><thead><tr>' + headers.map(h => '<th>' + h + '</th>').join('') + '</tr></thead><tbody>';
                 const rows = bodyRows.trim().split('\n');
@@ -516,22 +753,121 @@
                     table += '<tr>' + cells.map(c => '<td>' + c + '</td>').join('') + '</tr>';
                 });
                 table += '</tbody></table>';
-                return '\n' + table;
+                return table;
             });
-            // Line breaks
+        }
+
+        function formatSectionContent(text) {
+            let html = text.trim();
+            html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            html = parseTableBlock(html);
             html = html.replace(/\n/g, '<br>');
-            // Clean up excessive breaks
             html = html.replace(/(<br>){3,}/g, '<br><br>');
+            // Clean leading/trailing br
+            html = html.replace(/^(<br>)+/, '').replace(/(<br>)+$/, '');
             return html;
+        }
+
+        function parseSections(answer) {
+            // Split by section headers like **① 결론**, **② 법적 근거**, etc.
+            const sectionRegex = /\*\*([①②③④⑤⑥⑦⑧⑨⑩]\s*[^*]+)\*\*/g;
+            const sections = [];
+            let lastIndex = 0;
+            let match;
+            const matches = [];
+
+            while ((match = sectionRegex.exec(answer)) !== null) {
+                matches.push({ title: match[1].trim(), index: match.index, length: match[0].length });
+            }
+
+            for (let i = 0; i < matches.length; i++) {
+                const start = matches[i].index + matches[i].length;
+                const end = i + 1 < matches.length ? matches[i + 1].index : answer.length;
+                sections.push({
+                    title: matches[i].title,
+                    content: answer.substring(start, end)
+                });
+            }
+
+            // If no sections found, return whole answer as one section
+            if (sections.length === 0) {
+                sections.push({ title: '답변', content: answer });
+            }
+
+            return sections;
+        }
+
+        function getSectionIcon(title) {
+            if (/결론/.test(title)) return 'fa-check-circle';
+            if (/법적|근거/.test(title)) return 'fa-gavel';
+            if (/절차|실무 절차/.test(title)) return 'fa-list-ol';
+            if (/��준|금액|분류/.test(title)) return 'fa-table';
+            if (/주의/.test(title)) return 'fa-exclamation-triangle';
+            if (/의견|카페/.test(title)) return 'fa-users';
+            if (/출처|참고/.test(title)) return 'fa-book';
+            return 'fa-info-circle';
+        }
+
+        function getSectionClass(title) {
+            if (/결론/.test(title)) return ' faq100-conclusion';
+            if (/주의/.test(title)) return ' faq100-warning';
+            return '';
         }
 
         function showModal(item) {
             document.getElementById('faq100ModalTitle').textContent = item.question;
             document.getElementById('faq100ModalMeta').innerHTML =
-                '<span class="faq100-category-badge">' + escapeHtml(item.category) + '</span>&nbsp;&nbsp;순위: ' + item.rank + '위';
+                '<span class="faq100-modal-badge"><i class="fas fa-tag"></i> ' + escapeHtml(item.category) + '</span>' +
+                '<span class="faq100-modal-rank"><i class="fas fa-trophy"></i> ' + item.rank + '위</span>';
 
-            let bodyHtml = markdownToHtml(item.answer);
+            const sections = parseSections(item.answer);
+            let bodyHtml = '';
 
+            // Separate note (※ lines at the end)
+            sections.forEach(section => {
+                const sectionClass = getSectionClass(section.title);
+                const icon = getSectionIcon(section.title);
+
+                // Check if it's reference/source section
+                if (/출처|참고/.test(section.title)) {
+                    const lines = section.content.trim().split('\n').filter(l => l.trim().startsWith('- ') || l.trim().startsWith('※'));
+                    const sourceItems = lines.filter(l => l.trim().startsWith('- ')).map(l => l.replace(/^-\s*/, '').trim());
+                    const notes = lines.filter(l => l.trim().startsWith('※'));
+
+                    bodyHtml += '<div class="faq100-sources"><h4><i class="fas fa-' + icon + '"></i> ' + escapeHtml(section.title) + '</h4><ul>';
+                    sourceItems.forEach(s => {
+                        bodyHtml += '<li>' + s.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') + '</li>';
+                    });
+                    bodyHtml += '</ul></div>';
+
+                    if (notes.length > 0) {
+                        bodyHtml += '<div class="faq100-note">' + notes.map(n => escapeHtml(n)).join('<br>') + '</div>';
+                    }
+                } else {
+                    // Separate ※ notes from content
+                    let content = section.content;
+                    let noteLines = [];
+                    const contentLines = content.split('\n');
+                    const mainLines = [];
+                    contentLines.forEach(line => {
+                        if (line.trim().startsWith('※')) {
+                            noteLines.push(line.trim());
+                        } else {
+                            mainLines.push(line);
+                        }
+                    });
+
+                    bodyHtml += '<div class="faq100-section' + sectionClass + '">';
+                    bodyHtml += '<div class="faq100-section-title"><i class="fas ' + icon + '"></i> ' + escapeHtml(section.title) + '</div>';
+                    bodyHtml += '<div class="faq100-section-content">' + formatSectionContent(mainLines.join('\n')) + '</div>';
+                    if (noteLines.length > 0) {
+                        bodyHtml += '<div class="faq100-note" style="margin-top:12px">' + noteLines.map(n => n.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')).join('<br>') + '</div>';
+                    }
+                    bodyHtml += '</div>';
+                }
+            });
+
+            // Cafe articles
             if (item.cafe_articles && item.cafe_articles.length > 0) {
                 bodyHtml += '<div class="faq100-modal-cafe"><h4><i class="fas fa-comments"></i> 관련 카페 글</h4><ul>';
                 item.cafe_articles.forEach(a => {
@@ -545,7 +881,7 @@
             document.body.style.overflow = 'hidden';
         }
 
-        function closeModal() {
+        function closeModal(e) {
             document.getElementById('faq100Modal').classList.remove('active');
             document.body.style.overflow = '';
         }
