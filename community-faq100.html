@@ -58,6 +58,44 @@
       gtag('config', 'G-J0KTK84V5J');
     </script>
     <style>
+        /* AI Badge */
+        .faq100-header-wrap {
+            display: flex;
+            align-items: flex-end;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .faq100-ai-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            padding: 7px 14px 7px 11px;
+            background: linear-gradient(135deg, #0B3D91 0%, #6d28d9 100%);
+            border-radius: 50px;
+            text-decoration: none;
+            color: #fff;
+            box-shadow: 0 4px 14px rgba(11,61,145,0.3);
+            transition: transform 0.22s ease, box-shadow 0.22s ease;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 4px;
+        }
+        .faq100-ai-badge::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, #1a52b3 0%, #7c3aed 100%);
+            opacity: 0;
+            transition: opacity 0.22s ease;
+        }
+        .faq100-ai-badge:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(11,61,145,0.4); text-decoration: none; color: #fff; }
+        .faq100-ai-badge:hover::before { opacity: 1; }
+        .faq100-ai-badge .ai-b-icon { font-size: 17px; position: relative; z-index: 1; }
+        .faq100-ai-badge-text { display: flex; flex-direction: column; line-height: 1.25; position: relative; z-index: 1; }
+        .faq100-ai-badge-main { font-size: 12.5px; font-weight: 700; color: #fff; }
+        .faq100-ai-badge-sub { font-size: 10px; color: rgba(255,255,255,0.75); font-weight: 400; }
+        .faq100-ai-badge .ai-b-arrow { font-size: 10px; position: relative; z-index: 1; opacity: 0.8; margin-left: 1px; }
+
         .faq100-controls {
             display: flex;
             gap: 12px;
@@ -618,7 +656,17 @@
                 </div>
                 <div class="content">
                     <div class="content-header">
-                        <h3>예산회계 FAQ 100</h3>
+                        <div class="faq100-header-wrap">
+                            <h3>예산회계 FAQ 100</h3>
+                            <a href="https://ai.ejuai.kr" target="_blank" rel="noopener noreferrer" class="faq100-ai-badge" title="법령·예규·실무 정보를 AI가 통합 검색해주는 예산회계 AI 검색 시스템">
+                                <i class="fas fa-robot ai-b-icon"></i>
+                                <span class="faq100-ai-badge-text">
+                                    <span class="faq100-ai-badge-main">AI 검색 바로가기</span>
+                                    <span class="faq100-ai-badge-sub">법령·예규 AI 통합검색</span>
+                                </span>
+                                <i class="fas fa-external-link-alt ai-b-arrow"></i>
+                            </a>
+                        </div>
                     </div>
                     <div class="content-body">
                         <div class="faq100-controls">
