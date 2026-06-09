@@ -207,6 +207,180 @@
             margin-bottom: 5px;
             letter-spacing: 0.02em;
         }
+        /* 카드 클릭 커서 */
+        .ainews-card { cursor: pointer; }
+
+        /* ── 상세 모달 ─────────────────────────────────────────── */
+        .ainews-modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(15,23,42,0.65);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            z-index: 10000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .ainews-modal-overlay.active { display: flex; }
+        .ainews-modal {
+            background: #fff;
+            border-radius: 16px;
+            max-width: 680px;
+            width: 100%;
+            max-height: 90vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 25px 80px rgba(0,0,0,0.25);
+            animation: ainewsSlideUp 0.26s ease forwards;
+        }
+        @keyframes ainewsSlideUp {
+            from { transform: translateY(18px); opacity: 0; }
+            to   { transform: translateY(0);    opacity: 1; }
+        }
+        .ainews-modal-hd {
+            flex-shrink: 0;
+            padding: 24px 28px 20px;
+            position: relative;
+        }
+        .ainews-modal-hd::after {
+            content: '';
+            position: absolute;
+            bottom: 0; left: 0; right: 0; height: 3px;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+        }
+        .ainews-modal-hd.hd-생성AI   { background: linear-gradient(135deg,#1e3a8a,#2563eb); }
+        .ainews-modal-hd.hd-정책규제 { background: linear-gradient(135deg,#4c1d95,#7c3aed); }
+        .ainews-modal-hd.hd-기업동향 { background: linear-gradient(135deg,#064e3b,#059669); }
+        .ainews-modal-hd.hd-연구기술 { background: linear-gradient(135deg,#78350f,#d97706); }
+        .ainews-modal-hd.hd-국내AI   { background: linear-gradient(135deg,#7f1d1d,#dc2626); }
+        .ainews-modal-hd-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+        .ainews-modal-hd-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+        .ainews-modal-close {
+            background: rgba(255,255,255,0.18);
+            border: none;
+            color: #fff;
+            width: 34px; height: 34px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 15px;
+            display: flex; align-items: center; justify-content: center;
+            transition: background 0.2s;
+            flex-shrink: 0;
+        }
+        .ainews-modal-close:hover { background: rgba(255,255,255,0.35); }
+        .ainews-modal-date-badge {
+            font-size: 11.5px;
+            color: rgba(255,255,255,0.78);
+            background: rgba(255,255,255,0.15);
+            padding: 2px 9px;
+            border-radius: 10px;
+        }
+        .ainews-modal-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.5;
+            word-break: keep-all;
+        }
+        .ainews-modal-source-row {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            color: rgba(255,255,255,0.78);
+            font-size: 12.5px;
+        }
+        .ainews-modal-body {
+            flex: 1;
+            overflow-y: auto;
+            padding: 26px 28px 20px;
+        }
+        .ainews-modal-section-label {
+            font-size: 11px;
+            font-weight: 700;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 8px;
+        }
+        .ainews-modal-desc {
+            font-size: 15px;
+            line-height: 1.85;
+            color: #334155;
+            word-break: keep-all;
+            margin-bottom: 22px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        .ainews-modal-tags {
+            display: flex;
+            gap: 7px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+        .ainews-modal-tag {
+            padding: 4px 11px;
+            background: #f1f5f9;
+            border-radius: 12px;
+            font-size: 11.5px;
+            color: #475569;
+            font-weight: 500;
+        }
+        .ainews-modal-search-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            padding: 10px 20px;
+            background: #0B3D91;
+            color: #fff;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.2s, transform 0.15s;
+        }
+        .ainews-modal-search-btn:hover { background: #1248a0; transform: translateY(-1px); color: #fff; text-decoration: none; }
+        .ainews-modal-ft {
+            flex-shrink: 0;
+            padding: 14px 28px;
+            border-top: 1px solid #f1f5f9;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .ainews-modal-nav-btn {
+            padding: 7px 16px;
+            border: 1.5px solid #e5e7eb;
+            border-radius: 8px;
+            background: #fff;
+            font-size: 12.5px;
+            cursor: pointer;
+            color: #374151;
+            transition: all 0.18s;
+            font-family: inherit;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .ainews-modal-nav-btn:hover:not(:disabled) { border-color: #0B3D91; color: #0B3D91; }
+        .ainews-modal-nav-btn:disabled { opacity: 0.32; cursor: not-allowed; }
+        .ainews-modal-pos { font-size: 12px; color: #94a3b8; }
+        @media (max-width: 600px) {
+            .ainews-modal-hd { padding: 18px 18px 16px; }
+            .ainews-modal-body { padding: 18px 18px 14px; }
+            .ainews-modal-ft  { padding: 12px 18px; }
+            .ainews-modal-title { font-size: 15px; }
+        }
     </style>
 </head>
 <body>
@@ -346,6 +520,40 @@
     </div>
     </main>
 
+    <!-- AI뉴스 상세 모달 -->
+    <div class="ainews-modal-overlay" id="ainewsModalOverlay" role="dialog" aria-modal="true" aria-labelledby="ainewsModalTitle">
+        <div class="ainews-modal" id="ainewsModalBox">
+            <div class="ainews-modal-hd" id="ainewsModalHd">
+                <div class="ainews-modal-hd-top">
+                    <div class="ainews-modal-hd-meta">
+                        <span class="ainews-badge" id="ainewsModalBadge"></span>
+                        <span class="ainews-modal-date-badge" id="ainewsModalDate"></span>
+                    </div>
+                    <button class="ainews-modal-close" id="ainewsModalClose" aria-label="닫기"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="ainews-modal-title" id="ainewsModalTitle"></div>
+                <div class="ainews-modal-source-row">
+                    <i class="fas fa-newspaper"></i>
+                    <span id="ainewsModalSource"></span>
+                </div>
+            </div>
+            <div class="ainews-modal-body">
+                <div class="ainews-modal-section-label">상세 내용</div>
+                <p class="ainews-modal-desc" id="ainewsModalDesc"></p>
+                <div class="ainews-modal-section-label">관련 키워드</div>
+                <div class="ainews-modal-tags" id="ainewsModalTags"></div>
+                <a href="#" id="ainewsModalSearchBtn" target="_blank" rel="noopener noreferrer" class="ainews-modal-search-btn">
+                    <i class="fab fa-google"></i> Google 뉴스에서 검색
+                </a>
+            </div>
+            <div class="ainews-modal-ft">
+                <button class="ainews-modal-nav-btn" id="ainewsModalPrev"><i class="fas fa-chevron-left"></i> 이전</button>
+                <span class="ainews-modal-pos" id="ainewsModalPos"></span>
+                <button class="ainews-modal-nav-btn" id="ainewsModalNext">다음 <i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -434,7 +642,7 @@
         { date:"2025-01-22", cat:"정책/규제", title:"다보스포럼, AI 거버넌스 국제 협력 프레임워크 채택…G20 연계 추진", source:"WEF", desc:"세계경제포럼(WEF) 다보스 회의에서 주요국이 참여한 AI 거버넌스 국제 협력 프레임워크가 채택됐다. AI 안전·투명성·책임 원칙을 담아 G20 정상회의와 연계해 확산을 추진하기로 했다." },
     ];
 
-    // ── 카테고리 → badge class 매핑 ──────────────────────────────────
+    // ── 카테고리 설정 ─────────────────────────────────────────────────
     const CAT_CLASS = {
         "생성AI":    "ainews-badge-생성AI",
         "정책/규제": "ainews-badge-정책규제",
@@ -442,21 +650,64 @@
         "연구/기술": "ainews-badge-연구기술",
         "국내AI":    "ainews-badge-국내AI",
     };
+    const CAT_HD = {
+        "생성AI":    "hd-생성AI",
+        "정책/규제": "hd-정책규제",
+        "기업동향":  "hd-기업동향",
+        "연구/기술": "hd-연구기술",
+        "국내AI":    "hd-국내AI",
+    };
 
     function formatDate(d) {
         const [y, m, day] = d.split('-');
         return `${y}.${m}.${day}`;
     }
 
+    // 자동 키워드 생성
+    const KW_MAP = [
+        ['GPT-5','GPT-5'],['GPT-4o','GPT-4o'],['GPT','GPT'],
+        ['Claude','Claude'],['Anthropic','Anthropic'],
+        ['Gemini','Gemini'],['DeepMind','DeepMind'],['Google','Google'],
+        ['Llama','Llama'],['Meta','Meta'],
+        ['Copilot','Copilot'],['Microsoft','Microsoft'],
+        ['Apple Intelligence','Apple Intelligence'],['Apple','Apple'],
+        ['엔비디아','NVIDIA'],['NVIDIA','NVIDIA'],['Blackwell','Blackwell'],
+        ['AMD','AMD'],['HBM','HBM'],['반도체','반도체'],['NPU','NPU'],['GPU','GPU'],
+        ['삼성','삼성전자'],['SK하이닉스','SK하이닉스'],
+        ['네이버','네이버'],['HyperCLOVA','HyperCLOVA X'],
+        ['카카오','카카오'],['카나나','카나나'],
+        ['KT','KT'],['LG AI','LG AI'],
+        ['EU AI법','EU AI법'],['AI기본법','AI기본법'],
+        ['다보스','WEF'],['NIST','NIST'],
+        ['멀티모달','멀티모달'],['오픈소스','오픈소스'],
+        ['자율주행','자율주행'],['신약','신약개발'],['AlphaFold','AlphaFold'],
+        ['추론','추론모델'],['에이전트','AI에이전트'],
+    ];
+    function autoTags(n) {
+        const tags = [n.date.substring(0,4)+'년', n.cat];
+        const combined = n.title + ' ' + n.desc;
+        for (const [k, v] of KW_MAP) {
+            if (combined.includes(k) && !tags.includes(v) && tags.length < 7) tags.push(v);
+        }
+        return tags;
+    }
+
+    // ── 현재 필터 목록 (prev/next 탐색용) ────────────────────────────
+    let currentList = [];
+    let currentModalIdx = -1;
+
     function renderCards(list) {
+        currentList = list;
         const grid = document.getElementById('ainewsGrid');
         document.getElementById('ainewsNum').textContent = list.length;
         if (!list.length) {
             grid.innerHTML = '<div class="ainews-empty"><i class="fas fa-search"></i>검색 결과가 없습니다.</div>';
             return;
         }
-        grid.innerHTML = list.map(n => `
-            <div class="ainews-card">
+        grid.innerHTML = list.map((n, idx) => `
+            <div class="ainews-card" onclick="openModal(${idx})" role="button" tabindex="0"
+                 onkeydown="if(event.key==='Enter'||event.key===' ')openModal(${idx})"
+                 aria-label="${n.title}">
                 <div class="ainews-card-top">
                     <span class="ainews-badge ${CAT_CLASS[n.cat] || ''}">${n.cat}</span>
                     <span class="ainews-date">${formatDate(n.date)}</span>
@@ -468,18 +719,91 @@
         `).join('');
     }
 
+    // ── 모달 ──────────────────────────────────────────────────────────
+    function openModal(idx) {
+        currentModalIdx = idx;
+        const n = currentList[idx];
+        if (!n) return;
+
+        // 헤더 색상
+        const hd = document.getElementById('ainewsModalHd');
+        hd.className = 'ainews-modal-hd ' + (CAT_HD[n.cat] || '');
+
+        // 배지
+        const badge = document.getElementById('ainewsModalBadge');
+        badge.className = 'ainews-badge ' + (CAT_CLASS[n.cat] || '');
+        badge.textContent = n.cat;
+
+        document.getElementById('ainewsModalDate').textContent   = formatDate(n.date);
+        document.getElementById('ainewsModalTitle').textContent  = n.title;
+        document.getElementById('ainewsModalSource').textContent = n.source;
+        document.getElementById('ainewsModalDesc').textContent   = n.desc;
+
+        // 키워드 태그
+        const tags = autoTags(n);
+        document.getElementById('ainewsModalTags').innerHTML =
+            tags.map(t => `<span class="ainews-modal-tag">${t}</span>`).join('');
+
+        // Google 뉴스 검색 링크
+        const query = encodeURIComponent(n.title.substring(0, 50));
+        document.getElementById('ainewsModalSearchBtn').href =
+            `https://news.google.com/search?q=${query}&hl=ko&gl=KR&ceid=KR:ko`;
+
+        // 위치 / prev·next
+        document.getElementById('ainewsModalPos').textContent =
+            `${idx + 1} / ${currentList.length}`;
+        document.getElementById('ainewsModalPrev').disabled = idx === 0;
+        document.getElementById('ainewsModalNext').disabled = idx === currentList.length - 1;
+
+        // 오버레이 표시
+        const overlay = document.getElementById('ainewsModalOverlay');
+        overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+
+        // 모달 상단으로 스크롤
+        document.getElementById('ainewsModalBox').querySelector('.ainews-modal-body').scrollTop = 0;
+    }
+
+    function closeModal() {
+        document.getElementById('ainewsModalOverlay').classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    document.getElementById('ainewsModalClose').addEventListener('click', closeModal);
+    document.getElementById('ainewsModalPrev').addEventListener('click', () => {
+        if (currentModalIdx > 0) openModal(currentModalIdx - 1);
+    });
+    document.getElementById('ainewsModalNext').addEventListener('click', () => {
+        if (currentModalIdx < currentList.length - 1) openModal(currentModalIdx + 1);
+    });
+
+    // 오버레이 클릭 시 닫기
+    document.getElementById('ainewsModalOverlay').addEventListener('click', e => {
+        if (e.target === e.currentTarget) closeModal();
+    });
+
+    // 키보드: Esc 닫기, ← → 탐색
+    document.addEventListener('keydown', e => {
+        if (!document.getElementById('ainewsModalOverlay').classList.contains('active')) return;
+        if (e.key === 'Escape')     closeModal();
+        if (e.key === 'ArrowLeft'  && currentModalIdx > 0)                        openModal(currentModalIdx - 1);
+        if (e.key === 'ArrowRight' && currentModalIdx < currentList.length - 1)   openModal(currentModalIdx + 1);
+    });
+
+    // ── 필터 & 검색 ───────────────────────────────────────────────────
     function applyFilter() {
         const activeCat = document.querySelector('.ainews-filter-btn.active').dataset.cat;
         const q = document.getElementById('ainewsSearch').value.trim().toLowerCase();
         const list = AI_NEWS.filter(n => {
             const matchCat = !activeCat || n.cat === activeCat;
-            const matchQ   = !q || n.title.toLowerCase().includes(q) || n.desc.toLowerCase().includes(q) || n.source.toLowerCase().includes(q);
+            const matchQ   = !q || n.title.toLowerCase().includes(q)
+                                || n.desc.toLowerCase().includes(q)
+                                || n.source.toLowerCase().includes(q);
             return matchCat && matchQ;
         });
         renderCards(list);
     }
 
-    // 필터 버튼
     document.getElementById('ainewsFilters').addEventListener('click', e => {
         const btn = e.target.closest('.ainews-filter-btn');
         if (!btn) return;
@@ -488,7 +812,6 @@
         applyFilter();
     });
 
-    // 검색
     let searchTimer;
     document.getElementById('ainewsSearch').addEventListener('input', () => {
         clearTimeout(searchTimer);
