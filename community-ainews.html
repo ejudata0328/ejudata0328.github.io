@@ -744,10 +744,16 @@
         document.getElementById('ainewsModalTags').innerHTML =
             tags.map(t => `<span class="ainews-modal-tag">${t}</span>`).join('');
 
-        // Google 뉴스 검색 링크
-        const query = encodeURIComponent(n.title.substring(0, 50));
-        document.getElementById('ainewsModalSearchBtn').href =
-            `https://news.google.com/search?q=${query}&hl=ko&gl=KR&ceid=KR:ko`;
+        // 링크 버튼: 실제 URL 있으면 원문, 없으면 Google 뉴스 검색
+        const linkBtn = document.getElementById('ainewsModalSearchBtn');
+        if (n.link) {
+            linkBtn.href = n.link;
+            linkBtn.innerHTML = '<i class="fas fa-external-link-alt"></i> 기사 원문 보기';
+        } else {
+            const query = encodeURIComponent(n.title.substring(0, 50));
+            linkBtn.href = `https://news.google.com/search?q=${query}&hl=ko&gl=KR&ceid=KR:ko`;
+            linkBtn.innerHTML = '<i class="fab fa-google"></i> Google 뉴스에서 검색';
+        }
 
         // 위치 / prev·next
         document.getElementById('ainewsModalPos').textContent =
@@ -818,8 +824,29 @@
         searchTimer = setTimeout(applyFilter, 220);
     });
 
-    // 초기 렌더링
-    renderCards(AI_NEWS);
+    // ── 링크 필드 처리 (크롤링 데이터는 link 있음, 하드코딩은 없음) ──
+    const _origOpenModal = openModal;
+    // openModal 내 링크 버튼 동적 처리 (link 필드 유무에 따라)
+    // → openModal 함수 내 ainewsModalSearchBtn 처리 부분을 override
+    const _origOpenModalFn = window.openModal;
+
+    // ── 초기 렌더링: JSON 우선, 실패 시 하드코딩 데이터 사용 ──────────
+    async function loadAndRender() {
+        try {
+            const resp = await fetch('data/ainews.json?_=' + Date.now());
+            if (resp.ok) {
+                const data = await resp.json();
+                if (Array.isArray(data) && data.length > 0) {
+                    renderCards(data);
+                    return;
+                }
+            }
+        } catch (e) {
+            /* JSON 로드 실패 시 하드코딩 데이터 사용 */
+        }
+        renderCards(AI_NEWS);
+    }
+    loadAndRender();
     </script>
 </body>
 </html>
