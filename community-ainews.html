@@ -210,6 +210,40 @@
         /* 카드 클릭 커서 */
         .ainews-card { cursor: pointer; }
 
+        /* ── 페이지네이션 ── */
+        .ainews-pagination {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 24px;
+            flex-wrap: wrap;
+        }
+        .ainews-page-btn {
+            padding: 7px 14px;
+            border: 1.5px solid #d1d5db;
+            border-radius: 8px;
+            background: #fff;
+            font-size: 13px;
+            font-family: inherit;
+            font-weight: 500;
+            cursor: pointer;
+            color: #374151;
+            transition: all 0.18s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .ainews-page-btn:hover:not(:disabled) { border-color: #0B3D91; color: #0B3D91; background: #f0f4ff; }
+        .ainews-page-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+        .ainews-page-info {
+            font-size: 12.5px;
+            color: #6b7280;
+            min-width: 110px;
+            text-align: center;
+        }
+        .ainews-page-info strong { color: #0B3D91; font-weight: 700; }
+
         /* ── 상세 모달 ─────────────────────────────────────────── */
         .ainews-modal-overlay {
             display: none;
@@ -513,6 +547,23 @@
                         <!-- 뉴스 카드 그리드 -->
                         <div class="ainews-grid" id="ainewsGrid"></div>
 
+                        <!-- 페이지네이션 -->
+                        <div class="ainews-pagination" id="ainewsPagination" style="display:none;">
+                            <button class="ainews-page-btn" id="ainewsBtnFirst" title="첫 페이지">
+                                <i class="fas fa-angle-double-left"></i>
+                            </button>
+                            <button class="ainews-page-btn" id="ainewsBtnPrev">
+                                <i class="fas fa-chevron-left"></i> 이전
+                            </button>
+                            <span class="ainews-page-info" id="ainewsPageInfo"></span>
+                            <button class="ainews-page-btn" id="ainewsBtnNext">
+                                다음 <i class="fas fa-chevron-right"></i>
+                            </button>
+                            <button class="ainews-page-btn" id="ainewsBtnLast" title="마지막 페이지">
+                                <i class="fas fa-angle-double-right"></i>
+                            </button>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -692,22 +743,35 @@
         return tags;
     }
 
-    // ── 현재 필터 목록 (prev/next 탐색용) ────────────────────────────
-    let currentList = [];
+    // ── 상태 ─────────────────────────────────────────────────────────
+    let currentList  = [];   // 현재 필터 적용된 전체 목록
+    let currentPage  = 0;    // 현재 페이지 (0-based)
     let currentModalIdx = -1;
+    const PAGE_SIZE  = 20;   // 페이지 당 표시 건수
 
-    function renderCards(list) {
-        currentList = list;
-        const grid = document.getElementById('ainewsGrid');
-        document.getElementById('ainewsNum').textContent = list.length;
-        if (!list.length) {
+    // ── 페이지 렌더링 ──────────────────────────────────────────────
+    function renderPage() {
+        const grid  = document.getElementById('ainewsGrid');
+        const total = currentList.length;
+        const start = currentPage * PAGE_SIZE;
+        const end   = Math.min(start + PAGE_SIZE, total);
+        const slice = currentList.slice(start, end);
+
+        document.getElementById('ainewsNum').textContent = total;
+
+        if (!slice.length) {
             grid.innerHTML = '<div class="ainews-empty"><i class="fas fa-search"></i>검색 결과가 없습니다.</div>';
+            document.getElementById('ainewsPagination').style.display = 'none';
             return;
         }
-        grid.innerHTML = list.map((n, idx) => `
-            <div class="ainews-card" onclick="openModal(${idx})" role="button" tabindex="0"
-                 onkeydown="if(event.key==='Enter'||event.key===' ')openModal(${idx})"
-                 aria-label="${n.title}">
+
+        grid.innerHTML = slice.map((n, i) => {
+            const globalIdx = start + i;
+            const titleSafe = n.title.replace(/"/g, '&quot;');
+            return `
+            <div class="ainews-card" onclick="openModal(${globalIdx})" role="button" tabindex="0"
+                 onkeydown="if(event.key==='Enter'||event.key===' ')openModal(${globalIdx})"
+                 aria-label="${titleSafe}">
                 <div class="ainews-card-top">
                     <span class="ainews-badge ${CAT_CLASS[n.cat] || ''}">${n.cat}</span>
                     <span class="ainews-date">${formatDate(n.date)}</span>
@@ -715,8 +779,30 @@
                 <div class="ainews-title">${n.title}</div>
                 <div class="ainews-meta"><span class="ainews-source">${n.source}</span></div>
                 <div class="ainews-desc">${n.desc}</div>
-            </div>
-        `).join('');
+            </div>`;
+        }).join('');
+
+        // 페이지네이션 UI
+        const pages = Math.ceil(total / PAGE_SIZE);
+        const pag   = document.getElementById('ainewsPagination');
+        pag.style.display = pages > 1 ? 'flex' : 'none';
+
+        document.getElementById('ainewsPageInfo').innerHTML =
+            `<strong>${start + 1}–${end}</strong> / 전체 <strong>${total}</strong>건`;
+
+        document.getElementById('ainewsBtnFirst').disabled = currentPage === 0;
+        document.getElementById('ainewsBtnPrev').disabled  = currentPage === 0;
+        document.getElementById('ainewsBtnNext').disabled  = currentPage >= pages - 1;
+        document.getElementById('ainewsBtnLast').disabled  = currentPage >= pages - 1;
+
+        // 페이지 이동 시 목록 상단으로 스크롤
+        grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function renderCards(list) {
+        currentList = list;
+        currentPage = 0;
+        renderPage();
     }
 
     // ── 모달 ──────────────────────────────────────────────────────────
@@ -796,11 +882,29 @@
         if (e.key === 'ArrowRight' && currentModalIdx < currentList.length - 1)   openModal(currentModalIdx + 1);
     });
 
+    // ── 페이지네이션 버튼 ─────────────────────────────────────────────
+    document.getElementById('ainewsBtnFirst').addEventListener('click', () => {
+        currentPage = 0; renderPage();
+    });
+    document.getElementById('ainewsBtnPrev').addEventListener('click', () => {
+        if (currentPage > 0) { currentPage--; renderPage(); }
+    });
+    document.getElementById('ainewsBtnNext').addEventListener('click', () => {
+        const pages = Math.ceil(currentList.length / PAGE_SIZE);
+        if (currentPage < pages - 1) { currentPage++; renderPage(); }
+    });
+    document.getElementById('ainewsBtnLast').addEventListener('click', () => {
+        currentPage = Math.ceil(currentList.length / PAGE_SIZE) - 1;
+        renderPage();
+    });
+
     // ── 필터 & 검색 ───────────────────────────────────────────────────
+    let _allNews = [];   // 로드된 전체 뉴스 원본 보관
+
     function applyFilter() {
         const activeCat = document.querySelector('.ainews-filter-btn.active').dataset.cat;
         const q = document.getElementById('ainewsSearch').value.trim().toLowerCase();
-        const list = AI_NEWS.filter(n => {
+        const list = _allNews.filter(n => {
             const matchCat = !activeCat || n.cat === activeCat;
             const matchQ   = !q || n.title.toLowerCase().includes(q)
                                 || n.desc.toLowerCase().includes(q)
@@ -830,21 +934,21 @@
     // → openModal 함수 내 ainewsModalSearchBtn 처리 부분을 override
     const _origOpenModalFn = window.openModal;
 
-    // ── 초기 렌더링: JSON 우선, 실패 시 하드코딩 데이터 사용 ──────────
+    // ── 초기 로드: JSON 우선, 실패 시 하드코딩 데이터 사용 ───────────
     async function loadAndRender() {
         try {
             const resp = await fetch('data/ainews.json?_=' + Date.now());
             if (resp.ok) {
                 const data = await resp.json();
                 if (Array.isArray(data) && data.length > 0) {
-                    renderCards(data);
+                    _allNews = data;
+                    applyFilter();
                     return;
                 }
             }
-        } catch (e) {
-            /* JSON 로드 실패 시 하드코딩 데이터 사용 */
-        }
-        renderCards(AI_NEWS);
+        } catch (e) { /* 로드 실패 시 하드코딩 사용 */ }
+        _allNews = AI_NEWS;
+        applyFilter();
     }
     loadAndRender();
     </script>

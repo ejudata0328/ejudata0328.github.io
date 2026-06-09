@@ -1,8 +1,10 @@
 """
-AI뉴스 자동 크롤러 — Google News RSS 기반
+AI뉴스 자동 크롤러 — Google News RSS 기반 (누적 축적 방식)
 실행: python scripts/crawl_ainews.py
-결과: data/ainews.json (최대 50건, 날짜 내림차순)
+결과: data/ainews.json  (신규 뉴스를 기존 데이터에 누적 추가, 최대 MAX_TOTAL건 보관)
 """
+
+MAX_TOTAL = 500   # 최대 누적 보관 건수 (초과 시 오래된 것부터 제거)
 
 import feedparser
 import json
@@ -157,13 +159,13 @@ def crawl_all() -> list:
         except Exception as e:
             print(f"  ⚠️ Error [{feed_url[:50]}]: {e}")
 
-    # 날짜 내림차순
+    # 날짜 내림차순 (이번 배치 내)
     items.sort(key=lambda x: x["date"], reverse=True)
-    return items[:50]
+    return items
 
 
-def merge_with_existing(new_items: list) -> list:
-    """신규 데이터 + 기존 데이터 병합 (중복 제거, 최대 50건)"""
+def accumulate(new_items: list) -> list:
+    """신규 뉴스를 기존 누적 데이터에 추가 (중복 제목 제외)"""
     path = "data/ainews.json"
     existing: list = []
 
@@ -171,18 +173,30 @@ def merge_with_existing(new_items: list) -> list:
         try:
             with open(path, encoding="utf-8") as f:
                 existing = json.load(f)
-            print(f"  기존 데이터: {len(existing)}건")
+            print(f"  기존 누적: {len(existing)}건")
         except Exception:
             pass
 
-    seen = {item["title"] for item in new_items}
-    for item in existing:
-        if item["title"] not in seen and len(new_items) < 50:
-            new_items.append(item)
-            seen.add(item["title"])
+    seen_titles = {item["title"] for item in existing}
+    added = 0
+    for item in new_items:
+        if item["title"] not in seen_titles:
+            existing.append(item)
+            seen_titles.add(item["title"])
+            added += 1
 
-    new_items.sort(key=lambda x: x["date"], reverse=True)
-    return new_items[:50]
+    print(f"  신규 추가: {added}건")
+
+    # 날짜 내림차순 전체 정렬
+    existing.sort(key=lambda x: x["date"], reverse=True)
+
+    # 최대 보관 건수 초과 시 오래된 뉴스 제거
+    if len(existing) > MAX_TOTAL:
+        removed = len(existing) - MAX_TOTAL
+        existing = existing[:MAX_TOTAL]
+        print(f"  오래된 뉴스 {removed}건 정리 (최대 {MAX_TOTAL}건 유지)")
+
+    return existing
 
 
 if __name__ == "__main__":
@@ -191,17 +205,14 @@ if __name__ == "__main__":
     print(f"{'='*60}")
 
     new_items = crawl_all()
-    print(f"\n신규 수집: {len(new_items)}건")
+    print(f"\n이번 수집: {len(new_items)}건")
 
     os.makedirs("data", exist_ok=True)
+    output_path = "data/ainews.json"
 
-    if new_items:
-        merged = merge_with_existing(new_items)
-        output_path = "data/ainews.json"
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(merged, f, ensure_ascii=False, indent=2)
-        print(f"저장 완료: {output_path} ({len(merged)}건)")
-    else:
-        print("⚠️ 수집된 뉴스 없음 — 기존 data/ainews.json 유지")
+    accumulated = accumulate(new_items)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(accumulated, f, ensure_ascii=False, indent=2)
+    print(f"저장 완료: {output_path} (누적 {len(accumulated)}건)")
 
     print(f"{'='*60}\n")
