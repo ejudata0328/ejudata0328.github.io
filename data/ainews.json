@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-06-12",
+    "cat": "기업동향",
+    "title": "[젠슨 황 릴레이 미팅] 엔비디아 '락인' 된 HBM 공급망…K 반도체 셈법은",
+    "source": "딜사이트",
+    "desc": "[젠슨 황 릴레이 미팅] 엔비디아 '락인' 된 HBM 공급망…K 반도체 셈법은 딜사이트",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oanJyeV85YnVHMm9Za3Y4UHlFdzEzSW5hclBOY0RUV18wMTNnNktyX1VzQmJqalBYeFd3Rmx5NkxDRlN1cFZ0SHlHU0V6MGM?oc=5"
+  },
+  {
+    "date": "2026-06-12",
+    "cat": "국내AI",
+    "title": "한국인공지능협회, 中 상하이사회과학원과 한·중 AI 협력 간담회 개최",
+    "source": "인공지능신문",
+    "desc": "한국인공지능협회, 中 상하이사회과학원과 한·중 AI 협력 간담회 개최 인공지능신문",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qRU5VZWpvdEdrZlpiZXJJbVZCUlozejdYb3lTZTN3MzN3djBuX3Z0YTJCSFF4a1B4MGdqWW5CTHN0ZEpyb1BPSE1RMWJkQmE3WlJtVGZqTHNZbWR2RnMwamJwcFJvRmc?oc=5"
+  },
+  {
     "date": "2026-06-11",
     "cat": "생성AI",
     "title": "ChatGPT·Gemini·Claude 모두 쓴다…삼성전자가 선택한 '멀티 AI' 전략",
@@ -14,6 +30,14 @@
     "source": "AI 매터스",
     "desc": "엔비디아 6% 급락…브로드컴 가이던스 쇼크에 AI 반도체주 동반 하락 AI 매터스",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xWTNhTk5DYmNkWjJFUGpWQlJhZjRFSjhycFJ1VFAyUzhkRm1LMG11a3dGd2VGR2pLOElXR2xRZEVwdnRSTzE3SmsxazZkZmUtRzhXZw?oc=5"
+  },
+  {
+    "date": "2026-06-11",
+    "cat": "기업동향",
+    "title": "“HBM 팔아 엔비디아 배불리네”…‘K-NPU’로 의존 끊을까",
+    "source": "쿠키뉴스",
+    "desc": "“HBM 팔아 엔비디아 배불리네”…‘K-NPU’로 의존 끊을까 쿠키뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSY0Rpb1QzV1p2aEE1NzhUVWlkMTFyWkJvLUt2Y3QzTTduTkFWTnhTR2xQNnlDaUlsNExkdWx5V0R0dFVyMWx0Y0U3R0V0VWdXSUJocGlQc3UtTk9VUkFHZ2xJRQ?oc=5"
   },
   {
     "date": "2026-06-10",
@@ -400,6 +424,14 @@
     "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOX2p6Yl9SZ05uSWI4V2s3YzVZZ2JEM3FyQXdOYkp1SFdXdU04NGd5NENLdFdNdWhpdHRZQkVvWjBicXNCSUlMWlJLMFV3eGQtUlJQYVNTQnYwS2NlczVJRUdyNU9hbzZneHZ4bnRrR0RGUWp1WUx5WmJkMWh5ZVd6bXhYOHdaemxRMTBMajRoajNPX0tjZ1BZUTRkMm5ZVjRZVGxDUXVKcDFpSHVPRnZOSlhjYnFMbFVaRHlZY082SjNlUWRaYmtyZ3ZnQ2NDMWlVbFRxMjA4bnRXY21nd2g1dU9DU0dhYk1sb2N1XzNXaFdvcEVBVDVWcVNrN19tNjBCNFcxM0R4akl6V3FyeUg2ZEZ0clZKRy1WY2ZsOGZQWld1d0R2dTZiS3JPOTBNVkE2aHBaZjRoQ2ppUHZoNmw1eHJIaVc2NlVZdmFPLXIzajBhX01DUm1ycjNVRWJsUEhkMC1fd1BPQQ?oc=5"
   },
   {
+    "date": "2026-06-06",
+    "cat": "연구/기술",
+    "title": "인공지능은 되돌릴 수 없는 지점에 다가가고 있는가? 개발 일시 중지를 위한 프레임워크를 촉구한 앤스로픽",
+    "source": "Yellow.com",
+    "desc": "인공지능은 되돌릴 수 없는 지점에 다가가고 있는가? 개발 일시 중지를 위한 프레임워크를 촉구한 앤스로픽 Yellow.com",
+    "link": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxOby0walRzTXFhQ0h0Si1sajE4WTRDREhEYXpHY0RGTXYwcTgtYk1McWxONV96b040bTZpNUZzNk1ra1lVN2d0WmI1dUswbmVGb0ppRUZkODBFWGdZb1A1UXZ0cmFvVWZPZGF4NTJ3bVhlVkRmeUtBRlJrTnJtT0p0VE9FSmVENEJhX2VSNlRRdGlXamsxTnlrS0l6N0F0a0Rmc25FQXVZSkdERFl1dWg1NGFqdjJ1bHZud0NhaTJ3cE9OenJMMnpDdlNESkZfU0NEa0lGNGVhWkhwdExUNjZFcmhkOG1rNzlRZVI2M3ZFNE1WSWVIWUpTdjlzdjBMZnJtUURwNEg2Ny1rbUtuNWlNc0pBOF83dy1Ma1A1c3ZwVHhXMEpqSnFOVUcwTWRqb0dyclZPWDBZcEhGZXdxY3FWX0pfYmJmcUt1eXgxdWZUUllyZzJ0b2ZMUHQ1ZHRDS2FyUnN0dFpFXzdaRVhTNFRzVVJwODg0akJOSUFyYnNtdVNVSkV6SHI3eWFPUVBZQkpIWEJNdzJOdTgyWHVqbC1iQUdTZUVwN3VNanBQMElQdm16THNYWnhJaTkyVldlNXNocy1Ta01aYnJDcndpNGQzaXdfNGw0RUtObjlabDVqdGZpWFVGZFNlbVFB?oc=5"
+  },
+  {
     "date": "2026-06-05",
     "cat": "생성AI",
     "title": "AI 생산성 패러독스: 같은 ChatGPT, Claude, Gemini를 써도 성과가 달라지는 이유 | 인사이트리포트 | 삼성SDS",
@@ -566,6 +598,14 @@
     "source": "브런치",
     "desc": "Karpathy의 Anthropic행은 더 큰 신호다 브런치",
     "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFA5M2todUZtYVJBTVEtNFFfeGRqUzk4X2pNRVRyakZpSHRtNzNwdVBFVnV6d05Bb3hRRUN6bGxVSWNfWEkx?oc=5"
+  },
+  {
+    "date": "2026-05-18",
+    "cat": "기업동향",
+    "title": "HBM 이어 저전력 D램까지... ‘큰 손’ 되는 엔비디아",
+    "source": "조선일보",
+    "desc": "HBM 이어 저전력 D램까지... ‘큰 손’ 되는 엔비디아 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaXBmWkJTQVhRbTkwbXdPUjJLLVJvSU1vZ2xTQTFQN0RKSnI1SFFORXlKNHhGSnhoMDhhMXVDcVJjemhxZW5HMzctQjRDbWFtYXhVeE9LWTdYal9BZnZvSmY3M0huZ293NFROZTJ2Vjl6S3o1NEctTktMRHFOenRZMEtrSQ?oc=5"
   },
   {
     "date": "2026-05-13",
@@ -1174,6 +1214,14 @@
     "source": "동아사이언스",
     "desc": "[표지로 읽는 과학] 中 생성AI 딥시크 R1 학습 비밀 첫 공개 동아사이언스",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Ia0EyT0RXaWZhbmdhYlpkQmcxNW5Fd01PcklsUzRzWUZ4bXo4S1U0WTY0ckl3V3JjSEt3aUs4UlM1QWdRRFl5U3dRSmNXNHEzN2NTdQ?oc=5"
+  },
+  {
+    "date": "2025-09-19",
+    "cat": "생성AI",
+    "title": "일본, 자국 특화 생성AI 개발 본격 착수",
+    "source": "알파경제",
+    "desc": "일본, 자국 특화 생성AI 개발 본격 착수. AI 분야의 최신 동향입니다.",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BQmM0NEdUYmVQaXowWFVLa0VLQVBYRDJubjNZdlEtSHhIdDk4aURxTUlmRjgxSU1sRW9Xc3FjVzhmamNTYTIzVGF3RFoxQTM0d2hHc25VMGtkbUJKZ2fSAW5BVV95cUxQdlBCNVJET2VGRFFPYU5nUUIzTV9tVFU2akh3NTdJVlh1U1V0dVNLcHJBaEFQcmU2U21wdDFVemw2VXNUcmQ0OFI4U1NVM2NOVVYwRzJYOVNPNGE1aEMwOWFIMU1LblJaS29KalJiQQ?oc=5"
   },
   {
     "date": "2025-09-17",
