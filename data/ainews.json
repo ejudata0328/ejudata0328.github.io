@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-06-25",
+    "cat": "생성AI",
+    "title": "앤트로픽, 또다시 구글 인재 영입…두 명의 Gemini 연구자 이탈",
+    "source": "Yellow.com",
+    "desc": "앤트로픽, 또다시 구글 인재 영입…두 명의 Gemini 연구자 이탈 Yellow.com",
+    "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPNlR6UXQtTWtvNXRnTURQTjMzWDRpbms3bXZLSHBpQmpyd194U3hwWlV5TUZ4eEV1SUhkM01ORVlCRW1zTVllaFEwV3RsVm9YSFl5U2tHRlRNZG84Uld3Z2N2VmFXTlIwZldvdWpNZDdHLUEyeVFPdlF2aDB5Szd5UXc4S2ZRNEd1Y3A0RTJjS0U4MDBoeWVzTnA0dFZLMTFlMVVtQ3JxMWVhSThUVEU5d3NEa21TNl9Ld25OcXhzaEdFYTE5NFZwRlVVVmNXMk5ETXlWQ0NkYkpTRnRhcEpFWUh0QnUtZGF0bFNoWDdEandzLUNrTU1BenJKeFpLa0FvUnJLTC1sdnBJVDZpM1VXOU5vRjFTOEduSm1ody1INGJkc3ZyR3NLbVptU25MeTlfWlRBOVBpeXAyUmx4N3ZyeVUyZFNHU3VJWkd6SFA5STU1MDdJU2tUYUNpOA?oc=5"
+  },
+  {
     "date": "2026-06-24",
     "cat": "연구/기술",
     "title": "[박진영의 비즈+] AI가 바꾼 반도체 시장…삼전·하닉, 주도권 확보 경쟁 갈수록 치열",
@@ -78,6 +86,14 @@
     "source": "브런치",
     "desc": "[ 6/24 ] AI & 데이터 트렌드. AI 분야의 최신 동향입니다.",
     "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5Ra3FRM3ZSLThqQ2phdVpMN1c4eHBoYm1jNjlqYmF0X2pvczhXUm1VWm5xQ1d5T3RCc1p4UVpfZ3RBei0x?oc=5"
+  },
+  {
+    "date": "2026-06-23",
+    "cat": "생성AI",
+    "title": "충북대, 멀티 LLM 기반 AI 플랫폼 공식 오픈…교육·연구·행정 혁신 기대",
+    "source": "gukjenews.com",
+    "desc": "충북대, 멀티 LLM 기반 AI 플랫폼 공식 오픈…교육·연구·행정 혁신 기대 gukjenews.com",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55TGNFWjhJT2FpXzNGQWc0SHBkMnBXUG5qb3NEUXVGa2FURWRZYlZqWEpaUUNwVkY0SFlGUHRGRXBzMnVqREQyZTF0NFM5RGxEajRIVWtOeWp0amVjNDlhZ0tLdk9PVW1ibk56TXB3?oc=5"
   },
   {
     "date": "2026-06-22",
@@ -768,6 +784,14 @@
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5POGwzNk9VQzBBUTBNdXBxTlhoaE1JSmk0NWhldHRlTGVMbTQ5bEN3ZjlkUzRFQnpfVGxwcFZQRktuYXh0ZlR4MEQ3ZkY5WG13TU95d0xmTnpOMU0wVXBXWA?oc=5"
   },
   {
+    "date": "2026-06-07",
+    "cat": "기업동향",
+    "title": "[젠슨 황 방한] 최태원 만나 \"HBM 부족해, 더 달라\"…AI 생태계 점검 투어",
+    "source": "딜사이트",
+    "desc": "[젠슨 황 방한] 최태원 만나 \"HBM 부족해, 더 달라\"…AI 생태계 점검 투어 딜사이트",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBueEhlYTZINmtCYnhWaU52eEtTM1pEQTlxYVpkQ1lvUUlHR2dEck50cDZMYzBRZWZYemkxMUp3NEUxUHFuTlZVdmhGczhBTTg?oc=5"
+  },
+  {
     "date": "2026-06-06",
     "cat": "생성AI",
     "title": "OpenAI, Anthropic, Google, 그리고 Microsoft CEO들, 의회에 합성 DNA 의무 스크리닝 입법 촉구",
@@ -838,6 +862,14 @@
     "source": "Yellow.com",
     "desc": "AGI 추진 속 텐센트, 전 오픈AI 연구원 야오 순위 영입해 최고 AI 과학자로 임명 Yellow.com",
     "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxNU2ZfaVdyaDBIS0JkNFEydWF6eVFGQmFaQjhyYXp5SGRiNUxSY0piZW5KQlJjMEZDdTdCQ2d5UVlTSnpKS0syd0ZaWll2U1BqTmNaNVJ4emc0V2xjdlg1V2Y5WjhDdUNJT29lZUR5cWx4N1ZwRVpzNVhuUDE2cFJZNzhsZkM3LXRoaDk5b3NiaVBVSlYwRGZ3ZEs5cWM4MS0yREI1dTVDVWFQZ0lPX1RzQXFLekVRajRoZHlweHB5dE0zdUdqNkEtRWhzTW9RN0NfalRvTkNSYlhod1pFb0lwb2s1eTgwTThzd2ItZXp5TkRQVEotcTlrdjJocTFjRDVIV28wYy1tY1hXTGVpc2pfUHlhOVNzUGJ6NUdGNTFvTkRkRzVYZjhCOWpGUFViRkdRaC0wbGxQRVpRZl83T3ZHd2NZX0NDaGdyYUd6aUl4YUVZcEl3QVktZXNUMEQ0Mnctc05iSUxTb3dKWFRzVTlXOFRpRE00YVZBc0x3VmloUTVNV3A3Yzh0OUpfNUZ4eWZhc3JXS3lGZWFZVmx4OGU4dUQ2VXdCWGlj?oc=5"
+  },
+  {
+    "date": "2026-06-05",
+    "cat": "기업동향",
+    "title": "젠슨 황 \"AI 공급망 조율차 방한...HBM 3사 모두 퀄 통과\"",
+    "source": "디일렉",
+    "desc": "젠슨 황 \"AI 공급망 조율차 방한...HBM 3사 모두 퀄 통과\" 디일렉",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lUlBpTlpGQ1RHd0ZFd2xQeUl1R2I2cFd2eEpNT3FJWnVWeUVGRUhrS0lWSWlYNVY4emttdzRWQkRLbzkxNy1aSFlFc0JoQ29TQm5qNmZpQUdaOG9MeV9Iak5XeG5JZw?oc=5"
   },
   {
     "date": "2026-06-04",
@@ -1798,6 +1830,14 @@
     "source": "AI넷",
     "desc": "인공 일반 지능을 보면 알 수 있을까? 튜링 테스트는 더 이상 존재하지 않는다. AI를 위한 새로운 IQ 테스트가 필요하다. AI넷",
     "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5DX0JDeVctYzZsUElTLTJkazRMNS0yUmlYSEZCdjR6OWxFUndjSFBicHUyMEJkVEZwSWxQRGZJYmdYUQ?oc=5"
+  },
+  {
+    "date": "2025-10-04",
+    "cat": "연구/기술",
+    "title": "\"UN도 AI로 보도자료 작성한다\"",
+    "source": "동아사이언스",
+    "desc": "\"UN도 AI로 보도자료 작성한다\". AI 분야의 최신 동향입니다.",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFMDlKMGJsRlVNN3JJaVlVWC1hMW90dm45WTl2V0Vra3JQSW1OTU5GZkNfeExCZUx6WGVJZkVUbVRmb3c1Y3g2NEZ0blZvSGRMMnJCOA?oc=5"
   },
   {
     "date": "2025-09-27",
