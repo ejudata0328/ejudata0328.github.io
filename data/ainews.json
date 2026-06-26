@@ -1,11 +1,27 @@
 [
   {
+    "date": "2026-06-26",
+    "cat": "기업동향",
+    "title": "카페24, 120여개 AI 모델 통합 관리 서비스 출시",
+    "source": "신아일보",
+    "desc": "카페24, 120여개 AI 모델 통합 관리 서비스 출시 신아일보",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Ea01kUldDNFA3ejNnQU9VZWhtMGlZUWhVQVptdmRackZCMEFOTWhxVXpIb3B1eWlhUVBVSkVTNzF6c04wakpQU0w0QjZ5WGJYMm1jM2tzVEFMc01jUlJnaHVCbUtLZE9yTU9UNXV5eHA?oc=5"
+  },
+  {
     "date": "2026-06-25",
     "cat": "생성AI",
     "title": "앤트로픽, 또다시 구글 인재 영입…두 명의 Gemini 연구자 이탈",
     "source": "Yellow.com",
     "desc": "앤트로픽, 또다시 구글 인재 영입…두 명의 Gemini 연구자 이탈 Yellow.com",
     "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPNlR6UXQtTWtvNXRnTURQTjMzWDRpbms3bXZLSHBpQmpyd194U3hwWlV5TUZ4eEV1SUhkM01ORVlCRW1zTVllaFEwV3RsVm9YSFl5U2tHRlRNZG84Uld3Z2N2VmFXTlIwZldvdWpNZDdHLUEyeVFPdlF2aDB5Szd5UXc4S2ZRNEd1Y3A0RTJjS0U4MDBoeWVzTnA0dFZLMTFlMVVtQ3JxMWVhSThUVEU5d3NEa21TNl9Ld25OcXhzaEdFYTE5NFZwRlVVVmNXMk5ETXlWQ0NkYkpTRnRhcEpFWUh0QnUtZGF0bFNoWDdEandzLUNrTU1BenJKeFpLa0FvUnJLTC1sdnBJVDZpM1VXOU5vRjFTOEduSm1ody1INGJkc3ZyR3NLbVptU25MeTlfWlRBOVBpeXAyUmx4N3ZyeVUyZFNHU3VJWkd6SFA5STU1MDdJU2tUYUNpOA?oc=5"
+  },
+  {
+    "date": "2026-06-25",
+    "cat": "연구/기술",
+    "title": "谷歌는 아프다",
+    "source": "odaily.news",
+    "desc": "谷歌는 아프다. AI 분야의 최신 동향입니다.",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xR2MtQ0E1eWdta2hOTFV4aE5LZVFQZ0FCUmgtdXBKY2NRY0NQdWFSc0d1QzdVdzVIOUpmYzdYTnJ3NG56REFuQUN0aWFvLUk?oc=5"
   },
   {
     "date": "2026-06-24",
@@ -1000,6 +1016,14 @@
     "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1YdVZscHJnNUtKR3JfLXUxUW5mcXZKRXdmdFNxeElIUWkwZ0xjdDkteDBMZ1R6QjNFNmtKSlZndmI?oc=5"
   },
   {
+    "date": "2026-05-29",
+    "cat": "정책/규제",
+    "title": "[AI 정책 좌담회]중소·중견기업 AX 확대…AI 컨트롤타워 역할 재편해야",
+    "source": "전자신문",
+    "desc": "[AI 정책 좌담회]중소·중견기업 AX 확대…AI 컨트롤타워 역할 재편해야 전자신문",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1kMUhpczFLUkxJZ2RmR3BUV2hyYm16Zk1wdEdlaFdJaXpJejBxcGZkcXZQUllCbjZ1bUZYa080QzhENU5ka2I2MENDTEVRUQ?oc=5"
+  },
+  {
     "date": "2026-05-28",
     "cat": "생성AI",
     "title": "Anthropic, Claude Opus 4.8 출시. OpenAI의 GPT 5.5 및 Google의 Gemini 3.1 Pro 능가",
@@ -1142,6 +1166,14 @@
     "source": "NK경제",
     "desc": "[단독] 북한, 오픈AI 자료로 생성형 AI 개발하고 있다 NK경제",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43eUd4S3VHZmdRUGNGUGRZYlU5RENCRTZkd2xXNjByV3RpcXJQeXhwOHZGbm5YQ1RrRndfZGlicTRERUotRG9kLWQ2cmUybjYwblFLZC11cmZxdHhyMnkzYXNiamZpRTMzZFHSAW5BVV95cUxPMzZGSFRGSTdKQmZpbzNKWFBjeEZqeWl3WmptVkpENllmMjJmZVRiNnF3NHA4blJqYVdRSXhZSWVjZzlUT01EUUpTaXU1dFhUMlljUzl1djZvT3FGR2xGMndkYUhNcElxVWJkenBGdw?oc=5"
+  },
+  {
+    "date": "2026-05-04",
+    "cat": "정책/규제",
+    "title": "글로벌 AI규제 전쟁…한국판 생존 전략 관건 [AI기본법 시행 100일③]",
+    "source": "데일리안",
+    "desc": "글로벌 AI규제 전쟁…한국판 생존 전략 관건 [AI기본법 시행 100일③] 데일리안",
+    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNUU1ISEF2dWJHTHlKNmxXbEFCMDM2RmFXcERGRXg2a3ZfbGVkcVU5SUxBZVc0Y1hMZXNtd292NTVieGs1empTNWVmMkxxWU5Nd2dWT1dUS3FRT2ZzS1djdG0tUUFJWkoyUDItR1dwZ3JmMnpNUVVJYzNTZ3BrU3JESUthX0ZJZ0U2YzJqX19yOE1sU1Y1TU9xWVlHNXVhQUF1TVpaYjJWQ000UzQ1WFdhOEJuWXZMQnVWNGI3REE0M0FPaXRBR2lHektCRG5BOTBxa2V2NW5sVTdLZVhZTlN4S1ViWmRJcVFRSjVDMkxPOUZ1cHBZNHI5UTU1UHZnZnUydW1hYlljek96YzF5X0HSAZACQVVfeXFMTm1lLXRVYnB6NkJwWjBfVy1nNkNBNWpKS2pwSHdDWk5SM01BVjF4VGFWQzNXYTlyM2pMWkJ0cDAtV1F4UTVUTmdpX1BHandZRGIyNmxQTjZEMGdkbnhEc2pzMVQ5NnAxSUcxOThwbl9xTG5NUl9aTWdCLUprYWl2VmlLaUR6SVdOUUtaZkwwRHk5Rll5UGRyeXVKU255WHVDXzNzTVU4R3pFUkdvREdjdHBRRUNTeldQRm9Lc2FMMUNVNkowcEt6RzFyaHQtMmhlNVFVaDhKNTU0emxlVTRhVk9pR2FVeG5yaW9QOHZFWGhrenJtcjEwS0JZXzFRRmNtMjVjRzA1MDNLWWJwNnI3Qmc?oc=5"
   },
   {
     "date": "2026-04-30",
@@ -1774,6 +1806,14 @@
     "source": "지디넷코리아",
     "desc": "얀 르쿤 \"5년 내 LLM 한계…AI의 다음 혁명은 월드 모델\" 지디넷코리아",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84Mjd5Y3liQVgzcTFsdnJueGtkbEU5Tmw4aVZKVWJkZnU5TExuQzVVR1hYYnNPQmRNTlBmTUR6Q2tPNFZFUmxyTHZQMm1SRHV6aXBPS3B3?oc=5"
+  },
+  {
+    "date": "2025-10-27",
+    "cat": "연구/기술",
+    "title": "여러분은 어떤 생성형AI를 사용하나요?",
+    "source": "브런치",
+    "desc": "여러분은 어떤 생성형AI를 사용하나요?. AI 분야의 최신 동향입니다.",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1uRkJCdVhUNVRlUGRQZi1kYW12LW9Jb3M2eFJ2Rm5LYmx3d19fVWRhUGhsN1dpVHd4RHY3WW1GWTBjQWo0N0tSTXNaSUJFQQ?oc=5"
   },
   {
     "date": "2025-10-25",
