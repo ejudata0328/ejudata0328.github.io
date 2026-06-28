@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-06-28",
+    "cat": "기업동향",
+    "title": "[AI 인프라 지도] AI 반도체 위험요소 7가지: 엔비디아·TSMC·HBM 랠리 뒤에 숨은 진짜 리스크",
+    "source": "네이버 프리미엄콘텐츠",
+    "desc": "[AI 인프라 지도] AI 반도체 위험요소 7가지: 엔비디아·TSMC·HBM 랠리 뒤에 숨은 진짜 리스크 네이버 프리미엄콘텐츠",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVE82WWIxZnlwemk1MHlBNHo0TDlsNUdUU0ZiWTFKX2RtQXA5dXIyTDQ5cGJDZ2tIYmVGanl5MGdXSzc0Rll1anY5Y2wwU0VNUXNOYVdQR2xjbXNIdTJFaERXcXpqVzNzUXhVcHFXYzkyZERTQV9NaExhZXB5VjBtRURLRTZCZGg0cGpodHBBcC1YQQ?oc=5"
+  },
+  {
+    "date": "2026-06-27",
+    "cat": "기업동향",
+    "title": "삼성전자는 HBM 전쟁에서 어떻게 반격해야 하나",
+    "source": "브런치",
+    "desc": "삼성전자는 HBM 전쟁에서 어떻게 반격해야 하나. AI 분야의 최신 동향입니다.",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8zRExZaVBIazQtWWxoNVRObVEzLV9lS2NaSnd5SzZyNzNNcVdwbXhEa1R4QnNDRVRmUm9tVkltTV9ubjNhTjJYSUkwSk9Odw?oc=5"
+  },
+  {
     "date": "2026-06-26",
     "cat": "기업동향",
     "title": "카페24, 120여개 AI 모델 통합 관리 서비스 출시",
@@ -552,6 +568,14 @@
     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5UVVREV3RtVVZZMUNIZHFucURFUkxsdkRNX0RmWVBfaVYyVmhhZFFxb3BIM2xlZlNLbzFrYzVJOUpLUDFROEE?oc=5"
   },
   {
+    "date": "2026-06-09",
+    "cat": "생성AI",
+    "title": "미래에셋생명, 업계 최초 LLM기반 생성형 AI 언더라이팅시스템",
+    "source": "연합뉴스",
+    "desc": "미래에셋생명, 업계 최초 LLM기반 생성형 AI 언더라이팅시스템 연합뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xMkZUaF9kR19LR1RGSHZyUVZwN0FTU0lCU3pfd3RrZFJzWVZGZUZSQzFNejFHUXJFdlpRbGZ2Qm1oeENnbkJCRmktUjZXbVBZUk5lbXBXTHhiTk3SAWBBVV95cUxNVDhDazJMNDdEUk1ycEM5UEt4TEJaN1pNLW5WeDFsS3ZzYW9CbGhzbGZ0ZjN3V19rS2VqN1NWam01SmlNQkR3Vm1iNi1lRUJzLW4xWnhaU2ZWaUR6WHhkU3U?oc=5"
+  },
+  {
     "date": "2026-06-08",
     "cat": "기업동향",
     "title": "‘HBM 넘어 AI 팩토리까지’… 엔비디아·SK하이닉스, 미래 반도체 지도 다시 그린다.",
@@ -886,6 +910,14 @@
     "source": "디일렉",
     "desc": "젠슨 황 \"AI 공급망 조율차 방한...HBM 3사 모두 퀄 통과\" 디일렉",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lUlBpTlpGQ1RHd0ZFd2xQeUl1R2I2cFd2eEpNT3FJWnVWeUVGRUhrS0lWSWlYNVY4emttdzRWQkRLbzkxNy1aSFlFc0JoQ29TQm5qNmZpQUdaOG9MeV9Iak5XeG5JZw?oc=5"
+  },
+  {
+    "date": "2026-06-05",
+    "cat": "기업동향",
+    "title": "[젠슨 황 방한] 젠슨 황 \"HBM4 공급 3사, 인증 완료…모두 납품 경쟁 중\"",
+    "source": "딜사이트",
+    "desc": "[젠슨 황 방한] 젠슨 황 \"HBM4 공급 3사, 인증 완료…모두 납품 경쟁 중\" 딜사이트",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1maXBvZkRLcnU2aWwtRlYzMUZkamdyS2pWNzRkNkdJQ0N5QWxNWVRhQXVoZWxNQkwyOVkwTVUydTMxSWQxRFFxVHE2c3RDaFE?oc=5"
   },
   {
     "date": "2026-06-04",
@@ -2214,6 +2246,14 @@
     "source": "전자신문",
     "desc": "'독자 AI 모델 개발사업'에 15개 컨소시엄 몰렸다 전자신문",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Sdk81Q3FBakFHN2N2Yjd0NFBQdmdvNWJWb3ctdFJhaUxmV0NWOVd0dVhzTHpUNWtRcUNmWVc4dExERERCdTZQdGs5R0FBdw?oc=5"
+  },
+  {
+    "date": "2025-07-21",
+    "cat": "국내AI",
+    "title": "'국가대표 AI' 공모에 15개 팀 접수…네이버·LG 양강 속 스타트업도 도전장 [AI브리핑]",
+    "source": "아이뉴스24",
+    "desc": "'국가대표 AI' 공모에 15개 팀 접수…네이버·LG 양강 속 스타트업도 도전장 [AI브리핑] 아이뉴스24",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE94dUljWHpTdm92dkJpNGJNR25qaVlsWnBNUzVJS2trdHpWZXlQMHV0MkRtdUlGOHRTS0xFTWZ0T1hNcV9BSkROYmg4b20?oc=5"
   },
   {
     "date": "2025-07-20",
