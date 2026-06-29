@@ -1,11 +1,27 @@
 [
   {
+    "date": "2026-06-29",
+    "cat": "정책/규제",
+    "title": "글로벌 AI 규제 ‘폭증’…정책 변수 다변화에 불확실성 ‘촉각’",
+    "source": "디지털데일리",
+    "desc": "글로벌 AI 규제 ‘폭증’…정책 변수 다변화에 불확실성 ‘촉각’ 디지털데일리",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0yY194eU1FU3U1NFp4ZDh0ZWEyRUVxSFFFbWdrbjlHR1pTeWh0VlFpMk9oYVRud0dRdnVzakNJQ2NGV2J0Zm1FSndINTh3TU50T2VmdEJnZG9DZ1doU2VXbG5UTE0?oc=5"
+  },
+  {
     "date": "2026-06-28",
     "cat": "기업동향",
     "title": "[AI 인프라 지도] AI 반도체 위험요소 7가지: 엔비디아·TSMC·HBM 랠리 뒤에 숨은 진짜 리스크",
     "source": "네이버 프리미엄콘텐츠",
     "desc": "[AI 인프라 지도] AI 반도체 위험요소 7가지: 엔비디아·TSMC·HBM 랠리 뒤에 숨은 진짜 리스크 네이버 프리미엄콘텐츠",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVE82WWIxZnlwemk1MHlBNHo0TDlsNUdUU0ZiWTFKX2RtQXA5dXIyTDQ5cGJDZ2tIYmVGanl5MGdXSzc0Rll1anY5Y2wwU0VNUXNOYVdQR2xjbXNIdTJFaERXcXpqVzNzUXhVcHFXYzkyZERTQV9NaExhZXB5VjBtRURLRTZCZGg0cGpodHBBcC1YQQ?oc=5"
+  },
+  {
+    "date": "2026-06-28",
+    "cat": "정책/규제",
+    "title": "AI 규제의 한계와 현실주의적 거버넌스의 모색",
+    "source": "디지털포용뉴스",
+    "desc": "AI 규제의 한계와 현실주의적 거버넌스의 모색 디지털포용뉴스",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YOUVNUlYwOW9VaHJZVW52bUFUeHdxa1RMZTVQVjBsSGlxVW55aURhamtTbDZRaE9PT1JtRktKRU5mbXNTUENNQVVwU1EwRFlKUWhLZUNvMUxnaXRTVTJYUzJ0bEFtRXFVbnhvZQ?oc=5"
   },
   {
     "date": "2026-06-27",
@@ -1104,6 +1120,14 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWczBzUlV5R01lcElDdDRjaWVxS01ZU2lZUHFucFg5eFhUNGdkRlB4eUlZT0pldDZjWUFTS3phQzh3alBkWUFSbWJqbHNxS040a3E2MDlCTFhCeHNIbTdFNGhyQUdoV2dzUWthbnhoazhYNGs?oc=5"
   },
   {
+    "date": "2026-05-22",
+    "cat": "기업동향",
+    "title": "엔비디아 차이나 공백… 삼성·SK HBM 전선 '숨은 변수'",
+    "source": "초이스스탁US",
+    "desc": "엔비디아 차이나 공백… 삼성·SK HBM 전선 '숨은 변수' 초이스스탁US",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iSWFsY1VJc3hibThTUTZ6NGdhZkVaZjl4RjBVYnFoOW1xLUdSdnB1aXpBSnBpaU1GUVZ6OFBnMVFDbjBKbDRGUmVGeERqNk9KT0lRTW15SlE1VGtkMEJKeTN4MGZMQzQ?oc=5"
+  },
+  {
     "date": "2026-05-21",
     "cat": "국내AI",
     "title": "‘GG’인가 ‘New Game’인가…AI 기본법 앞의 한국 게임산업 [BKL 게임&비즈리포트]",
@@ -1126,6 +1150,14 @@
     "source": "지디넷코리아",
     "desc": "챗GPT 1위는 그대로인데 클로드 사용자가 1년 새 12배 폭증한 이유 지디넷코리아",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lWmNzbjZ0aVlieTB2R1dpWjlWUjVhdS1TYUltWGNJV3VkcnZMOF93Z0lHN09jNVJNZE5UNHE2OXhUQ2tQVGppU3A3UV9saDBGOGkxektR?oc=5"
+  },
+  {
+    "date": "2026-05-20",
+    "cat": "기업동향",
+    "title": "엔비디아 빗장 풀자 중국은 AMD 불렀다…한국 HBM ‘운명의 판 재편’",
+    "source": "글로벌이코노믹",
+    "desc": "엔비디아 빗장 풀자 중국은 AMD 불렀다…한국 HBM ‘운명의 판 재편’ 글로벌이코노믹",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYThnUEM4TEN1R0o1VWVoeHhORThFWVpwVmlsY3hYeDM4ZTFFeXVjVllsSHl6M1lEbXktajBNRTJhN0hlYklHaWZuM0VjVHczSVYzVGp2WnBKQlc4S0Y5XzQ3T0hQMnpqRVRnT0NWM0NrNmx2eTI0Q3ZPZ1hfZTNPV2NLUWZtU0tH?oc=5"
   },
   {
     "date": "2026-05-18",
@@ -1174,6 +1206,14 @@
     "source": "메디칼타임즈",
     "desc": "\"LLM+의료영상\" 새 공식 제시…제이엘케이, JOOMED 공개 메디칼타임즈",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01WnpvRWlvOVZQVDRsNG1YMDl6cENWcjVWMjdTeTBUbTlVQU52YzRTOTM4SlIwSjl2TG83UnRNTmRHblJ1ckQxR2JvSGpZUmF1UF9WTUY5VFdwM2h2clRaSmpfNWpmWHZiUzJCMUlxOENad2s?oc=5"
+  },
+  {
+    "date": "2026-05-10",
+    "cat": "기업동향",
+    "title": "마이크론, AI 메모리 전쟁 본격 돌입...HBM 증산으로 엔비디아 공급망 확대 노린다",
+    "source": "레디앙",
+    "desc": "마이크론, AI 메모리 전쟁 본격 돌입...HBM 증산으로 엔비디아 공급망 확대 노린다 레디앙",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UZ2FFUElXSFJYdkJjWlNxajVyWWRkMUExM0NMU0o4NVh1djUwM1lwcXNpU2dQd2dRc1FhM01YQzI4MWMwUi1YZzJFa2p1RDlwb05RVkVhQ0ZGaHRiUE5TMmVxbUVWYlNy?oc=5"
   },
   {
     "date": "2026-05-08",
@@ -1262,6 +1302,14 @@
     "source": "브런치",
     "desc": "Claude·GPT·Copilot·Gemini 사용리뷰 브런치",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpbTNnWFhXTGhKSGFzVU5UUXowRWFwaWhJbmVlODc3SUNibURRQW9kN2JuelkyU2tKZWlrejlVTWFGWGNCTDVjdUJudmwtMWNfSVE?oc=5"
+  },
+  {
+    "date": "2026-04-09",
+    "cat": "연구/기술",
+    "title": "오픈AI, AI 안전 연구 지원 ‘세이프티 펠로십’ 발표… 외부 연구자에 주당 약 583만 원 지원",
+    "source": "AI 매터스",
+    "desc": "오픈AI, AI 안전 연구 지원 ‘세이프티 펠로십’ 발표… 외부 연구자에 주당 약 583만 원 지원 AI 매터스",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzR2M1a1Vjc3c4eEVYUkpiN0Z4VGVDalZieGhadExISlZlVmduWF9HUmhqYkFrRjd3ZnllSk55ZFJzTFV5SGdMazQyaG1SOVdHbHhZUw?oc=5"
   },
   {
     "date": "2026-04-08",
@@ -1414,6 +1462,14 @@
     "source": "팜이데일리",
     "desc": "'AI 기본법' 닻 올렸다… 루닛·뷰노 등 'K-의료 AI' 규제 영향은 팜이데일리",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hVFFRc3FVTkJSUTZVWjM5WFp4RHBMTUh5TGo5eFFSYkZTZ190ZEtYRWFNbVRUQ01hLVdEWlhhdkh0MERlOFVmWFhidDgwN3o1SFRIcENjLTc1T0RVSF84MzliazZLVHA1cXhpaThR?oc=5"
+  },
+  {
+    "date": "2026-02-26",
+    "cat": "기업동향",
+    "title": "엔비디아, ‘AI 거품론’ 잠재웠다 …삼성·SK, ‘AI 반도체 특수’ 지속되나",
+    "source": "CEO스코어데일리",
+    "desc": "엔비디아, ‘AI 거품론’ 잠재웠다 …삼성·SK, ‘AI 반도체 특수’ 지속되나 CEO스코어데일리",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9yaVBUbkU5cUZGVWJPMHVZWkxnTk5UaHNYZ2FsMi01NUh1X05wVGdyNnNxUmEyOTdFMXk2ZjhVYlBIeE1jb2NJSERpSnBjR01UaWIxWE1uRUNOQ19qYUpuQmR2T1FDeTFn?oc=5"
   },
   {
     "date": "2026-02-25",
@@ -1718,6 +1774,14 @@
     "source": "Xpert.Digital - Konrad Wolfenstein",
     "desc": "KI-Marktanteile | ChatGPTs Dominanz bröckelt: Warum der KI-Marktführer plötzlich fast 20% Marktanteil verliert Xpert.Digital - Konrad Wolfenstein",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRHN4UE9vX2Zhb0FtaXdtRW1WakRyN0FCX1dxQ2gxdHp1VXNuRGl0YV9mYWhCd3d5dzlLWGJqTy1jd3ByLVV3WFphZ3pGWGVZUGpGNTlheXNmLVV4ZzJPMjNrTVB0dWNPanBqVVZwYVVCSTBDU2dMeWFnOVlKdU96NdIBiAFBVV95cUxQekx4LVhrU2NsREdpQjlObFVIT1VkSU1SX1hEYl9FaUhEQm5mQjgtTGNERkxPWTRwS3Z1UGNXcmp4OUItcEFMZkxqTUFmaDZmNG03XzEzLXhWQi11dVpqcGdnNmZGaG9zTENpM3BxNFcwelh2bmozSlRnRmkwdXYxR3ZKbWlYREtQ?oc=5"
+  },
+  {
+    "date": "2025-12-28",
+    "cat": "기업동향",
+    "title": "삼성·SK·마이크론 3사, HBM 16단 격돌…엔비디아 개발 주문",
+    "source": "전자신문",
+    "desc": "삼성·SK·마이크론 3사, HBM 16단 격돌…엔비디아 개발 주문 전자신문",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE81TDhfdG11anBfdm5zcC03VVRQN1pFNHE5UG5tem1xcHNidHdlUUhCRThMRnB4bm14RDFCUXNocVl6QlNUY0hRRk1DR2htUQ?oc=5"
   },
   {
     "date": "2025-12-23",
