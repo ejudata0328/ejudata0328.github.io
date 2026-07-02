@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-02",
+    "cat": "정책/규제",
+    "title": "UN “AI 발전, 규제 역량 앞질러”… AI 기본법 시행 앞두고 안전성 시험대",
+    "source": "IT조선",
+    "desc": "UN “AI 발전, 규제 역량 앞질러”… AI 기본법 시행 앞두고 안전성 시험대 IT조선",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SaVJaOWUxejJLVW5JNkIzVTV0MVhZcHJEZThiekRJcm9GQ0dyVEZfb1UwMy1rUklkdHFhaDRCVDhac0RjTzhJc0lMR0VZRC14b3N0bUY1U1NoTUNnel8xQ2hXMXNIQmdNNHJMN0o5bmViMm9E0gF0QVVfeXFMT1JpUlo5ZTF6MktVbkk2QjNVNXQxWFlwckRlOGJ6RElyb0ZDR3JURl9vVTAzLWtSSWR0cWFoNEJUOFpzRGNPOElzSUxHRVlELXhvc3RtRjVTU2hNQ2d6XzFDaFcxc0hCZ000ckw3SjluZWIyb0Q?oc=5"
+  },
+  {
+    "date": "2026-07-02",
+    "cat": "연구/기술",
+    "title": "[현장] AWS \"공공기관도 AI 선택권 있어야\"…정부 \"혁신에 무게\"",
+    "source": "지디넷코리아",
+    "desc": "[현장] AWS \"공공기관도 AI 선택권 있어야\"…정부 \"혁신에 무게\" 지디넷코리아",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1lZU5TZHlhNTBuTzRNUVJwZTlyS0ZQUUJzU1pMZi1xR2NZMGxySl9RUHBGMm0tZVRUaHhaNnhYRWgwdy0xV1pCZ1paY3R5ZndOWFF2Y19n?oc=5"
+  },
+  {
+    "date": "2026-07-01",
+    "cat": "생성AI",
+    "title": "어떤 AI 모델을 사용해야 할까요? ChatGPT, Claude, Gemini, Grok을 위한 2026년 가이드",
+    "source": "Brave New Coin",
+    "desc": "어떤 AI 모델을 사용해야 할까요? ChatGPT, Claude, Gemini, Grok을 위한 2026년 가이드 Brave New Coin",
+    "link": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxOSzdKYlRJbG53cVlfMFJLRzQyb0NMTGYxTUhiX3BWSExMMXhXWFlMVmhTZFpQcE5ZZHhsRHV5RG5nbWZnQlhwTWhqemV1dGJERzdYd2VvVlZkbzlNanNTd2lVcFJEWDlqcDJ0aDlrQTltRk85MEZnbU1IdWhaM3NfaXJ4RXlGRXNEaDlzbHA4Xy1LWFVac21xSWpKcWo0OW0tSnJWcUhnbFp6RXg0cDFLTzFVcHg0Mm8xSUNxdG9rMXVpblBTdDMxekswMXVVUVV6eC10QkhYMTg3eUEyXzdjeVA5VDNPVVUxbW10eW15Rm9LTzZzN3V5MFhNTEtaZzZ2bUxfQmlHdGVUMnRTZGdhOFQ5aGhGVEJ1SjFJdVIxZUFLQjd5YjJZNVBEdkRrMzA5Y281c1F6TmpIbmZyN1JESmJ0SlNObkhQdVd2N28tOHdoT3JRUEdfXzU4aXRUVUw4N2xESmpNWUFhRFZyd2RmYTRZblVwRG5NUDJ6Yy12Nm9BR0M5LXp6cEU5VllmX013dHNNMjVHT2NLOTA5c3E4OVJFaWdSLWpwQXJxVFhpeUJwZU1yVDJZbDFxdVQ0ZzhWSVZERHhHbnJMQVhDWnFOeDhoVWNuRm5JdWpUNg?oc=5"
+  },
+  {
+    "date": "2026-07-01",
+    "cat": "연구/기술",
+    "title": "월드컵 토너먼트 예측, AI 모델별로 실력 차이가 이렇게 크다고?",
+    "source": "odaily.news",
+    "desc": "월드컵 토너먼트 예측, AI 모델별로 실력 차이가 이렇게 크다고? odaily.news",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1cU5td2ZWdUtkb21oOFIzNEFFdHA5Q0d3ZXEwbngwdno5MmsxQjZjV1NHc1FvcGYzTDFUSF90NnZHbjJnTDlyYm12WVg2TTQ?oc=5"
+  },
+  {
     "date": "2026-06-30",
     "cat": "연구/기술",
     "title": "\"국회도 AI 드라이브\"… '자천' 이언주 과방위원장 기대감",
@@ -150,6 +182,14 @@
     "source": "gukjenews.com",
     "desc": "충북대, 멀티 LLM 기반 AI 플랫폼 공식 오픈…교육·연구·행정 혁신 기대 gukjenews.com",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55TGNFWjhJT2FpXzNGQWc0SHBkMnBXUG5qb3NEUXVGa2FURWRZYlZqWEpaUUNwVkY0SFlGUHRGRXBzMnVqREQyZTF0NFM5RGxEajRIVWtOeWp0amVjNDlhZ0tLdk9PVW1ibk56TXB3?oc=5"
+  },
+  {
+    "date": "2026-06-23",
+    "cat": "정책/규제",
+    "title": "\"AI 금융, 규제보다 속도가 뒤처질 판\"…핀테크 업계, '혁신 친화적 정책' 촉구",
+    "source": "네이트",
+    "desc": "\"AI 금융, 규제보다 속도가 뒤처질 판\"…핀테크 업계, '혁신 친화적 정책' 촉구 네이트",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uR3BfMlIzR0s3b3gwdmZEcFMyVm15cmdFZnhVVWttSndZQXZLem1LVnlTWEloaVRXdU4xTHZvSXNBRXhyQnc1NlVvVzVZdmdJWlBN?oc=5"
   },
   {
     "date": "2026-06-22",
@@ -614,6 +654,14 @@
     "source": "연합뉴스",
     "desc": "미래에셋생명, 업계 최초 LLM기반 생성형 AI 언더라이팅시스템 연합뉴스",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xMkZUaF9kR19LR1RGSHZyUVZwN0FTU0lCU3pfd3RrZFJzWVZGZUZSQzFNejFHUXJFdlpRbGZ2Qm1oeENnbkJCRmktUjZXbVBZUk5lbXBXTHhiTk3SAWBBVV95cUxNVDhDazJMNDdEUk1ycEM5UEt4TEJaN1pNLW5WeDFsS3ZzYW9CbGhzbGZ0ZjN3V19rS2VqN1NWam01SmlNQkR3Vm1iNi1lRUJzLW4xWnhaU2ZWaUR6WHhkU3U?oc=5"
+  },
+  {
+    "date": "2026-06-09",
+    "cat": "기업동향",
+    "title": "삼성전자 \"엔비디아와 차세대 HBM 공급 논의\"",
+    "source": "코리아리포트",
+    "desc": "삼성전자 \"엔비디아와 차세대 HBM 공급 논의\" 코리아리포트",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54Q2MwSXdlWU9BVHQ2UkpTZHlYbUNoeDZmNEhxdktkd1lVZmNFLU5jLXRWNDZUdkJhcWJLdjVZbkNEWlZyRDRoWVRXYWd2QWRwUFV4M1oxNkJIaFJuRlJuOTY0cGwzREhBSGxHQnM5RS0?oc=5"
   },
   {
     "date": "2026-06-08",
@@ -1784,6 +1832,14 @@
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE03SFMzMUpCeklEUTZETXVnWnNJLW5WRVN3UWNrRXIxc241dTN2X3RVQjFWRFdlcXMxUEdmQUN6bHZRdnBDMjRfSHlTN1BkeTB4dFN0dHdtSdIBU0FVX3lxTE8zV3p4dWw4TWgyNjQ4OERRSVFJcVptOEt5dkJqUGo3eUc5dnZuZmlSVWo4Nl96TWE4dFF2WVBnbUhsVmVnejhUcm9oT1dlc1pkbDFj?oc=5"
   },
   {
+    "date": "2026-01-13",
+    "cat": "연구/기술",
+    "title": "홍콩 증시 입성한 중국 AI… 미·중 AI 패권 경쟁 가속",
+    "source": "IT조선",
+    "desc": "홍콩 증시 입성한 중국 AI… 미·중 AI 패권 경쟁 가속 IT조선",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81LUcxMlNZeDdzbmZFa2VYbnBzQmxiUUhaY2dyVXEySXR1LURBWldWSXZWSlNmQnd1aXJMT0VIVTByRERtSFUwRzRqNDVleDlyZDQtUXR0Y2YxcFVoYkhielY5ZzBYZXJrVDdJOFM4ZWrSAXRBVV95cUxNN2wyWjBMSlNkUGVHTkNXMXRGRF9OdFZLNV9rVWl5RzRIMHZhcXQyMjFySHhwTUhJNEVQcW4ySGxpcXNSdzh3WmdEWmp6UnNlMDQzcTlxTjNiYWVlaGhVeUVuLVp4bnZoM3N5YWo2UE5EZ0hudg?oc=5"
+  },
+  {
     "date": "2026-01-07",
     "cat": "연구/기술",
     "title": "크롬 웹스토어에서 AI 대화 훔치는 악성 확장 프로그램 발견…90만 명 피해 우려",
@@ -2112,6 +2168,14 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iRGRSMl9aZE50SEdWOVdrc2V4QnZpYTR6Qm1mR0VMUUlmX1pwbUpnc29ubko1c3h3ZHlKM1I4eGR3MnpqX3BRMXRsQjRDV3AwOEJPNjdpWmUzajhxYVlBYmc0eVdyaHpwdmhKRlAyY3fSAXRBVV95cUxPWWhvVlNlckwxRVRubG9Dc0lpdTVLbWtod1Q4N1BoZTBpZmxObHVhX3dfMHFUWXRJOGVQb2w3Y0hJWE84b2JGWGpKaUdTOE5leG5hYTdUa2NQVjFzYjZsTUlZVS1mQl9IUW1UcFdVVGVmWVQ0LQ?oc=5"
   },
   {
+    "date": "2025-08-08",
+    "cat": "생성AI",
+    "title": "서울시, 행정업무에 자체 LLM 도입…'글로벌 AI 행정도시' 시동",
+    "source": "한국정보기술진흥원",
+    "desc": "서울시, 행정업무에 자체 LLM 도입…'글로벌 AI 행정도시' 시동 한국정보기술진흥원",
+    "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1rVHRST0NYeVhwRm5xalZCQk9tRTRqQmxMLVVKcUZTc2VEZDZEQmJodFRtUVVnVU9XNnJJVU5NNA?oc=5"
+  },
+  {
     "date": "2025-08-06",
     "cat": "연구/기술",
     "title": "생성형 AI 개발·활용 위한 개인정보 처리 기준 나왔다",
@@ -2310,6 +2374,14 @@
     "source": "연합뉴스",
     "desc": "[AI픽] 네이버, 트웰브랩스와 '국가대표 AI' 개발 …글로벌 조준 연합뉴스",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BaVdsY0dJV3RfN3A5N3A2VkdZWVNUR3pHdHVzcE5BcS1wSWhaVXhRYWhCYWVvNUN1VXBOb3ZacmR2RXdMQUUyaktKdFpDUC1pV1NDa3NESGNheGPSAWBBVV95cUxNeDl3RVZhR3owV1NJRl9CelJtVGNLdzJjX05DQ1lrOUhwT3pBdHNPcW1uRGFyOERUdUlyVjZtd0NVZ19FRjloNmpvX3JOOGwxSjN0UkdFY0NRTWlWX3VxWWk?oc=5"
+  },
+  {
+    "date": "2025-07-23",
+    "cat": "연구/기술",
+    "title": "'독자 AI 모델 개발' 정예팀 구성·공개 전략 제각각",
+    "source": "전자신문",
+    "desc": "'독자 AI 모델 개발' 정예팀 구성·공개 전략 제각각 전자신문",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Mc04tNG5vaTNaWko1blZpV2wycGtqOEcweDM3X0lFLWc4V1N3S3ptYnBKVjRubV9YSjFfYTllQnFJcHdFYWNwdGJNd1RWdw?oc=5"
   },
   {
     "date": "2025-07-22",
