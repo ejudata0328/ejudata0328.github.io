@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-08-14",
+    "cat": "기업동향",
+    "title": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수",
+    "source": "비즈니스포스트",
+    "desc": "엔비디아 차세대 AI 반도체 '파인만' 양산 서두르나, 삼성전자 SK하이닉스 HBM 경쟁에도 변수 비즈니스포스트",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BZThJckF2RlR3cVdldGZxbWVrNTZpMVRoYkQ3bGlPREF3cDBFV2dWeXowQ3paVmFTV2hzSVhpZUpETUdnR0lDa3FNTHEzODdYOUwxMGNWUWQ0dk9vdDZzVzBWbkJtdnR1a0NjTWZkaVFxMkk?oc=5"
+  },
+  {
+    "date": "2026-08-14",
+    "cat": "정책/규제",
+    "title": "AI 만들고 쓸때 지켜야할 AI윤리 8월 나온다…규제 아닌 자율규범",
+    "source": "네이트",
+    "desc": "AI 만들고 쓸때 지켜야할 AI윤리 8월 나온다…규제 아닌 자율규범 네이트",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vZ1dCOXI4Zmk5MjZQeTFWNldjZk1FOHYzS0F3c3lJYXVieWxGMnFpMFRHT3JwSWlHd0k4Qk1nNkNaM0JHN1Z5SFl5NWNoVGY4Y2Z3?oc=5"
+  },
+  {
+    "date": "2026-08-14",
+    "cat": "정책/규제",
+    "title": "[AI프리즘] AI 시대 윤리도 바뀐다…\"규제 아닌 혁신의 기반\"",
+    "source": "네이트",
+    "desc": "[AI프리즘] AI 시대 윤리도 바뀐다…\"규제 아닌 혁신의 기반\" 네이트",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aXzZLbnlxQnBkaEhOTTgxZENlbUdnRXFSYXMtamxIMG1NSHBHQ0FvMEdIZ2s4WklUMFZoSG5YdzVaSGxpSVJFN0NwMlBrWWd0eHVr?oc=5"
+  },
+  {
     "date": "2026-08-12",
     "cat": "기업동향",
     "title": "SK하이닉스, 27일 美 인디애나 팹 착공식…AI 메모리 거점 구축 속도",
@@ -3974,29 +3998,5 @@
     "source": "AI타임스",
     "desc": "미디어코어시스템즈, LLM 기반 생성 AI 베타 서비스 내년 출시 AI타임스",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15eHdHamRQRXp2Z2NjdnNaR3lqUnJWTVdrdGpGSUFhTWp5LXVoRFVadW02MW9zaFh2VHplT1F5eklvSy1DXy1rd1MtUmlGc00tXzM2VUVBb1liSXl1UWdnZlFSRzN5ZU5YV3c?oc=5"
-  },
-  {
-    "date": "2023-09-26",
-    "cat": "생성AI",
-    "title": "생성형 AI, 이제는 성능 싸움이다! LLM(거대언어모델)의 모든 것",
-    "source": "LG Innotek",
-    "desc": "생성형 AI, 이제는 성능 싸움이다! LLM(거대언어모델)의 모든 것 LG Innotek",
-    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1lU0wxNGhBRmFSbXJIaVhsdUU4cmdOYzBSX1A4QlUzVUE5N0o3dlB6RHB5TFhmWkJPNFZNRkVvbWRFUTNja2c?oc=5"
-  },
-  {
-    "date": "2023-09-18",
-    "cat": "생성AI",
-    "title": "업스테이지 \"자체 LLM, 생성 AI 활용 플랫폼 'Poe'에 등록\"",
-    "source": "연합뉴스",
-    "desc": "업스테이지 \"자체 LLM, 생성 AI 활용 플랫폼 'Poe'에 등록\" 연합뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rV1dxbFRYZmQwekNmaXd0dXBucGw5TnhhTDR4dTVybUFmdFJmekdzbFRkSWpYVzhRRzlSb1gyNUJLdzR1SkUwRm1WckpOVGt4Ymc5OTZub0hDMHPSAWBBVV95cUxNSUhFV0pjX3lEYVAxOG5naDlBTW9Yb1dSUGc3bEFVZ0kyWkpHd0RGLTZNaVdvV2hVTXZNd3BnUEp6VHpyQmpmc1gyN0VZT3BENlRWZjl0SkhrR1UwSVllODY?oc=5"
-  },
-  {
-    "date": "2023-08-18",
-    "cat": "생성AI",
-    "title": "ChatGPT를 넘어, 생성형 AI Generative AI 의 미래 – 1편 | 인사이트리포트 | 삼성SDS",
-    "source": "Samsung SDS",
-    "desc": "ChatGPT를 넘어, 생성형 AI Generative AI 의 미래 – 1편 | 인사이트리포트 | 삼성SDS Samsung SDS",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14d1NCeHdtR2s2OW9fbXRWakp3N0Mydl9DYm5mVGctMGZCSFI0MzhENTBPOVgtaUYyV1hDVS11bmloSUdnQmE0V2FVRGhBcnQ2azliTmhSZlREZUNHWHAyNGtzWEg5NjNZdmp4TWNubHY5WGd1eHlTeA?oc=5"
   }
 ]
