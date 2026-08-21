@@ -30,11 +30,14 @@ jobs:
       - name: 🕷️ AI뉴스 크롤링 실행
         run: python scripts/crawl_ainews.py
 
+      - name: 🗺️ 사이트맵 lastmod 갱신
+        run: python scripts/update_sitemap_lastmod.py
+
       - name: 💾 변경사항 커밋 & 푸시
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ainews.json
+          git add data/ainews.json sitemap.xml
           if git diff --cached --quiet; then
             echo "변경사항 없음 — 스킵"
           else

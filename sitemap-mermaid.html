@@ -264,34 +264,35 @@ graph LR
     <!-- 3. 조직 구조 -->
     <div class="diagram-section">
         <h2><span class="section-number">3</span>조직 구조</h2>
-        <p class="desc">이주데이타시스템 조직 구성도 (CEO 직속 4개 부서)</p>
+        <p class="desc">이주데이타시스템 조직 구성도 (대표이사 직속 4개 부서, 2026년 기준)</p>
         <div class="mermaid">
 graph TD
     CEO["대표이사<br/>CEO"]
-    CEO --> MG["경영지원팀<br/>Management Support"]
-    CEO --> SI["SI사업팀<br/>SI Business"]
-    CEO --> SW["솔루션개발팀<br/>Solution Development"]
-    CEO --> RF["RFID사업팀<br/>RFID Business"]
+    CEO --> DEV["개발부<br/>Development"]
+    CEO --> SAL["영업부<br/>Sales"]
+    CEO --> SUP["기술지원부<br/>Technical Support"]
+    CEO --> RND["R&D 기술연구소<br/>R&D Institute"]
 
-    MG --> MG1["인사/총무"]
-    MG --> MG2["재무/회계"]
+    DEV --> DEV1["패키지 개발"]
+    DEV --> DEV2["웹 SI 구축"]
+    DEV --> DEV3["재물조사 APP"]
 
-    SI --> SI1["시스템 통합"]
-    SI --> SI2["컨설팅"]
+    SAL --> SAL1["제안/계약"]
+    SAL --> SAL2["컨설팅"]
 
-    SW --> SW1["패키지 개발"]
-    SW --> SW2["유지보수"]
+    SUP --> SUP1["유지보수"]
+    SUP --> SUP2["장비 정기점검"]
 
-    RF --> RF1["RFID 구축"]
-    RF --> RF2["하드웨어 연동"]
+    RND --> RND1["RFID 요소기술"]
+    RND --> RND2["프레임워크 개발"]
 
     classDef ceo fill:#1a5276,color:#fff,stroke-width:2px,font-size:16px
     classDef dept fill:#2980b9,color:#fff,stroke-width:1px
     classDef team fill:#d6eaf8,color:#1a5276,stroke:#2980b9
 
     class CEO ceo
-    class MG,SI,SW,RF dept
-    class MG1,MG2,SI1,SI2,SW1,SW2,RF1,RF2 team
+    class DEV,SAL,SUP,RND dept
+    class DEV1,DEV2,DEV3,SAL1,SAL2,SUP1,SUP2,RND1,RND2 team
         </div>
         <div class="legend">
             <div class="legend-item"><div class="legend-color" style="background:#1a5276"></div> 대표이사</div>
@@ -420,8 +421,10 @@ graph TD
     ABOUT_G --> AB1["about.html"]
     ABOUT_G --> AB2["vision.html"]
     ABOUT_G --> AB3["history.html"]
-    ABOUT_G --> AB4["organization.html"]
-    ABOUT_G --> AB5["contact.html"]
+    ABOUT_G --> AB4["certification.html"]
+    ABOUT_G --> AB5["reference.html"]
+    ABOUT_G --> AB6["organization.html"]
+    ABOUT_G --> AB7["contact.html"]
 
     ROOT --> BIZ_G["Business 그룹"]
     BIZ_G --> BZ1["business.html"]
@@ -432,6 +435,7 @@ graph TD
     BIZ_G --> BZ6["solution-cost.html"]
     BIZ_G --> BZ7["solution-property.html"]
     BIZ_G --> BZ8["solution-vehicle.html"]
+    BIZ_G --> BZ9["support.html"]
 
     ROOT --> DC_G["DataCenter 그룹"]
     DC_G --> DC1["datacenter.html"]
@@ -456,7 +460,7 @@ graph TD
     class CSS,JS folder
     class IDX,ENG_F,MAP_F,STYLE,MAINJS file
     class ABOUT_G,BIZ_G,DC_G,CM_G,RC_G group
-    class AB1,AB2,AB3,AB4,AB5,BZ1,BZ2,BZ3,BZ4,BZ5,BZ6,BZ7,BZ8,DC1,DC2,CM1,CM2,CM3,CM4,RC1,RC2 file
+    class AB1,AB2,AB3,AB4,AB5,AB6,AB7,BZ1,BZ2,BZ3,BZ4,BZ5,BZ6,BZ7,BZ8,BZ9,DC1,DC2,CM1,CM2,CM3,CM4,RC1,RC2 file
         </div>
         <div class="legend">
             <div class="legend-item"><div class="legend-color" style="background:#1a5276"></div> 루트 디렉토리</div>
