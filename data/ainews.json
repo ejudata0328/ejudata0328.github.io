@@ -424,6 +424,14 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56Y3llU0FldHZoTlFGZUN6U3dpWWF3NER3UlVwWVpaN1o2eUxZTzFpdlZLd0xJT05JaUo4UkloV2pvNWtpdXZKQU40enhraFVtdXlaTnI4cUlqVVRWQ3RqLVFTRUx3blBoQkMtOWpnckk?oc=5"
   },
   {
+    "date": "2026-08-05",
+    "cat": "기업동향",
+    "title": "﻿엔비디아 HBM 쏠림 66→58%…삼성·SK ’2031 메모리 왕좌’ 지킨다 By EBN",
+    "source": "Investing.com 한국어",
+    "desc": "﻿엔비디아 HBM 쏠림 66→58%…삼성·SK ’2031 메모리 왕좌’ 지킨다 By EBN Investing.com 한국어",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51T2ttYUNyT0pYMmkxWldfdndtSDctTlE1REFTNTdxbVpERDU5UjhOYTItekQycm92SC1uRW01VE9yb2xXbWlrOFRnTjZvZ3BaRkZ3Nl9yUlRmcV9IUnJMajdTb1hSX0QtQndOQkh6ZHo?oc=5"
+  },
+  {
     "date": "2026-08-04",
     "cat": "기업동향",
     "title": "\"韓, 2031년까지 메모리 최강…엔비디아 HBM 독주도 흔들린다\"",
@@ -686,6 +694,14 @@
     "source": "브런치",
     "desc": "AI 특허 전쟁의 최전선 — 한국 기업이 배워야 할 것 브런치",
     "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE0zUlJqTXVhTU9GSnRqcUVjS0FxOFk1c3ZRSnhFeE14dXhTSjBkLWlrMS1KTl9WQ29HeDVsS1U4OW9POFNW?oc=5"
+  },
+  {
+    "date": "2026-07-27",
+    "cat": "생성AI",
+    "title": "AI 활용한 공격의 고도화, LLM과 RAG 활용해 대응한다",
+    "source": "보안뉴스",
+    "desc": "AI 활용한 공격의 고도화, LLM과 RAG 활용해 대응한다 보안뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtd3dCLV9ETzBqbnI1UHF0Q25TQ3VDcVA1Z2lmVnVDNXZqd3k4RHozLVR6eTRZSjluMHJiUE1WbzV4UkJjd0dzUm5yUU5oVW9aU18yc0psblJpTjVSSFY3VEZhQlNvWXF5OFE?oc=5"
   },
   {
     "date": "2026-07-26",
@@ -3982,21 +3998,5 @@
     "source": "더밀크 | The Miilk",
     "desc": "AI 슈퍼인재 한 사람에 100억... 그들은 누구인가? 어떻게 형성됐나? 더밀크 | The Miilk",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xRUV2a3BjRTFwSlFVem90bExKWGdzU3U5b3Y3SW5jNWgwbG9yX1hVU2V6REN3N1Z0ZHdEVEdUNmFpSGt4ZTRIcVJnY3V6VEdlV2E4TVV3?oc=5"
-  },
-  {
-    "date": "2025-06-25",
-    "cat": "생성AI",
-    "title": "코난테크놀로지, 경기도형 특화 LLM 마련… 경기도 생성형AI 플랫폼 구축사업 수주",
-    "source": "로봇신문",
-    "desc": "코난테크놀로지, 경기도형 특화 LLM 마련… 경기도 생성형AI 플랫폼 구축사업 수주 로봇신문",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sMjM2VmFUX0U5MEVhNkNCeGRXV1hWV0xYVU84a0tTVkZMQU9EMHdoS1JTQm8zdkxuZVI2M29DZWFTY0Fxamg1TTQ1ZnBCZ1lqdENYaFVFUzhZX3JvXzhZU0F6Skl1eVRtY0NwUg?oc=5"
-  },
-  {
-    "date": "2025-06-24",
-    "cat": "생성AI",
-    "title": "와이즈넛, 131억원 '경기 생성AI 플랫폼' 구축 사업 착수",
-    "source": "디일렉",
-    "desc": "와이즈넛, 131억원 '경기 생성AI 플랫폼' 구축 사업 착수 디일렉",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aZkI0UmxLLVIzV3JDSUtoRUY5TVJUMlp4bXQyLXpVeWNCMzQ3RDNhZFlWWFByUkJ3UmI3VmJDUHg4aUxqTmNXc3dHcy1zQ2pyRlVoaXdMa1VTQ0hVbEZHZEc5SmNXdw?oc=5"
   }
 ]
