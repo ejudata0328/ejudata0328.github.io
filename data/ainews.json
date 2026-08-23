@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-23",
+    "cat": "기업동향",
+    "title": "\"원인은 메모리 반도체 품귀\"…엔비디아, AI 서버 가격 15% 이상 인상 예고",
+    "source": "AI포스트",
+    "desc": "\"원인은 메모리 반도체 품귀\"…엔비디아, AI 서버 가격 15% 이상 인상 예고 AI포스트",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1EZGtxekhNSFF4LUc0RUlVZmN6aUJKNW82OHZySGhOXzJHbGZlMDg4cHc3VXkzNnZkSk82TGpKX3RLRmpGbmMyX0NEYlBOOW05SFNDNWhfSXpwdVJyZ0N0WmoxMGhzMjRKWGZrdHFodHpxUdIBckFVX3lxTE1EZGtxekhNSFF4LUc0RUlVZmN6aUJKNW82OHZySGhOXzJHbGZlMDg4cHc3VXkzNnZkSk82TGpKX3RLRmpGbmMyX0NEYlBOOW05SFNDNWhfSXpwdVJyZ0N0WmoxMGhzMjRKWGZrdHFodHpxUQ?oc=5"
+  },
+  {
+    "date": "2026-08-22",
+    "cat": "기업동향",
+    "title": "엔비디아·애플 등에 업은 마이크론 … 韓 HBM 주도권 비상",
+    "source": "한국농어촌방송",
+    "desc": "엔비디아·애플 등에 업은 마이크론 … 韓 HBM 주도권 비상 한국농어촌방송",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5za0FKRE8yR1JpdGdZalpsQmZsclJFZG9rR21xc3Rqd0ZHVWxTck1hd3NsTHdZMWphVy1kVy1RdndIQTZrSVRCZ3h5QThpdjQ1QXRuZk95SUVOQ2gyNWgyalY5MjV3UdIBakFVX3lxTFB5VWRjSWJNd25OdmtmVHJ6Q3phOFhHMjk1UnJ6VEoyMS00Z3pPcmdaeDNSSTR2eXRSMlg2QWNBZUM2YTRMQkxYNjRBTWNXSFRnOGdneUtNWVVMdUFnX1EwY203X2x4dm0xVWc?oc=5"
+  },
+  {
     "date": "2026-08-21",
     "cat": "기업동향",
     "title": "엔비디아, HBM 없는 추론칩으로 중국 재진입…화웨이 안방 노린다",
@@ -182,6 +198,14 @@
     "source": "네이트",
     "desc": "[AI프리즘] AI 시대 윤리도 바뀐다…\"규제 아닌 혁신의 기반\" 네이트",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aXzZLbnlxQnBkaEhOTTgxZENlbUdnRXFSYXMtamxIMG1NSHBHQ0FvMEdIZ2s4WklUMFZoSG5YdzVaSGxpSVJFN0NwMlBrWWd0eHVr?oc=5"
+  },
+  {
+    "date": "2026-08-14",
+    "cat": "정책/규제",
+    "title": "AI윤리원칙 두고 “사전규제vs완충제”…업계·정부 미묘한 시각차",
+    "source": "디지털데일리",
+    "desc": "AI윤리원칙 두고 “사전규제vs완충제”…업계·정부 미묘한 시각차 디지털데일리",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WdnR5ZE9LU2laTGVnMmQwVTZhM21Ea1lyWXlGV0FrSGJ2c1B4WVhlUURwRUdXT1U0b0FWaEtoYmt0LWRyMzRoMEUtYW1KaHlFSUIzTFJ4WFZ1MU5CRXA1SXVB?oc=5"
   },
   {
     "date": "2026-08-12",
@@ -846,6 +870,14 @@
     "source": "한국AI부동산신문",
     "desc": "서울 AI 허브, 글로벌 인재채용 사업에 ‘Runyour Agent’ 도입 한국AI부동산신문",
     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1Xc19rdWlQb1Fwb1ljV2duWU5tSjZ2MkNpSVAzak5xZzRKai04aEphRW9UTXF6UmlDVzNkRTFPWmRXRzlFRGQyMTVQeU4?oc=5"
+  },
+  {
+    "date": "2026-07-20",
+    "cat": "정책/규제",
+    "title": "AI기본법 시행령 7월 시행, 공공조달 AI 확인 제도 핵심 정리",
+    "source": "한국데이터경제신문",
+    "desc": "AI기본법 시행령 7월 시행, 공공조달 AI 확인 제도 핵심 정리 한국데이터경제신문",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0aXlod3NteGxFQVNPNXczMGg0QkNVUFhoN0RMVS1NaDdkUGpLbWYwb2xoRTZyYlZERFdOcVFZdWNHaTJsNGNPZ3czeWYwSk1EVmVUR1h3MWdpU2JkeHNtZGE2RkM0RUJGSENxbjQ2c3nSAXRBVV95cUxQUDh5MkpPZzlBcTA2dVI4anJyOUhHZWRDYjN0T2RyVTFxelFLU3ppOG14SjVERThjYnBGd3hadVFENnplY2xjZjdFSDBvOS1GSllOMFNlVm1reGRhdEluVGkxVUpBYmwxRGpTcGxTbnFMMmRTLQ?oc=5"
   },
   {
     "date": "2026-07-19",
@@ -3966,37 +3998,5 @@
     "source": "ActuIA",
     "desc": "AI Act : 유럽연합위원회, 범용 AI 모델을 위한 최종 모범 사례 코드 발표 ActuIA",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Bc0d0eWQyM2I3Qm92dEIzMHFCMDNsQmcyaUI1LWhfV3JVem1tOFhrRnFVbnVPdkFPYlAyblVOdllVMlZCQ1FDSHN6M2d2RzM4OF9fVXpn?oc=5"
-  },
-  {
-    "date": "2025-07-04",
-    "cat": "연구/기술",
-    "title": "AI 서비스 개발, 선택이 아니라 생존 전략인 이유",
-    "source": "브런치",
-    "desc": "AI 서비스 개발, 선택이 아니라 생존 전략인 이유 브런치",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IbzJ6cXpnUy0xRms1a2xCbkhQbEJhRmZxOHJOUEFOdlRYdDhON0ZROTFYdXNTU1pJM29yYWRISUpmSFlUR1JLNEhuQjlUelNnQ25F?oc=5"
-  },
-  {
-    "date": "2025-07-03",
-    "cat": "기업동향",
-    "title": "메타, '초지능 AI' 연구 위해 끝판왕 영입",
-    "source": "뉴스메카",
-    "desc": "메타, '초지능 AI' 연구 위해 끝판왕 영입. AI 분야의 최신 동향입니다.",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05YUNKUUZheFhNdW02bDc0dHdPby1ncVRseHlUQldfZko3eFViQXpWQUpDelZXQU5fdjFYSGxIaUFZcHljOWhKTDB6ZU5wckZBTE5MTWgxRmw5VHMzVXhFSmc1bXRIVzg?oc=5"
-  },
-  {
-    "date": "2025-07-03",
-    "cat": "연구/기술",
-    "title": "심리학 데이터 학습한 AI, 인간 마음도 읽어냈다",
-    "source": "동아사이언스",
-    "desc": "심리학 데이터 학습한 AI, 인간 마음도 읽어냈다 동아사이언스",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13NkxlTjFrS0dKTHZwZ19wMkpRZll6QzdJMzlYbWlSVHVjU2xvYXphWDVQN3k3QjF4UGg0SG51RWdHbklPaW1QUkRZWTFRUFpybXkyTQ?oc=5"
-  },
-  {
-    "date": "2025-06-30",
-    "cat": "연구/기술",
-    "title": "AI 슈퍼인재 한 사람에 100억... 그들은 누구인가? 어떻게 형성됐나?",
-    "source": "더밀크 | The Miilk",
-    "desc": "AI 슈퍼인재 한 사람에 100억... 그들은 누구인가? 어떻게 형성됐나? 더밀크 | The Miilk",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xRUV2a3BjRTFwSlFVem90bExKWGdzU3U5b3Y3SW5jNWgwbG9yX1hVU2V6REN3N1Z0ZHdEVEdUNmFpSGt4ZTRIcVJnY3V6VEdlV2E4TVV3?oc=5"
   }
 ]
