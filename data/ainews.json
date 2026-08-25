@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-25",
+    "cat": "기업동향",
+    "title": "엔비디아 AI 서버에 'D램과 HBM 원가 30%' 분석, 메모리 수요 줄이는 기술 발전 자극",
+    "source": "비즈니스포스트",
+    "desc": "엔비디아 AI 서버에 'D램과 HBM 원가 30%' 분석, 메모리 수요 줄이는 기술 발전 자극 비즈니스포스트",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wUkc0bzBYOGtYWGJBN2VzU3k5WS1adlRmRjdnR1oyQ2hrMzZCQ2VZVU5xQUVnZkRxT2g3bU1BbThNNGEtZEdwWnJwa05VNEt2aXRzU28zODlqN0c2eUtJWnpTZzdwOXVxaWEydnU4eG9MNDA?oc=5"
+  },
+  {
+    "date": "2026-08-25",
+    "cat": "정책/규제",
+    "title": "[AI 정부정책] “규제는 아니다”라는 정부, “입법 영향 우려”하는 기업…AI 윤리원칙의 딜레마",
+    "source": "AI라이프경제",
+    "desc": "[AI 정부정책] “규제는 아니다”라는 정부, “입법 영향 우려”하는 기업…AI 윤리원칙의 딜레마 AI라이프경제",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9uZV9QRmxHZS0tMGlFYl9lVm1QSXNWcWU4UU9SYW9oREM2LU9FdUFpUERhWDhoeFE0WHotbU9zYnNrYmY4WWdEU1lMbWppejlLTGg2X1VCTlEwWjU2NjBVUHdmdzJaUDNmT25Z0gFvQVVfeXFMTnZJbDJpaV9YREhTLWRvNDdzX3Q2eGs4dURtaFVhOUgyVno3T25RVDVWWHFMS1o0M21OQlIyZU5ycGhNYm1IdDYtQlljNTVScnYtS0U2LWRHaFlKTFBYWk5iQnBFU0JMOHcwLWd4X0xj?oc=5"
+  },
+  {
     "date": "2026-08-24",
     "cat": "기업동향",
     "title": "엔비디아·AMD·삼성·SK 총출동⋯AI 반도체 ‘슈퍼위크’ 열린다",
@@ -3982,21 +3998,5 @@
     "source": "아이뉴스24",
     "desc": "'국가대표 AI' 공모에 15개 팀 접수…네이버·LG 양강 속 스타트업도 도전장 [AI브리핑] 아이뉴스24",
     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE94dUljWHpTdm92dkJpNGJNR25qaVlsWnBNUzVJS2trdHpWZXlQMHV0MkRtdUlGOHRTS0xFTWZ0T1hNcV9BSkROYmg4b20?oc=5"
-  },
-  {
-    "date": "2025-07-20",
-    "cat": "국내AI",
-    "title": "'국가 대표 AI' 타이틀 두고 혈전 벌어진다",
-    "source": "한국경제",
-    "desc": "'국가 대표 AI' 타이틀 두고 혈전 벌어진다. AI 분야의 최신 동향입니다.",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9va2hMOWV5dHlmR2ZhMmNjZHVFZFNmazdjbWl6ckJfUE51MGRNTm5JajV5SnFZZno2LUp0QU9OZEJ4SXc0VDhzYkpmbnFabjQ5ZGVwQmV1cEk3QdIBVEFVX3lxTFBpY2RlZXRjT04yczdmMlhFLXNBejBxMDM1WDVFTmhabndEUE9PZlFBVFplbFNSUXkxdmdVelZ0NlhncHpWdFo1VllIQ0FVUDM5Z3daag?oc=5"
-  },
-  {
-    "date": "2025-07-16",
-    "cat": "생성AI",
-    "title": "중기부, 'AI 스타트업 LLM 챌린지' 사업 공고...'KT-네이버클라우드-오라클' 모델 활용한 인공지능 전환 사업화",
-    "source": "인공지능신문",
-    "desc": "중기부, 'AI 스타트업 LLM 챌린지' 사업 공고...'KT-네이버클라우드-오라클' 모델 활용한 인공지능 전환 사업화 인공지능신문",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qTzdDREtRNTRWMGdCRmQxLWRnX3VyZndvQUhkSXBLN3FDb0RFVDRrLWRGMmJTUVl5SElqYXBQSE5acUNnUzVydlBvTlE5X3FLQVVQM0NESE1fT1RybVRYekRsZEE0bW8?oc=5"
   }
 ]
