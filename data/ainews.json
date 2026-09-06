@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-09-05",
+    "cat": "기업동향",
+    "title": "HBM 점유율 추격하는 삼성전자…엔비디아와 삼성·SK 협력 강화 [위클리반도체]",
+    "source": "디지털데일리",
+    "desc": "HBM 점유율 추격하는 삼성전자…엔비디아와 삼성·SK 협력 강화 [위클리반도체] 디지털데일리",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RcW02RjQ0cE01T2JYWTJxNXZvcnkxRlI0QWZVTEFyaENmU1VtSHlzWXp2N0ZHOVg5dExoRTdicVgyN2ZkMWRKbF9SZzJId1VKMk9VeWVQYVprVUlURVkwYmdIZWE?oc=5"
+  },
+  {
     "date": "2026-09-04",
     "cat": "기업동향",
     "title": "[기획] 삼성 SK, 엔비디아 동맹 강화... AI 반도체 패권경쟁의 뉴욕 서막",
@@ -1022,6 +1030,14 @@
     "source": "디일렉",
     "desc": "AIDC 연합 출범…SKT총괄·네이버·LG·카카오 분과 지휘 디일렉",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBIWk9pWk5KSWpiVDhTV3RYTDlaQ3FsakxrZVNxWmpxd3ByQ3VtZ2dwcXBlQUF3MTZlb0dHNnJCQVlUUXBEMm5MdjRQaGdPMkVxTGFHS1JuT0lxOXZVd1gxd2Y4MnZMdw?oc=5"
+  },
+  {
+    "date": "2026-07-29",
+    "cat": "생성AI",
+    "title": "OpenAI·Anthropic 직원들, AI 개발 속도 조절 규정 지지 촉구",
+    "source": "Investing.com 한국어",
+    "desc": "OpenAI·Anthropic 직원들, AI 개발 속도 조절 규정 지지 촉구 Investing.com 한국어",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sOEFSRWdhVHVUb1JUd25DT01PNGFzaGV0WW1VX3dSblhaZF9EZk1oT0V5Y3BzblRpMXJRN0NuTGxMM2RHY2tCSkhuSVFyam9HQWl1MEFqeTEzY0ZPYzZZWjVXMlZ1bUNIRzZuVVRmWGc?oc=5"
   },
   {
     "date": "2026-07-28",
@@ -3936,6 +3952,14 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85cUVTT0R1QVY1NTJ5dGliTjE5ZDRpOW9CZ3NDY1lJdXRNSWg1ZWI1VWVITWdlV205eV9xSGNTb0o5ajlldjBLSzRGaHpBalNXaFl3THlTZHRqMUFQR1dnd0xCNTZqVWM?oc=5"
   },
   {
+    "date": "2025-11-05",
+    "cat": "연구/기술",
+    "title": "중국 AI 모델, 실전 경쟁력 '과시'...일각에선 의구심 제기",
+    "source": "초이스경제",
+    "desc": "중국 AI 모델, 실전 경쟁력 '과시'...일각에선 의구심 제기 초이스경제",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBhQWk0QmpJVEVMOFZtdE8xMm5VeFR3N1RnRlFLU3J3YjNmaGhXMG9Nd0VPcktJTkVSVTBCTktIRUtia0Jnakp1LXB1YWdYMm5TcE02OWlSMkkyVGhYNzFvRjdUTzBUR0w4YW5zNWU0RdIBc0FVX3lxTE1ZRGFxQzlZUWRjbzhNazVZcF85cmhoUEY1WlhQYXJqcGxSazVUWWpqY3Q4Rk01Q3dicU0yWVVOTGZtYmJIVEhtM2JId2pScS1FdHhTblV0OC0wR3A2SUFDRGtxOHIxQTdsZEZkTS1XZFJBVmc?oc=5"
+  },
+  {
     "date": "2025-11-04",
     "cat": "기업동향",
     "title": "HBM 판도 바뀐다…SK하이닉스·삼성 HBM4 공급 확정",
@@ -3974,29 +3998,5 @@
     "source": "지티티코리아",
     "desc": "문서중앙화에 LLM·RAG 결합...AI가 정보검색·의사결정 자동화 지티티코리아",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OLWY5TTBfakx2T1ltUmQzbzZHV20wNlpNSVRxLUhsTU9Ldm1xQ0pfeGJ1VDZoRDFVX2lKMk5ucGkwYXYwM0lFWFNtVGk4NHNxX05Dc3E4N2U0eHBUTWpocS1sVmwyU2ZGd2c?oc=5"
-  },
-  {
-    "date": "2025-10-27",
-    "cat": "생성AI",
-    "title": "한국, LLM 따라가기 바쁜데…“그건 곧 구식, 월드모델이 뜬다”",
-    "source": "중앙일보",
-    "desc": "한국, LLM 따라가기 바쁜데…“그건 곧 구식, 월드모델이 뜬다” 중앙일보",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52YVlNVjNSYkM1aUplQnZTdXVoc1NkbmVlaTRhMHY2N09mTGRUYk9wZDRxUkRrZ1ZaeE5Za2dKMG9fV2JJRS1sRTl6WlY1emJhM1AtWmhR?oc=5"
-  },
-  {
-    "date": "2025-10-27",
-    "cat": "생성AI",
-    "title": "얀 르쿤 \"5년 내 LLM 한계…AI의 다음 혁명은 월드 모델\"",
-    "source": "지디넷코리아",
-    "desc": "얀 르쿤 \"5년 내 LLM 한계…AI의 다음 혁명은 월드 모델\" 지디넷코리아",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84Mjd5Y3liQVgzcTFsdnJueGtkbEU5Tmw4aVZKVWJkZnU5TExuQzVVR1hYYnNPQmRNTlBmTUR6Q2tPNFZFUmxyTHZQMm1SRHV6aXBPS3B3?oc=5"
-  },
-  {
-    "date": "2025-10-27",
-    "cat": "연구/기술",
-    "title": "여러분은 어떤 생성형AI를 사용하나요?",
-    "source": "브런치",
-    "desc": "여러분은 어떤 생성형AI를 사용하나요?. AI 분야의 최신 동향입니다.",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1uRkJCdVhUNVRlUGRQZi1kYW12LW9Jb3M2eFJ2Rm5LYmx3d19fVWRhUGhsN1dpVHd4RHY3WW1GWTBjQWo0N0tSTXNaSUJFQQ?oc=5"
   }
 ]
