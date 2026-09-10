@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-10",
+    "cat": "기업동향",
+    "title": "중국 AI칩 가격 50% 뛰었다…엔비디아 막았더니 ‘한국 HBM’이 병목 됐다",
+    "source": "더 이코노미",
+    "desc": "중국 AI칩 가격 50% 뛰었다…엔비디아 막았더니 ‘한국 HBM’이 병목 됐다 더 이코노미",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVd0o2cHVQX25ReG10WjBBMFJfUEdmRUNwdVJ0X0pXZXhFa0U4dC1iQnZZUG93LUNmaWVvVFhJZ0FCSTgzbkwtdkx0TDZfRThjeFdPdlVhZjlPdUp5d0VTUG1vaC1rQWV4dEdxT3NIa9IBc0FVX3lxTE5hOF9QX3RTSzZVTERuZzlydTJEUDhCYVlnc1dUY1hmNU95cFhLdHhHc3ZjSDBfYS1Nelprd3U2SW5PU05qOGFwa3VCUWV4UkF5S0ltTnJUNlZYRmxXNjQ1blBPR295SFo4VG1IMHBNLUZSQlE?oc=5"
+  },
+  {
+    "date": "2026-09-10",
+    "cat": "기업동향",
+    "title": "HBM 품귀에 中 AI칩 가격 급등…화웨이 신제품 두달 만에 50%↑",
+    "source": "뉴스1",
+    "desc": "HBM 품귀에 中 AI칩 가격 급등…화웨이 신제품 두달 만에 50%↑ 뉴스1",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hYkx0UE82RXFaQ0hteDdLcFJyMXIyVWFaSFVTcms4aWJHQW9pSlpJeXdwWTZyQ3RnMkF6RGFYZ2E4bTA2cFVYQ0p0eE40OU5jUTFjXzZCQjJYTEFLUFlTdG8td9IBY0FVX3lxTE5hYkx0UE82RXFaQ0hteDdLcFJyMXIyVWFaSFVTcms4aWJHQW9pSlpJeXdwWTZyQ3RnMkF6RGFYZ2E4bTA2cFVYQ0p0eE40OU5jUTFjXzZCQjJYTEFLUFlTdG8tdw?oc=5"
+  },
+  {
     "date": "2026-09-07",
     "cat": "정책/규제",
     "title": "김·장-AI법정책포럼, AI 기본법 개정 방향 논의",
@@ -3982,21 +3998,5 @@
     "source": "인공지능신문",
     "desc": "\"AI가 만든 코드, 더 안전하고 똑똑하게, 개발자 마음까지 이해\"...ETRI, LLM기반 신뢰형 코드 생성기술 공개 인공지능신문",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85cUVTT0R1QVY1NTJ5dGliTjE5ZDRpOW9CZ3NDY1lJdXRNSWg1ZWI1VWVITWdlV205eV9xSGNTb0o5ajlldjBLSzRGaHpBalNXaFl3THlTZHRqMUFQR1dnd0xCNTZqVWM?oc=5"
-  },
-  {
-    "date": "2025-11-05",
-    "cat": "연구/기술",
-    "title": "중국 AI 모델, 실전 경쟁력 '과시'...일각에선 의구심 제기",
-    "source": "초이스경제",
-    "desc": "중국 AI 모델, 실전 경쟁력 '과시'...일각에선 의구심 제기 초이스경제",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBhQWk0QmpJVEVMOFZtdE8xMm5VeFR3N1RnRlFLU3J3YjNmaGhXMG9Nd0VPcktJTkVSVTBCTktIRUtia0Jnakp1LXB1YWdYMm5TcE02OWlSMkkyVGhYNzFvRjdUTzBUR0w4YW5zNWU0RdIBc0FVX3lxTE1ZRGFxQzlZUWRjbzhNazVZcF85cmhoUEY1WlhQYXJqcGxSazVUWWpqY3Q4Rk01Q3dicU0yWVVOTGZtYmJIVEhtM2JId2pScS1FdHhTblV0OC0wR3A2SUFDRGtxOHIxQTdsZEZkTS1XZFJBVmc?oc=5"
-  },
-  {
-    "date": "2025-11-04",
-    "cat": "기업동향",
-    "title": "HBM 판도 바뀐다…SK하이닉스·삼성 HBM4 공급 확정",
-    "source": "전자신문",
-    "desc": "HBM 판도 바뀐다…SK하이닉스·삼성 HBM4 공급 확정 전자신문",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAtSk9EQ1hGa0VQVHdqa1g0YWlscVVPVUlqVWVfQkViVHZwTnBleTNBQm14aWh3T2VUM2VCV2dya2NlcC1SZEJ2MXJ6Z1BMZw?oc=5"
   }
 ]
