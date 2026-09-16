@@ -376,6 +376,14 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yVkxjQU5ZaEZQdXRhUFZsVG1DZXJVMlk2T1JvYVNoUDBHTmt2SEtXZTV1dHVJT1dHS2pBWHBxU2R0dWtCeXFPMHFWb0VwNDlYb3VZYUZaQ2N0MWh3c1FPVEluTGJkVDZKa2wwUFZ2V1XSAXRBVV95cUxNbnNld2FkUzlPbVk0MU5UaVpFMFJjRjMxUjhnaXpyY2VDQ3l6c1Q0emd3SU9JU3hneUVLSjF4N0NvT0pfWHhOcFVhNEdKZXZiclZaekRyb1k2QldmSFJYVWMyek1tSHdiRUpBekw1clJOZXg2Uw?oc=5"
   },
   {
+    "date": "2026-08-26",
+    "cat": "기업동향",
+    "title": "메모리 찍고 파운드리까지…삼성-엔비디아, '전방위' AI 동맹",
+    "source": "비즈워치",
+    "desc": "메모리 찍고 파운드리까지…삼성-엔비디아, '전방위' AI 동맹 비즈워치",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RQWk4TmdrT0MySnR5enEtbk9KN19oeWMxbnVPbFlqcEV1WmN5RUY5SllvSG9Rc25HX1otZGo4bGpQc2JZeWU2S3E4TGxrUHFhSmg1ZWN6RDgzbHZkeE9weHE2S0pLRFpMcXk0Nw?oc=5"
+  },
+  {
     "date": "2026-08-25",
     "cat": "기업동향",
     "title": "엔비디아 AI 서버에 'D램과 HBM 원가 30%' 분석, 메모리 수요 줄이는 기술 발전 자극",
@@ -430,6 +438,14 @@
     "source": "이슈밸리",
     "desc": "실적 발표 앞둔 엔비디아…‘AI 반도체 운명의 일주일’ 이슈밸리",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yMWtORm5tTHhYU0xhMV9NczlWTEw3RlJnczJYcjE0MHJUTENmTGlvMnA5aWRzUHlsbm1ZYjR5d0wzdHVuM0kzOVVOSXdyTXFmOTdhQ3JERkdSOWk2UFdRbUJWRmVIQk5Q?oc=5"
+  },
+  {
+    "date": "2026-08-23",
+    "cat": "기업동향",
+    "title": "메모리 품귀에… 美 엔비디아도 항복, AI 서버값 15% 올린다",
+    "source": "조선일보",
+    "desc": "메모리 품귀에… 美 엔비디아도 항복, AI 서버값 15% 올린다 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSkFLRlo2eVlqSXE1emRxVUpnaXZrNE1PT05JNUVvQlFBd2h0MVZSZEtnV3FiOFdpYjc5VFBzX1Vvb1BBVURIUGpmVXlHOGJydTItYnV3ZHVlWEh5SEdIQXVJMHRCbVlGQ0JrXzZ0LTlYV0NuNnphZ2Z1REVGRktKWmNNNA?oc=5"
   },
   {
     "date": "2026-08-22",
@@ -3982,21 +3998,5 @@
     "source": "인공지능신문",
     "desc": "\"AI 블랙박스 해독한다\"… UNIST, LLM으로 이미지에 ‘xAI 학습 데이터’ 입혀 멀티모달 AI 새 지평 열어 인공지능신문",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CS3cyTGJYQ3UyMkd1VWxKR042MURrN0JPVENvSDN6akIxazA1Vk1yWXBjZEQ5Z3ZEVlVMdFFNOGFnUVctbVFwaFhKcFYtLWJHalJmbHkxZUdpTkxja3YyaVR2SXdOa0U?oc=5"
-  },
-  {
-    "date": "2025-12-23",
-    "cat": "생성AI",
-    "title": "KT 자체 개발 LLM, 국내 첫 인공지능 신뢰성 인증 획득",
-    "source": "지디넷코리아",
-    "desc": "KT 자체 개발 LLM, 국내 첫 인공지능 신뢰성 인증 획득 지디넷코리아",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vOC1vZTRPRzNNb2ZjczJXczlJSVBoX29HU2tDV2xqM3QwWEcwTnUtd09sNnE5dG1JeGtXRW5sd205OEdVQXBudTZOLTdCOEtiR1NHcV9n?oc=5"
-  },
-  {
-    "date": "2025-12-22",
-    "cat": "생성AI",
-    "title": "KAIST, 생성형 AI·LLM 결합한 차세대 제조 AI 전환 기술 선보여",
-    "source": "헬로티",
-    "desc": "KAIST, 생성형 AI·LLM 결합한 차세대 제조 AI 전환 기술 선보여 헬로티",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nY3JpQlpvOXpJemVkd2g0RF8wUE9TYUh2VGZjQ0Vua3VxWGNpenltc1ZCQmZsMDl2LVB6bVc4Sk1UNzIwU1F3SFFtWGxuaFJSZzVLTVZYYlh2WTY3WXRF?oc=5"
   }
 ]
