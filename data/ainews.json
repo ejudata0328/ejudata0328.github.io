@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-09-19",
+    "cat": "생성AI",
+    "title": "소비자들이 Anthropic, OpenAI, SpaceXAI 및 Google을 AI 협정 위반 혐의로 고소",
+    "source": "Unite.AI",
+    "desc": "소비자들이 Anthropic, OpenAI, SpaceXAI 및 Google을 AI 협정 위반 혐의로 고소 Unite.AI",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdEN2U2xZVmJuQmo3Sl9aQ2RHcG5tcm1jc2hiZUFfM1pQREVoY04zQlY4OEZnWUZxQlVaLTRXekpmd2o4bzFYRFIzSUxfbjBncjEtSi02cmJac1JsTXRBMGx4VnJfS2JpS0ZCdFhUdFlrSk5yMFVkMXQ4MDU1TGgtZE4zWFdaUVRxUjN4NWF5SkJkSm8xOVZGY2JBSFk?oc=5"
+  },
+  {
     "date": "2026-09-18",
     "cat": "기업동향",
     "title": "“연봉 8억” 삼성전자 직원 자랑에…엔비디아 직원 “HBM 적게 쓰게 설계해야겠네”",
@@ -366,6 +374,14 @@
     "source": "네이트",
     "desc": "맞춤형 HBM 시장 주도권에도 '힘' 메모리 대역폭 30% 높인 NVHBM 네이트",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zV0JUTWJPSHZfRk90a1QxWW44RW9FdWUwQjVFWWEtVkNhSGVDVUh5ZUwxUDJBOERuZEZicHhWS1VzYUpnVU9IXzNyVXc3TU1rcTg0?oc=5"
+  },
+  {
+    "date": "2026-08-27",
+    "cat": "기업동향",
+    "title": "삼성전자 자체 AI칩용 HBM4 빅테크 공급 잇달아, 전영현 내년 HBM 출하량 2배 늘린다",
+    "source": "비즈니스포스트",
+    "desc": "삼성전자 자체 AI칩용 HBM4 빅테크 공급 잇달아, 전영현 내년 HBM 출하량 2배 늘린다 비즈니스포스트",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42UUd2ZnRWdXNIZEp1dlZQU0RIa0puNkljNXp5Z3RqOENrOXpOUkpEa2V6M0I2cWh0OFkwSWpnV1k1N1AwTUlnSWJ0a2F6S2xLTDM4RDF5Ynd6X1NRdVN2M20ydjBZS09HNTJDTGI4eldueHc?oc=5"
   },
   {
     "date": "2026-08-26",
@@ -3982,21 +3998,5 @@
     "source": "전국뉴스",
     "desc": "크롬 웹스토어에서 AI 대화 훔치는 악성 확장 프로그램 발견…90만 명 피해 우려 전국뉴스",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mam5TQTdrUHJDX1pKWnlzeTcxZ19UX0dmU3pIVFM5dmtIdk5uaGY5SHNPSnNSVVMwcW9OdWpUWVlYODlxQWluZUFPcUtLSjA4a1RGbmxoV3VxcV85N1FDeVBZS0VyM2ZBSnFDYUhfUTM?oc=5"
-  },
-  {
-    "date": "2026-01-02",
-    "cat": "연구/기술",
-    "title": "[AI 기본법 명암 ㊤] 세계 최초 전면 시행…기틀 잡은 AI 생태계",
-    "source": "v.daum.net",
-    "desc": "[AI 기본법 명암 ㊤] 세계 최초 전면 시행…기틀 잡은 AI 생태계 v.daum.net",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1iUTc4QlNHbHFQYTlwZUNkRGF6V3hiamkyX0JtVnZXZ2J6WHJKQzA4eE8ydDkzZnI0clJLdTE5UllLTUYwYmJua1hRMjJhajQ?oc=5"
-  },
-  {
-    "date": "2026-01-02",
-    "cat": "기업동향",
-    "title": "[초혁신기업] SK하이닉스, ‘초격차 HBM’ 앞세워 AI 반도체 선두질주",
-    "source": "에너지경제신문",
-    "desc": "[초혁신기업] SK하이닉스, ‘초격차 HBM’ 앞세워 AI 반도체 선두질주 에너지경제신문",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHR3dNUzU4QmFNQWQ3eExYLUdVazU2SGxPNkJtSXZRQ2drR0h0djBmVDlPYWhldFEwYU9od0NFV3BrdmU1WHpBNk1QN2w4a0t4a243b0E0RjNpUG8?oc=5"
   }
 ]
