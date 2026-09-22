@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-09-22",
+    "cat": "생성AI",
+    "title": "생성AI에 대한 역습? “순차적 LLM 무시한 모델” 등장",
+    "source": "애플경제",
+    "desc": "생성AI에 대한 역습? “순차적 LLM 무시한 모델” 등장 애플경제",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VODZ3YUNjbGNrOEh3UURnZTB3eDdOY19ZR0kxTTZHSkJSV1ZEYUpaaVBTcDh1VnpVU2IzT2pRSjZPcHV0bUVBSlVZQUQ4ZGc3dlhMN05XbWROSUtVdWJsaWNTbVR5WDVZMTA2WlJkUHo?oc=5"
+  },
+  {
     "date": "2026-09-19",
     "cat": "생성AI",
     "title": "소비자들이 Anthropic, OpenAI, SpaceXAI 및 Google을 AI 협정 위반 혐의로 고소",
@@ -78,6 +86,14 @@
     "source": "Vietnam.vn",
     "desc": "구글은 윈도우용 Gemini를 출시하여 ChatGPT 및 Claude와 직접 경쟁하게 되었습니다. Vietnam.vn",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaTBWWjR4TUFpeEJtdVJyY0ZqQjh1b3dKZ0twSk1WSnQ3alZlbWhObEJZMjhOckl0QWxSVkRTb0h2OHhyYlJreUh4cHp5Q0c5VlNfVUY2Yml6cHRpM01UWi1PWlhNaW1ud3M3Z2NMQ0FfMU56dHFEOXBWVDVqcmtQcDZLOTBLckExNjZtZDhPN0NEUGhDYm9JWmpRYXNwalE?oc=5"
+  },
+  {
+    "date": "2026-09-15",
+    "cat": "기업동향",
+    "title": "[딜라이트닷넷 창간 ⑨] GPU 넘어 HBM·NPU·CXL까지…AI 반도체 생태계 확장",
+    "source": "ddaily.co.kr",
+    "desc": "[딜라이트닷넷 창간 ⑨] GPU 넘어 HBM·NPU·CXL까지…AI 반도체 생태계 확장 ddaily.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ER094QUFXYndDQXBRNnd1amsta0lsZE4xQ1ZxeTNiVC1wWnROMXJ4eWxyOV9jb2ljOVFmdEdDX0pTZWFvQ3pVaG5FYU1ka2ZRb0JJVmxOckg0OVVzWmdFZGZ3?oc=5"
   },
   {
     "date": "2026-09-14",
@@ -2352,6 +2368,14 @@
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrbUhncERHbEtrY21XQlF1Q05QMk1MSThLbndJOFppb3U1RGNDR3V4dW1Ld3Z6djhZVFhhSVVWczYxTXVJbGZBT1NiUjdJaktWUGVxNA?oc=5"
   },
   {
+    "date": "2026-06-17",
+    "cat": "생성AI",
+    "title": "[ChatGPT 점유율 50% 붕괴…AI 어시스턴트 시장, ‘단일 강자’에서 ‘다극 경쟁’으로 전환] Gemini는 27.7%의 점유율로 2위를 차지했으며, Claude는 10.3%로 뒤를 이었다. Grok, Perplexity, DeepSeek, Meta AI 등 기타 플레이어들은 각각 5% 미만의 점유율",
+    "source": "AI넷",
+    "desc": "[ChatGPT 점유율 50% 붕괴…AI 어시스턴트 시장, ‘단일 강자’에서 ‘다극 경쟁’으로 전환] Gemini는 27.7%의 점유율로 2위를 차지했으며, Claude는 10.3%로 뒤를 이었다. Grok, Perplexity, DeepSeek, Meta AI 등 기타 플레이어들은 각각 5% 미만의 점유율 AI넷",
+    "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9STzc2cHptXzllT1F2UmRUZlF0Y2RJTHk5dzRSNWRGS0c5TWxPTDJmeDhQaUw3MUFBVy0zNExIbHA?oc=5"
+  },
+  {
     "date": "2026-06-16",
     "cat": "정책/규제",
     "title": "AI 기본법, 규제 아닌 촉진에 초점 맞춰야",
@@ -3974,29 +3998,5 @@
     "source": "매일경제",
     "desc": "LLM 이어 영상 AI까지 중국 모델, 美 바짝 추격 매일경제",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDWlRsZmlONGMtc0VPVG5ZdXY1NHpmMm1fUHMzYXE2N3VfR2RhdU5KRjFraEZlTGtKR19Tb21SS2hOZkUza0JkUjhQN2RZQQ?oc=5"
-  },
-  {
-    "date": "2026-01-16",
-    "cat": "연구/기술",
-    "title": "[박남기의 敎育戀歌] 생성 AI가 가져올 망상현상과 교육기관의 과제",
-    "source": "에듀프레스",
-    "desc": "[박남기의 敎育戀歌] 생성 AI가 가져올 망상현상과 교육기관의 과제 에듀프레스",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jZVBjelZBaENuZzV3NFBwUi1YcEdWNEhZVXVOS2U4RWZRelZJVUhtUld6S0h1UnhDN05oM0lfWGNoWkJmWXlPWE1zYW1PX212SlYyVldvVjctQTZCN0FreFVQSXVDaVpT?oc=5"
-  },
-  {
-    "date": "2026-01-16",
-    "cat": "국내AI",
-    "title": "국대 AI 추가 모집에 네이버·카카오·NC ‘불참’ 선언...남은 후보는?",
-    "source": "AI타임스",
-    "desc": "국대 AI 추가 모집에 네이버·카카오·NC ‘불참’ 선언...남은 후보는? AI타임스",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55VnJzRGNsejZsWEtzNE9tcy1ZajhjeEwyaFhvbjVXSFp2dkd0VVdIR1pTMWJoZDRCc1A0UnhXMmlLTlRuTjh1STRRa0wtNkpYR1RnN1JSX1NPNkFqQlRPbFE2djkxSHoxWVE?oc=5"
-  },
-  {
-    "date": "2026-01-16",
-    "cat": "연구/기술",
-    "title": "단순한 의료 상담을 넘어, AI 헬스케어가 차세대 ‘골든 트랙’으로 부상하고 있다.",
-    "source": "TradingKey",
-    "desc": "단순한 의료 상담을 넘어, AI 헬스케어가 차세대 ‘골든 트랙’으로 부상하고 있다. TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRHBJNlI4VjE2a2RFUm85U1lYeEpHVHlCX0JtQlotQlhoVjFENVRkRGRfU2VDOEZmQUJoY1RvZEJwRFotUm1ZTDF1SnBlQXdUcFhsODJtTUJFdThhWVNVWkY4bWZFVXIwY01jbEdSNEN6T2xubkpMcVVVbXRUYzU1VS05TEFUVUpxQmRHbENHN00tMWJ5WHpoN0hFZFdmTmJBZks3U0lRemFHVWRSdFd1c3lrQXpTWDBN?oc=5"
   }
 ]
