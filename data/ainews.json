@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-09-25",
+    "cat": "연구/기술",
+    "title": "주요 AI 기업 직원들이 업무 압박으로 인해 사직하고 있다.",
+    "source": "Vietnam.vn",
+    "desc": "주요 AI 기업 직원들이 업무 압박으로 인해 사직하고 있다. Vietnam.vn",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZElBTnVnMlB1WWpRUVlHT0lrWGUtWkR6OXdYUU9DdkxsTEtZMXQ2dTVMQjZ3TmpwUllQQ2c4UWFieTNic1c1eGFiTElVTXBTOHRmaUFfbU8wYWdkc3RDU01lWF83ZnZ0bVM1d1NsaUo5THJ4RzNNX3RoTndBTHZfdTF5dzI?oc=5"
+  },
+  {
     "date": "2026-09-23",
     "cat": "기업동향",
     "title": "엔비디아 유리 기판 검토…HBM 더 많이 얹는다",
@@ -966,6 +974,14 @@
     "source": "Vietnam.vn",
     "desc": "Dropbox는 ChatGPT, Claude, Gemini와의 AI 통합을 확장합니다. Vietnam.vn",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWHpyQ0UyWE4xN2VoN0RhcEY5T3lsS0lGamY2dlVONC1lR1ZlSWJBcjl0Y21VUHBmZWVSMnFzLU1MM3gwNTNUNm9CUWRCTVZlZUV1R1dRaF90SC1HN1FhOWxXX01MZ3JuZnE0YS1jX2hQRG03VS1ITVY4T2otMnYzSnNDNDZaZEJicGc?oc=5"
+  },
+  {
+    "date": "2026-08-08",
+    "cat": "연구/기술",
+    "title": "정부, AI에 세제·GPU 지원…네이버·카카오·통신사 ‘수익화 경쟁’",
+    "source": "토요경제",
+    "desc": "정부, AI에 세제·GPU 지원…네이버·카카오·통신사 ‘수익화 경쟁’ 토요경제",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54NGZ5enFsdlctT0xxUWhRSGlfaGhrZlQ2RHhrMVFGYW5mVF9qVlg3SU10T2ZLMnVtMGZGWkZfMEZTVHM4TkJhMldCWEhTNkVQX3JfOTZLNVkxUFRfZGpEbtIBb0FVX3lxTE9zTmhqdjNwaXc2UktGVng4NG1uZHlMMi10eGtVdk1CUF9RMWNGZ1JzYVJoaVc3QmltS1BHdXMySy1NclJtYjMyUlJWcDdkUWY3X0tfRjd4YVhKajQ1eHlOMENPZXRUN1J2Q2J3LUFLYw?oc=5"
   },
   {
     "date": "2026-08-07",
@@ -3982,21 +3998,5 @@
     "source": "지디넷코리아",
     "desc": "\"규제 사정권 밖이라지만\"…AI 기본법 첫날, 책임 경계에 업계 '촉각' 지디넷코리아",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8taWJVdG9JdWpWWXpYU2t2NzcwZXVnX2huS2hGeXM4RjAxTFZrR3BLZDFPMDh2V0RueVlkYS1vSzhJT2JqeHhpRzhHWWJ3U05Nbi0yTkZR?oc=5"
-  },
-  {
-    "date": "2026-01-22",
-    "cat": "정책/규제",
-    "title": "AI기본법, 규제인가…국가 AI 전략의 '안전판'인가",
-    "source": "노컷뉴스",
-    "desc": "AI기본법, 규제인가…국가 AI 전략의 '안전판'인가 노컷뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yZjRPSFBXOUZlbTlHYTBTZThzY0lfejN4XzgtQnJKZEU2Y2VMNTQ1RDJQaWwyNElfc2ItRXg5ZEloZlNvNGRER25admtMMzdBNnc?oc=5"
-  },
-  {
-    "date": "2026-01-21",
-    "cat": "정책/규제",
-    "title": "AI 기본법, 22일부터 시행...”1년간 규제 유예”",
-    "source": "AI타임스",
-    "desc": "AI 기본법, 22일부터 시행...”1년간 규제 유예” AI타임스",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZckhKQUdQX3ctU3V5OHJQSXc0eHRwS3FTVXRYU0MtR1ZDT3FBazNrdkVJT1loUEN3UUR2Q2h1a2RDd0hMcUFqT0tmWFJmRmlHdk1pN0J6akwtM1phTXBNT1BlV1BOTG5HaEE?oc=5"
   }
 ]
