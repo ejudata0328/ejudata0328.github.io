@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-10-02",
+    "cat": "기업동향",
+    "title": "엔비디아, HBM 부족에 '용량 축소' 검토…베이스다이 부담 커지나",
+    "source": "KPI뉴스",
+    "desc": "엔비디아, HBM 부족에 '용량 축소' 검토…베이스다이 부담 커지나 KPI뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBiUGMzaHhvUThaUkF4cEh0WUVqVlYwYTQ3RHBZSkxXcHh3MHpON210SEpXMTBQdjdUNlJtS09pakZxcGlGT05Gb2xDWFVLUW45NjNEdGxqRQ?oc=5"
+  },
+  {
     "date": "2026-10-01",
     "cat": "기업동향",
     "title": "HBM 안 쓰는 AI칩 커진다…삼전·하이닉스에 변수 : 네이버 블로그",
@@ -3990,13 +3998,5 @@
     "source": "브런치",
     "desc": "10화 범용 인공지능(AGI) 이후에 벌어질 일들 브런치",
     "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1UNmxzYXhXNFVialVxekQtRHJwOGZjT2lBU0hickttUzE1aDNKRUpnbENTTXBRd3Fna1J5NDBqQWN3SmdGaUFoS1dB?oc=5"
-  },
-  {
-    "date": "2026-02-03",
-    "cat": "생성AI",
-    "title": "티오리, LLM 윤리 편향 기반 보안 취약점 연구로 AAAI 2026 논문 채택",
-    "source": "지티티코리아",
-    "desc": "티오리, LLM 윤리 편향 기반 보안 취약점 연구로 AAAI 2026 논문 채택 지티티코리아",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JbFd5TlR3bnBLNXdVR0N6LVpRb0lHNFFIcC12cEQ2YzJFYmFoRElCc2tReEhUYi1CSW5JNzlSWkFRT3N4a2RFTXoxckFEd1g4cWdza2RGX2o4dVFIMkRaRVo2eTJJUjdCNWc?oc=5"
   }
 ]
