@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-04",
+    "cat": "기업동향",
+    "title": "[반도체포커스] 표준 HBM도 사라질까…NVHBM 대역폭 30% 높이자 셈법 복잡",
+    "source": "이코노미트리뷴",
+    "desc": "[반도체포커스] 표준 HBM도 사라질까…NVHBM 대역폭 30% 높이자 셈법 복잡 이코노미트리뷴",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XYWpWdWd3T3hVa2JKQWRyZkJZdU9FTVg0VzRCMnFkbFhMRk5Ic1gyNDhjUjlPSVQweU5tQUU2RlFUd3FrOWVXREdDazFEbW1KMEpRWUpDRy1PTnVjQUxTVUpRQnFnclZkY1EwenRERUVvakk0R1Ew?oc=5"
+  },
+  {
+    "date": "2026-10-04",
+    "cat": "정책/규제",
+    "title": "AI 스스로 성능 개선 금지…미 의원, '인간 통제' 연방 감독 법안 추진",
+    "source": "didimkorea.net",
+    "desc": "AI 스스로 성능 개선 금지…미 의원, '인간 통제' 연방 감독 법안 추진 didimkorea.net",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zNm1ZN1MzU3VsZkEyODl2Mm83cUY4QkRLZmt3R3RhcjBUX2pDZktvb0tTM2E3LXpwMWExb3d0WFVYNHVYY1hkTUk2R1lBWmM?oc=5"
+  },
+  {
     "date": "2026-10-02",
     "cat": "기업동향",
     "title": "엔비디아, HBM 부족에 '용량 축소' 검토…베이스다이 부담 커지나",
@@ -1102,6 +1118,14 @@
     "source": "remio.ai",
     "desc": "Google Jeff Dean 퇴사: 한 엔지니어의 이직이 AI를 뒤흔든 이유 remio.ai",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaHAxS2p4U21aT1NWdzJoU3YwNGtjY3F6Tjhzc2RKRUF2OUhGZUo4SjFNNWFFbG9ZUTFNZDgwbXJXTnFzTDViNTFYamp1cmVFM21EWnBsc3pDZjB6VHF6OHJGaktDSk5ocG1neWF6OFRkX0FxQnNybjZQTHZPNjQtUXBtQTRWRUxoRUV2MDNabURmVFlB?oc=5"
+  },
+  {
+    "date": "2026-08-07",
+    "cat": "생성AI",
+    "title": "[AI 5분 인사이트] Gemini 3.5 Pro는 왜 계속 연기되나?",
+    "source": "mobiinside.co.kr",
+    "desc": "[AI 5분 인사이트] Gemini 3.5 Pro는 왜 계속 연기되나? mobiinside.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR1ZrOUVuNXlQbHlzdmd3OTBaRkZHdUFzbHFOT2tCQ3BPN1lRcEpCVEluX0FiNHFOdHRsQkVDWHpGS0Z5R3V2YnN3WS1LVExfcFRlcUo1d0oxTk1HQzhmM1lwbF9WV3RzcHRvcE9zenZoZl9nZHpvWFZpdF9sSlNlcVZMY2tfVzA?oc=5"
   },
   {
     "date": "2026-08-06",
@@ -3974,29 +3998,5 @@
     "source": "조선일보",
     "desc": "\"엔비디아 차세대 AI칩 탑재 HBM, 삼성·SK하이닉스·마이크론 3파전\" 조선일보",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcloyTThCQmdVQzduU2ZZQmlneW9XY195eWRSR2kzVW9MRGpPdmIxR3RGQzVDT0NDR2RlRklLLUZVaENGUU84M1FrS0JoczlScTE1WUgtTGVSUHZJaWtKT0lrTlB4UEtLcXE1VjlvWHk3SkVaMHJSbGRGc1pwTVQ3enpQcw?oc=5"
-  },
-  {
-    "date": "2026-02-11",
-    "cat": "기업동향",
-    "title": "GPU 위에 HBM 쌓는다…AI칩 패권 잡을 히든카드 꺼낸 삼성",
-    "source": "서울경제",
-    "desc": "GPU 위에 HBM 쌓는다…AI칩 패권 잡을 히든카드 꺼낸 삼성 서울경제",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5OeUtLS2tsRG1iZExKbGJxQkdDZExRVnBhUlRqNHNOQXZDWGQweC1ERmwwREFyWFRaYjY5MC01RkNFN1ZCTXgzSVFaazZyZWhYZWfSAVNBVV95cUxPRy1BdWswaERtNm1qTTRfbFg2SFpULTA5WHdBMmtxNnpELWQ5ZFJEWUhVdUxRM0l3YU9HUmZpR3NuSVRyOUwtOXBUSXhGazZCa1VQSQ?oc=5"
-  },
-  {
-    "date": "2026-02-11",
-    "cat": "기업동향",
-    "title": "삼성전자, GPU 위에 HBM 쌓는다…“최신 제품 4배 성능”",
-    "source": "서울경제",
-    "desc": "삼성전자, GPU 위에 HBM 쌓는다…“최신 제품 4배 성능” 서울경제",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XdmZjVFYwRWE5Sm5ra0IySTJkemR2V3RvQktPM3IwakdOZDBHQWFzOHl6UEpGOUZBUW5HMkRWaVpzMWQxY01ZTzYwREJLS0F5OUHSAVNBVV95cUxNY0xTYnlza0FLTXAtbUZkbFE2ZWhNU2ZqdHV5RkpZcWZybUJsU1RLTndCRXpkMWIxZ2lkM2Q0SzlzYWZheFFlV0RJRFpVZnhXc2VDNA?oc=5"
-  },
-  {
-    "date": "2026-02-06",
-    "cat": "정책/규제",
-    "title": "인공지능 기본법의 시행과 법적 과제: 혁신과 신뢰의 교차점",
-    "source": "법률신문",
-    "desc": "인공지능 기본법의 시행과 법적 과제: 혁신과 신뢰의 교차점 법률신문",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvWFMxNlRMNWdaSWlyVjdtbXNLWC0yYzBBUmhFOVh5UU5GQmFFaENneWh1cXN2MmJsamZiVVhLOHNFbk85NVdBcVphcTFDX001Q2FRdEJLSlp3dFctcDN2MzJGSTJxekN4VjJuQVBn0gFyQVVfeXFMUGJLM3JDakl3bFdueVItb0pHckVpZkxGc1BCdGU4NHZ0bUhZX2VWUXFBT0hzcUc2VDJvbVZLd00wLTJZSWdXZHJqaXlLSmI3d25vR3pQLWRvVDZWMGdoOFlUX2VUeElvUnBISjVNeF9zbWpR?oc=5"
   }
 ]
