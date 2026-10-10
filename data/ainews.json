@@ -56,6 +56,14 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tQlNDbU82aEsxRjY1SGZoYVRfMzNmVlNRUjNlcXVJU1NJcEkyNEhoc0NGSTBkSld4QnM3eHphOWdVTkdxTkNXZl9STWsyR090czBMZ18wMkUzZ2h4dDVUeDdKYURGaDVqV2c?oc=5"
   },
   {
+    "date": "2026-10-06",
+    "cat": "기업동향",
+    "title": "[분석] 글로벌 AI '5龍' ··· 삼성·SK·엔비디아·AMD·TSMC",
+    "source": "데이터솜",
+    "desc": "[분석] 글로벌 AI '5龍' ··· 삼성·SK·엔비디아·AMD·TSMC 데이터솜",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rVzlxWmdkcE10WXd0al9HX1RXb29VdUdleFU1YUtwODVIWDNHNldBUkNkVG1LRzhwdUNOYTBFa2pDRWVJXzR4ZlZQOUhYTUVhcVc2ZkxCUGdiaEJWb3JNMzhIeHp4akZrcDc4etIBcEFVX3lxTE12YklONHJzNHNSTmJUY2xEdko4OFExMF8weWtNWV9FTnVFZ3hPbzFsY2txRlM0c1EwTkgyeDdXbGdSb0dhS3hXVEFXMjhTdGJ1VkEyVkR3bWpkbG9pMGNWMndMRkozVWZadDlLQlFPby0?oc=5"
+  },
+  {
     "date": "2026-10-04",
     "cat": "기업동향",
     "title": "[반도체포커스] 표준 HBM도 사라질까…NVHBM 대역폭 30% 높이자 셈법 복잡",
@@ -118,6 +126,14 @@
     "source": "Yellow.com",
     "desc": "구글, '제미나이 4 아르곤' 공개…벤치마크에서 OpenAI·Anthropic 앞섰다고 주장 Yellow.com",
     "link": "https://news.google.com/rss/articles/CBMitwNBVV95cUxPanpkdGI5Vm4zd0FQNVZSaFVaN2xKbmZITnpVblZWYjdIS29PeTlwX3ZmNXVMRDVLWU1VdkVxX3Zwa09WcVlxX1VsSEdrVjRqUWtaejhxQXJRZzk3TWZvMEtVdEtMNmtkc2k0UG5FS1RqQlJzXzFZZUVlb0tsaEg4UEtTSWhmUzBQRl9tNTg4SlJlVS0yNVU0T0NjdzlhaU9qZ1ZZMW9pbXUzWF9vazIzRktPUTdyUW5TRDBUVFdjSk5kVk9zTWMydllKQVpERnZSQjVGMmk5VWFDOVNpRm5aLXI3WkNIT0tIWXB4YzVPT3dMTC03VXdLUzN5ZjVMSlczVW02ajh1ak9za0czdTNiaGR4Y1FPNW9wV1NpUlZWa0ZSZlFkQ2NfcUpKZzdSdTF6bnQ3NjA3Rl90U2VBNkx1SS04RjVHQkxYb1Q0Uld2UXNyQXlMSk4tdWlXYUY5dHBhRUQ4UkJfXzdYWXBwUkJmVzZoMmZPbUVIWlNNQS1CQXRNSENkZkhyWVhvNkd0dFh1Z2hVOFhRLVppTHktNWZ3MHU4eWw1ZlptNERYQ1d3d1M0cTdOd3lj?oc=5"
+  },
+  {
+    "date": "2026-09-29",
+    "cat": "연구/기술",
+    "title": "AI가 인간을 고용하는 시대",
+    "source": "브런치",
+    "desc": "AI가 인간을 고용하는 시대. AI 분야의 최신 동향입니다.",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iSVo2TTBjRTlKak95ZGN6RTY5UVZRRHQxbGtZU3ZLa1VSUWh2dGdXTkRxUjBhRTM2SnBTcVlzRXoxUDlrM0RoRg?oc=5"
   },
   {
     "date": "2026-09-28",
@@ -3982,21 +3998,5 @@
     "source": "글로벌이코노믹",
     "desc": "엔비디아·TSMC, AI 칩 '황금 과점'…합산 순이익 250조 원 돌파, 삼성·SK하이닉스도 'HBM 특수' 동반 질주 글로벌이코노믹",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSkVPei1BUHJDQkRZLXpNcU1jMDJ1S2gxVy1YUWV2R3F4ZlFaWVBJSlVLM1RKMms0S25SU3h1eDNvUmVaMEZWMnNmc2M0RWgxMTFJV3Jmb0IxZUY4QWN4cTdmUTM5WlZjUUFSa0R3NGZvdDE4LXpLMjB1ZU1USGtQVlB1dko4Ykl6?oc=5"
-  },
-  {
-    "date": "2026-03-02",
-    "cat": "기업동향",
-    "title": "[AI 반도체 위기] 삼성·SK하이닉스 덮친 'HBM 오더컷' 공포…빅테크 AI 투자 941조의 역설",
-    "source": "글로벌이코노믹",
-    "desc": "[AI 반도체 위기] 삼성·SK하이닉스 덮친 'HBM 오더컷' 공포…빅테크 AI 투자 941조의 역설 글로벌이코노믹",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcE83NG85ZEIwOGtzWTVuVk9nQm9WNkNaSWhobnpIQXY4X2pEVTBRTDI1TF9aY2FhVzAtRVY5UGFZRG1kaG5tbFRQdjEtanFZREJmak9SMEhqbEJ0RkZnR1BOdFZ0b0F6aDZPY3h4S3dpNlRGZVFicVlEMUN0d1UyT3UwRTljV3BX?oc=5"
-  },
-  {
-    "date": "2026-03-01",
-    "cat": "정책/규제",
-    "title": "베트남, 동남아 첫 '포괄적 AI 규제법' 시행…콘텐츠에 워터마크",
-    "source": "연합뉴스",
-    "desc": "베트남, 동남아 첫 '포괄적 AI 규제법' 시행…콘텐츠에 워터마크 연합뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aYnlURTVfZkktU0RETVh3QlE2Zk9Jenp6Qy1JXzBweDFWdTJGejFnU3d0b1FZbkdLVjF1RGt4SF8yOVo1VHB0VUE3dk82aGJWVVN4VkFRaGJYZkHSAWBBVV95cUxPS3BKSlhKcjh5c3RaM2VLNE5LSVhaSjU4QmsyZVc3SDBSdUptVkxaU2g3R2xVYk1sRnJWeXhBbGNLaHdnUGFRNFlaMmNyQzA1MlZvbW5NMDd2NTVqd1h5eEM?oc=5"
   }
 ]
