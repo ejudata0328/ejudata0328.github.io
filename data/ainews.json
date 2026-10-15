@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-10-15",
+    "cat": "기업동향",
+    "title": "‘탈엔비디아’ 나선 빅테크…삼성·SK HBM 판 더 커진다",
+    "source": "이데일리",
+    "desc": "‘탈엔비디아’ 나선 빅테크…삼성·SK HBM 판 더 커진다 이데일리",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVk95VlhMZkg3VVFjWnNJOVcwaDRkQXlqcUdNOWlNUlN5cVdxRE1rWFhlMUJmSUlKb0E0UDFueXBKRFZ6V2xwWS05dGtzM1ZzM095OHdlbVVHQmhQbEJ3V3lkcmdfa1hQYzcwTHE5LWtyalZvQmF4M2twUHRlUW1FRA?oc=5"
+  },
+  {
     "date": "2026-10-14",
     "cat": "기업동향",
     "title": "엔비디아 ‘유럽 AI 영토 확장’…K-반도체, HBM 새 활로 열린다",
@@ -38,6 +46,14 @@
     "source": "지디넷코리아",
     "desc": "HBM 다음은?...삼성전자, 차세대 AI 메모리 제품군 확장 지디넷코리아",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12b2FRWHAwLVAyV2RiNnV6d2ZpeDVkQ1h4Z0x0Q01DRnNsYWRheVBwUE5xcnhvOXJnRzl2SEZYNjR1ODhWNTJSNzBUaW5tRExNOGZ6NkRB?oc=5"
+  },
+  {
+    "date": "2026-10-13",
+    "cat": "정책/규제",
+    "title": "Microsoft 회장: AI는 유제품보다 규제가 덜하다",
+    "source": "IDNFinancials",
+    "desc": "Microsoft 회장: AI는 유제품보다 규제가 덜하다 IDNFinancials",
+    "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPQ0xTOXFXUUFxU1R3LXdPcXBWMUxPOXlxSC1TblBUOFJra2xuOVJkXzJnRU1FeVZGSkhPQzJOZGI4VUk0UUk4aE9FdnNBMlBvOWNzTUtQTUExRkxUR2xQc294dXNNVzVhY1ZhcGVKMnpWVEplOWo4V2UydjdHdGFvV0lPbmU4cTNCSE9QempxN3NMNDZhZk1mVDNyczc3dWJ6bVd1a3I5NW9oWFE5WWlGa0pVanJJSHFXVDBmbVhqNFhmYkh2Z0pEb2FXWmdCNy12cVVwSEpfX3FCMUE4eGJLWlljcDZjd2NESEEwUnRhdjc4Ym9HYUFtSTFRVjRIUDEzSW81UXBRQjMxUzRZQ1l5YnJadEk?oc=5"
   },
   {
     "date": "2026-10-10",
@@ -3982,21 +3998,5 @@
     "source": "Law.asia",
     "desc": "AI 기본법: 2026년 대만의 AI 발전 전략 Law.asia",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tOGdZVFFHN2FubDc0MXpGcmpjaFNqcWcwSno0Y0hsWlpIOHNBbUMzeUtCUFVHN1lQRUt1SXFTZlp1VWstN0pfTmV5R0JCUWNtSFdPdWNCM0JsTnhza1c2blNqMWVfY2hxSGZkZDVvTDRJc3NYQzZJ?oc=5"
-  },
-  {
-    "date": "2026-03-23",
-    "cat": "연구/기술",
-    "title": "챗GPT·클로드 이용약관 충격적 진실…\"품질 보장 없고 책임은 사용자 몫\"",
-    "source": "지디넷코리아",
-    "desc": "챗GPT·클로드 이용약관 충격적 진실…\"품질 보장 없고 책임은 사용자 몫\" 지디넷코리아",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhSjlDWURRZHJSVDNmQnRZVnlWUmFFd1NDZnRDTVh0MEN1UzlZM0FVU01iVkZBUHBxNFhRYXZSMlEtSzdoZzg3WWk0NmgybTdVa3M2d3J3?oc=5"
-  },
-  {
-    "date": "2026-03-19",
-    "cat": "생성AI",
-    "title": "미디어젠, ETRI와 생성형 AI 기술 개발 협력 강화…LLM '미라지' 고도화",
-    "source": "마켓인",
-    "desc": "미디어젠, ETRI와 생성형 AI 기술 개발 협력 강화…LLM '미라지' 고도화 마켓인",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ETndnb1pfdnBSUVBHZjRZcWd3WFdNZGluTGV6aG1GYWxOU3ZWaG41ZHM0VVM0MlF6aXlmY1VYcWN4Sk1LYnNmQUltOUt2UDFiYXF3OGdGR2VxcW5Gck9wbE5TTEtlNW1CQzdEdzNBYnltbmM?oc=5"
   }
 ]
