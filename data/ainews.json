@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-10-18",
+    "cat": "기업동향",
+    "title": "[반도체포커스] 삼성전자도 TSMC 3나노 수용…엔비디아, NVHBM 앞세워 차세대 메모리 규격 주도",
+    "source": "이코노미트리뷴",
+    "desc": "[반도체포커스] 삼성전자도 TSMC 3나노 수용…엔비디아, NVHBM 앞세워 차세대 메모리 규격 주도 이코노미트리뷴",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB1TXYtby1Gcmo4TmY1WDZET0RjOXB6LTJQTXNLOG5FdENqWGtWMlAzSExFeGdmcEc1Q3VxUWxqY3JXRk1fNnhzY1pQVVZ4SVg2T0t4ZGE4djctQ0c5d1p0MU90bC1WOTRKZEMteEs2clVpYlhSUjJF?oc=5"
+  },
+  {
     "date": "2026-10-15",
     "cat": "기업동향",
     "title": "‘탈엔비디아’ 나선 빅테크…삼성·SK HBM 판 더 커진다",
@@ -54,6 +62,14 @@
     "source": "IDNFinancials",
     "desc": "Microsoft 회장: AI는 유제품보다 규제가 덜하다 IDNFinancials",
     "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPQ0xTOXFXUUFxU1R3LXdPcXBWMUxPOXlxSC1TblBUOFJra2xuOVJkXzJnRU1FeVZGSkhPQzJOZGI4VUk0UUk4aE9FdnNBMlBvOWNzTUtQTUExRkxUR2xQc294dXNNVzVhY1ZhcGVKMnpWVEplOWo4V2UydjdHdGFvV0lPbmU4cTNCSE9QempxN3NMNDZhZk1mVDNyczc3dWJ6bVd1a3I5NW9oWFE5WWlGa0pVanJJSHFXVDBmbVhqNFhmYkh2Z0pEb2FXWmdCNy12cVVwSEpfX3FCMUE4eGJLWlljcDZjd2NESEEwUnRhdjc4Ym9HYUFtSTFRVjRIUDEzSW81UXBRQjMxUzRZQ1l5YnJadEk?oc=5"
+  },
+  {
+    "date": "2026-10-13",
+    "cat": "연구/기술",
+    "title": "“AI의 진화, 똑똑함에서 정확함으로”…AI 플랫폼기업 팔레트, 'Palette Agent' 선봬",
+    "source": "전자신문",
+    "desc": "“AI의 진화, 똑똑함에서 정확함으로”…AI 플랫폼기업 팔레트, 'Palette Agent' 선봬 전자신문",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5BdnYxWjFFZndGdDg3ZVZ2cGZuVTNVZkxSNU1DRktNNjBWOVNBOHMzWVBtSzcxb2tVaVFLeUJZM04wdnV0dVQzUmJ4WE1CUQ?oc=5"
   },
   {
     "date": "2026-10-10",
@@ -3982,21 +3998,5 @@
     "source": "Law.asia",
     "desc": "한국 AI 기본법의 주요 특징과 의의. AI 분야의 최신 동향입니다.",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBJNUd5R1BqTS1vREtmekFCUmlCbnROUkRNdWFTSlFYbFNoS0x4TkJId3hKa3pLOUk1bU9adkI3alpwZEtHNWJlTFBGWXQwcUV6YktiR0hlVlNzTmFaQk9fTWZCNk1Gd05pWFdxVFl3T2E2TE5EYTZ3?oc=5"
-  },
-  {
-    "date": "2026-03-24",
-    "cat": "생성AI",
-    "title": "[OpenAI는 완전 자동화된 AI 연구원 시스템 구축에 모든 역량을 집중] Anthropic, Google DeepMind와의 치열한 경쟁에서 OpenAI는 AGI(인공 일반 지능)를 넘어 초지능 수준의 연구 자동화를 우선순위로 삼았다",
-    "source": "AI넷",
-    "desc": "[OpenAI는 완전 자동화된 AI 연구원 시스템 구축에 모든 역량을 집중] Anthropic, Google DeepMind와의 치열한 경쟁에서 OpenAI는 AGI(인공 일반 지능)를 넘어 초지능 수준의 연구 자동화를 우선순위로 삼았다 AI넷",
-    "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1ScjRmaEREb2RpWTRzSE80aWJPcnBtcUttN2dEdHZCdnduLVNMUFNLV1Rhd0RzNkdWNU5Ccmpld3I?oc=5"
-  },
-  {
-    "date": "2026-03-24",
-    "cat": "연구/기술",
-    "title": "AI 기본법: 2026년 대만의 AI 발전 전략",
-    "source": "Law.asia",
-    "desc": "AI 기본법: 2026년 대만의 AI 발전 전략 Law.asia",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tOGdZVFFHN2FubDc0MXpGcmpjaFNqcWcwSno0Y0hsWlpIOHNBbUMzeUtCUFVHN1lQRUt1SXFTZlp1VWstN0pfTmV5R0JCUWNtSFdPdWNCM0JsTnhza1c2blNqMWVfY2hxSGZkZDVvTDRJc3NYQzZJ?oc=5"
   }
 ]
