@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-10-22",
+    "cat": "기업동향",
+    "title": "[반도체 머니맵] 엔비디아가 SK하이닉스 HBM 사면 누가 돈 벌까",
+    "source": "https://www.ppss.kr/",
+    "desc": "[반도체 머니맵] 엔비디아가 SK하이닉스 HBM 사면 누가 돈 벌까 https://www.ppss.kr/",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBBa2k0U2w5Ry1XczB4WjByc0k4R3VkRVF5bjFIZWlJVVhUVkZCN2NBZ2t3RnJWMGMzSThWQ3VoelBPSnpuSFItUVk2cWMzLTZORmx0MGZka01LcFl3NmdBdVhDTUk?oc=5"
+  },
+  {
     "date": "2026-10-21",
     "cat": "정책/규제",
     "title": "삼성·SK하이닉스, 美엔비디아 HBM 공정표준화 요청에 대처…승부처는 1c D램",
@@ -22,6 +30,22 @@
     "source": "CWN",
     "desc": "엔비디아 HBM 공정 표준화 추진…삼성전자·SK하이닉스 경쟁 변수 부상 CWN",
     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KSVZ1Z3g0Q2NHQUNUVE9UbU1odGV0bm1TVzROVVdOVzgzZGM1T3ZXT0FscVdWeDlrQ1h0akF6Z0xRZG1wT2hUdU9QVXlVT2lNUlR0NHlDWDBQdGxrbGZqMHJB?oc=5"
+  },
+  {
+    "date": "2026-10-21",
+    "cat": "기업동향",
+    "title": "엔비디아 차기 HBM에 TSMC의 3나노 공정 제조 칩 활용 요구, 전영현 HBM 공급 전략 수정 불가피",
+    "source": "비즈니스포스트",
+    "desc": "엔비디아 차기 HBM에 TSMC의 3나노 공정 제조 칩 활용 요구, 전영현 HBM 공급 전략 수정 불가피 비즈니스포스트",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QYUpXOGVDWEpsZGhtRExsaVhCOHQwQjJ3VE5xQU5iV0R4R0FYdVlTSDUxVEoxa29GUUVzME5ZVXZON1JRYkNPVkRMU1lrTGdGR3RJR3RucndsWWd6djhJZUpSUmt1X0dObzdfLVZBMGxwZzQ?oc=5"
+  },
+  {
+    "date": "2026-10-21",
+    "cat": "기업동향",
+    "title": "[인사이트 뉴스] 엔비디아의 ‘HBM 표준화’가 호재라고?…삼성 턴키 전략 흔드는 빅테크의 역습",
+    "source": "moneystorm.kr",
+    "desc": "[인사이트 뉴스] 엔비디아의 ‘HBM 표준화’가 호재라고?…삼성 턴키 전략 흔드는 빅테크의 역습 moneystorm.kr",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZZnNhcGx2WldlN0pOSUVpcFlpNVBYRGNuN3Rac0dzS0NqM3lJNHlMUC1idUtzLWxleTh2bjYxVzA2TVBzNkcxZy1XdUxzM3N6S29RdWRfdWo2TzdENWVaaU9QdTNYRUhYNHc?oc=5"
   },
   {
     "date": "2026-10-20",
@@ -232,6 +256,14 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rVzlxWmdkcE10WXd0al9HX1RXb29VdUdleFU1YUtwODVIWDNHNldBUkNkVG1LRzhwdUNOYTBFa2pDRWVJXzR4ZlZQOUhYTUVhcVc2ZkxCUGdiaEJWb3JNMzhIeHp4akZrcDc4etIBcEFVX3lxTE12YklONHJzNHNSTmJUY2xEdko4OFExMF8weWtNWV9FTnVFZ3hPbzFsY2txRlM0c1EwTkgyeDdXbGdSb0dhS3hXVEFXMjhTdGJ1VkEyVkR3bWpkbG9pMGNWMndMRkozVWZadDlLQlFPby0?oc=5"
   },
   {
+    "date": "2026-10-05",
+    "cat": "생성AI",
+    "title": "전 Anthropic 연구원, 뉴욕시 의회 AI 청문회 증언 예정",
+    "source": "Investing.com 한국어",
+    "desc": "전 Anthropic 연구원, 뉴욕시 의회 AI 청문회 증언 예정 Investing.com 한국어",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpQ3Vhb045aWNHaElGeC0telBCalM1RFctdXNPbG1iM19uT21jMnVUeFhGTkZQRzdpMHdSQnQ1ZHlJZHdfNHVBakc1VWxCSlJvLUc3cXVWZHN4a004V0xIeG5FdHlGTjBCel9vaUt0VTE?oc=5"
+  },
+  {
     "date": "2026-10-04",
     "cat": "기업동향",
     "title": "[반도체포커스] 표준 HBM도 사라질까…NVHBM 대역폭 30% 높이자 셈법 복잡",
@@ -310,6 +342,14 @@
     "source": "Yellow.com",
     "desc": "구글, '제미나이 4 아르곤' 공개…벤치마크에서 OpenAI·Anthropic 앞섰다고 주장 Yellow.com",
     "link": "https://news.google.com/rss/articles/CBMitwNBVV95cUxPanpkdGI5Vm4zd0FQNVZSaFVaN2xKbmZITnpVblZWYjdIS29PeTlwX3ZmNXVMRDVLWU1VdkVxX3Zwa09WcVlxX1VsSEdrVjRqUWtaejhxQXJRZzk3TWZvMEtVdEtMNmtkc2k0UG5FS1RqQlJzXzFZZUVlb0tsaEg4UEtTSWhmUzBQRl9tNTg4SlJlVS0yNVU0T0NjdzlhaU9qZ1ZZMW9pbXUzWF9vazIzRktPUTdyUW5TRDBUVFdjSk5kVk9zTWMydllKQVpERnZSQjVGMmk5VWFDOVNpRm5aLXI3WkNIT0tIWXB4YzVPT3dMTC03VXdLUzN5ZjVMSlczVW02ajh1ak9za0czdTNiaGR4Y1FPNW9wV1NpUlZWa0ZSZlFkQ2NfcUpKZzdSdTF6bnQ3NjA3Rl90U2VBNkx1SS04RjVHQkxYb1Q0Uld2UXNyQXlMSk4tdWlXYUY5dHBhRUQ4UkJfXzdYWXBwUkJmVzZoMmZPbUVIWlNNQS1CQXRNSENkZkhyWVhvNkd0dFh1Z2hVOFhRLVppTHktNWZ3MHU4eWw1ZlptNERYQ1d3d1M0cTdOd3lj?oc=5"
+  },
+  {
+    "date": "2026-09-30",
+    "cat": "정책/규제",
+    "title": "방미통위, 연내 ‘방송 AI 윤리원칙’ 만든다…생성물 표시제도 추진(종합)",
+    "source": "이데일리",
+    "desc": "방미통위, 연내 ‘방송 AI 윤리원칙’ 만든다…생성물 표시제도 추진(종합) 이데일리",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcXpCTEdjX0x5WFBDbVdZZGZIaEo1RE5xSC1sVFo5V2JablZ3WGFDUk9qcGdxQnJONG9tUjBkQmpEZWRlUHVFdlhmV2JGemNyYjBPVER1RjIyRGZlazFtbktQX3J2ZXgwSzNrNUtSNjFyc2lyS29hXzhRaGpkZHRUMQ?oc=5"
   },
   {
     "date": "2026-09-29",
@@ -2552,6 +2592,14 @@
     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xR2MtQ0E1eWdta2hOTFV4aE5LZVFQZ0FCUmgtdXBKY2NRY0NQdWFSc0d1QzdVdzVIOUpmYzdYTnJ3NG56REFuQUN0aWFvLUk?oc=5"
   },
   {
+    "date": "2026-06-25",
+    "cat": "연구/기술",
+    "title": "마렌딜, AI 역사상 최대 시드 라운드 중 하나로 200M 조달 성공",
+    "source": "Cryptopolitan",
+    "desc": "마렌딜, AI 역사상 최대 시드 라운드 중 하나로 200M 조달 성공 Cryptopolitan",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMkZoMUZDd0RROGt2NTdRSGpSbUhOU0ZMSVg0QVRISHA0V0N5Sjc0cWVabEEzMmtiUDQxVzF4dXVFNURUdmdGV1JxQUxsMDlTUF83cjhtaHhxUFRKME9IdHp0WGZETGlvVFVSb0RiVkx2M1dGUEl4d2luSjFkbV82bE5ORQ?oc=5"
+  },
+  {
     "date": "2026-06-24",
     "cat": "연구/기술",
     "title": "[박진영의 비즈+] AI가 바꾼 반도체 시장…삼전·하닉, 주도권 확보 경쟁 갈수록 치열",
@@ -3950,53 +3998,5 @@
     "source": "NK경제",
     "desc": "[단독] 북한, 오픈AI 자료로 생성형 AI 개발하고 있다 NK경제",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43eUd4S3VHZmdRUGNGUGRZYlU5RENCRTZkd2xXNjByV3RpcXJQeXhwOHZGbm5YQ1RrRndfZGlicTRERUotRG9kLWQ2cmUybjYwblFLZC11cmZxdHhyMnkzYXNiamZpRTMzZFHSAW5BVV95cUxPMzZGSFRGSTdKQmZpbzNKWFBjeEZqeWl3WmptVkpENllmMjJmZVRiNnF3NHA4blJqYVdRSXhZSWVjZzlUT01EUUpTaXU1dFhUMlljUzl1djZvT3FGR2xGMndkYUhNcElxVWJkenBGdw?oc=5"
-  },
-  {
-    "date": "2026-05-04",
-    "cat": "정책/규제",
-    "title": "글로벌 AI규제 전쟁…한국판 생존 전략 관건 [AI기본법 시행 100일③]",
-    "source": "데일리안",
-    "desc": "글로벌 AI규제 전쟁…한국판 생존 전략 관건 [AI기본법 시행 100일③] 데일리안",
-    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNUU1ISEF2dWJHTHlKNmxXbEFCMDM2RmFXcERGRXg2a3ZfbGVkcVU5SUxBZVc0Y1hMZXNtd292NTVieGs1empTNWVmMkxxWU5Nd2dWT1dUS3FRT2ZzS1djdG0tUUFJWkoyUDItR1dwZ3JmMnpNUVVJYzNTZ3BrU3JESUthX0ZJZ0U2YzJqX19yOE1sU1Y1TU9xWVlHNXVhQUF1TVpaYjJWQ000UzQ1WFdhOEJuWXZMQnVWNGI3REE0M0FPaXRBR2lHektCRG5BOTBxa2V2NW5sVTdLZVhZTlN4S1ViWmRJcVFRSjVDMkxPOUZ1cHBZNHI5UTU1UHZnZnUydW1hYlljek96YzF5X0HSAZACQVVfeXFMTm1lLXRVYnB6NkJwWjBfVy1nNkNBNWpKS2pwSHdDWk5SM01BVjF4VGFWQzNXYTlyM2pMWkJ0cDAtV1F4UTVUTmdpX1BHandZRGIyNmxQTjZEMGdkbnhEc2pzMVQ5NnAxSUcxOThwbl9xTG5NUl9aTWdCLUprYWl2VmlLaUR6SVdOUUtaZkwwRHk5Rll5UGRyeXVKU255WHVDXzNzTVU4R3pFUkdvREdjdHBRRUNTeldQRm9Lc2FMMUNVNkowcEt6RzFyaHQtMmhlNVFVaDhKNTU0emxlVTRhVk9pR2FVeG5yaW9QOHZFWGhrenJtcjEwS0JZXzFRRmNtMjVjRzA1MDNLWWJwNnI3Qmc?oc=5"
-  },
-  {
-    "date": "2026-04-30",
-    "cat": "생성AI",
-    "title": "[분석]정리형·정보형·사유형… AI 챗봇 3색 경쟁의 본질",
-    "source": "뉴스피릿",
-    "desc": "[분석]정리형·정보형·사유형… AI 챗봇 3색 경쟁의 본질 뉴스피릿",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RV3JwS3BiRlVfMllEeHZmajJTS3NEanJjV2pDR0lSekcyOVBkOXNlejR5YXZFZTU0OHlrb1dNdkNjVlZZMldEc2VoejRUcXhLMlVYaGpGU25Db3pId1BnZVVqdnN0VEt0WDA4?oc=5"
-  },
-  {
-    "date": "2026-04-28",
-    "cat": "기업동향",
-    "title": "HBM이란? AI 반도체 전쟁의 승패를 가를 고대역 메모리",
-    "source": "KB Think",
-    "desc": "HBM이란? AI 반도체 전쟁의 승패를 가를 고대역 메모리 KB Think",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB2ZmpCYXNheTREYW9OS1dBQlNYaVhsdGJldE1xMU5mNWxxN19URG9Ra0JSOFYyY1pYWkl2RVpVT1BYWHZ5dGxUOUwxWTdyUThI?oc=5"
-  },
-  {
-    "date": "2026-04-27",
-    "cat": "연구/기술",
-    "title": "장준영 국가AI전략위 위원 “AI 기본법은 진흥법, 불확실성 줄여야 산업 성장”",
-    "source": "테크월드",
-    "desc": "장준영 국가AI전략위 위원 “AI 기본법은 진흥법, 불확실성 줄여야 산업 성장” 테크월드",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBOeDVNOG5SLUVVaVFHckVRUzdaMkhnS2pTdG9BT1lLN19qLUw1S3BHVHQ5RWRCRy1oVUZXeUpOYzJ4dnYzZmhkbEc3ZDlOd1ZNcmE0d1lRcWNObHlBQW9ScWVLc1pyME8t?oc=5"
-  },
-  {
-    "date": "2026-04-24",
-    "cat": "연구/기술",
-    "title": "[AI 대격변] GPT·제미나이·클로드…글로벌 AI 플랫폼 판도가 바뀐다",
-    "source": "데일리연합",
-    "desc": "[AI 대격변] GPT·제미나이·클로드…글로벌 AI 플랫폼 판도가 바뀐다 데일리연합",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3U0lZdW5RTVhDaDIyU2prNTM2UGlRSGM4MHNzN0xrd0huWVM4X1V0QXAtZmQyb1IwVV85aUM3RngydnJHYkFwS01yX3Fnd0U0UHlJV3RLRktSTEk?oc=5"
-  },
-  {
-    "date": "2026-04-22",
-    "cat": "정책/규제",
-    "title": "AI 특허 침해 판단, 어디까지 허용할 것인가",
-    "source": "법률신문",
-    "desc": "AI 특허 침해 판단, 어디까지 허용할 것인가. AI 분야의 최신 동향입니다.",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UYzUyOFNYSXh0a2hXSnhmZWhveVk2WWJFeVNMbXp5WHZCUDBFbVY2WEJ6MThZRWdtNTlWN3dZbnd0R3hXVnJybU94M3dZWnc0NGRoUzJYTlItT2cxTkpBbjA0WVV6bzJYdDhYN3hB0gFyQVVfeXFMTVZNbjloU2tyUnRIYkNldFZrT1hTblV4UmgwZmtPdUhQTUk2dHAyVVdHQU82YS03UTFpSWVpRlMwdXJ3aHk0YUc3TmFza3FJNVNpQkJLY1B5ZWY1MEpldTJkdFNIUmhDTmhoQ1R4ZnV6S0Jn?oc=5"
   }
 ]
