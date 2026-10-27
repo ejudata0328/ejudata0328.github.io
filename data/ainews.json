@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-10-26",
+    "cat": "생성AI",
+    "title": "OpenAI, Anthropic, 그리고 Google DeepMind가 영국의 새로운 AI 생물보안 임무에 합류했습니다.",
+    "source": "Brave New Coin",
+    "desc": "OpenAI, Anthropic, 그리고 Google DeepMind가 영국의 새로운 AI 생물보안 임무에 합류했습니다. Brave New Coin",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWXlvcUdnZ3Qtb3AwSm54WTRIemZVZ0h0Zkxwc2l4YkVQQ25xRXhycDBUZFRBazBiWXZ6cTRqX1p2Z2xTSUUxb25UdlRSaEduRFBoR0k3NFd5amxXOXM5VEs5VUtrTWVReS1yb212VEFDSW1TQjVkVURYejlneDAtaDBySHN0WHUwMUI1TDh1V2xTbXJ1YmtSdjN1djhQa0ZKaldFMGZ3Z0tWVzEydEdqNWxubVo3SVlISXVUOTlNR2hnU2RSX0o4?oc=5"
+  },
+  {
     "date": "2026-10-25",
     "cat": "기업동향",
     "title": "맞춤형 HBM 시대 본격 개막...반도체 ‘적과의 동침’ ‘합종연횡’ 가속화",
@@ -838,6 +846,14 @@
     "source": "MTN 머니투데이방송",
     "desc": "SKT·카카오·KT, '모두의 AI' 사업자로…연내 전 국민 무료 서비스 MTN 머니투데이방송",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ib0hfYUZCR2lkT2h3Q0lmY2VzdlJVODgxTjNPSzduQzRVT1EwWGZnelBMeE81ODJQQTZQMjZOTC1BcGJpSzVZMkVoRUVDTXZnWXRSbnMzUnk4RmpncWRGV1pRa1o?oc=5"
+  },
+  {
+    "date": "2026-08-28",
+    "cat": "국내AI",
+    "title": "[산업/IT] SKT·KT·카카오 컨소시엄, ‘국민 무료 AI’ 사업자 선정",
+    "source": "굿모닝베트남미디어",
+    "desc": "[산업/IT] SKT·KT·카카오 컨소시엄, ‘국민 무료 AI’ 사업자 선정 굿모닝베트남미디어",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrSU1ZaWVFRUt4UDYycnBpdm1ScEU2TlB4Z2I0V0pmLXJzZDBGSllZZmpra0VMY3FpNzlSUE1DaGN2VXhnZ09YYjAwZTlwQkVxd05obW1TRDA0MGR2eWNUdTBGaEp2X24tOEJiZmF2aVY?oc=5"
   },
   {
     "date": "2026-08-27",
@@ -3982,21 +3998,5 @@
     "source": "전자신문",
     "desc": "서울시, 자체 LLM 구축 완료…생성형 AI 기반 '챗봇 2.0' 가동 전자신문",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9iM2RYMG0xdTlvLTdzWjAzT0dPUWlqZklrbHJhREdMV1MwbTkyLVB4WEUwbUxFeHFqekZZYXk5OG1TZEFQYzBGNUZoQm8wQQ?oc=5"
-  },
-  {
-    "date": "2026-05-10",
-    "cat": "기업동향",
-    "title": "마이크론, AI 메모리 전쟁 본격 돌입...HBM 증산으로 엔비디아 공급망 확대 노린다",
-    "source": "레디앙",
-    "desc": "마이크론, AI 메모리 전쟁 본격 돌입...HBM 증산으로 엔비디아 공급망 확대 노린다 레디앙",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UZ2FFUElXSFJYdkJjWlNxajVyWWRkMUExM0NMU0o4NVh1djUwM1lwcXNpU2dQd2dRc1FhM01YQzI4MWMwUi1YZzJFa2p1RDlwb05RVkVhQ0ZGaHRiUE5TMmVxbUVWYlNy?oc=5"
-  },
-  {
-    "date": "2026-05-09",
-    "cat": "기업동향",
-    "title": "HBM 다음 노린다, 한미반도체 시총 30조 돌파…AI 수혜 광섬유株도 부상",
-    "source": "자본시장뉴스",
-    "desc": "HBM 다음 노린다, 한미반도체 시총 30조 돌파…AI 수혜 광섬유株도 부상 자본시장뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14RndDR2M2UXFxR0RyVHVyd2ZaZlhnSl9jUU5kblZVcEhxdkRxX0hSM1JNclJSOEIzbkxtSnQyWktoVVh5S2JHbVU5Wm1hR3VOTklkSjlQTjFqbklxclRQWjk5cTVxa2s?oc=5"
   }
 ]
