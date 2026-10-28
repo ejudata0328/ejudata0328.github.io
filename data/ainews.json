@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-27",
+    "cat": "기업동향",
+    "title": "HBM 없이도 엔비디아 제꼈다…하이퍼엑셀, 네이버와 AI칩 검증 - 머니투데이",
+    "source": "머니투데이",
+    "desc": "HBM 없이도 엔비디아 제꼈다…하이퍼엑셀, 네이버와 AI칩 검증 - 머니투데이 머니투데이",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CQUdmdUhCWkw3aEJmcUZkOFdYeFhMMXBBWThncl9McElPZ0hoRDJKS00tczl5bjJqcUFXMHFZR0ZDRURGTHVBY1I0a3NocjBOOVB0UG4yTnpIbVNfSy1saFF3OHNpZ3czTnfSAW9BVV95cUxNbFRsX1JxNU1QaVdoWHowdHd5SlJJaUpBUFI1Qjd6czk2WjUzemZlbGNRZjhqcmpCUUJ4LWtMWUtGZlcxcXc2VGRXSHE4MEhFa0N2dmpiVlQtbmtBZ1N1NktOdGlXZDlzM2hta0R5R0U?oc=5"
+  },
+  {
+    "date": "2026-10-27",
+    "cat": "연구/기술",
+    "title": "AI 반도체 '각자도생' 끝났다…개발·생산·패키징 전방위 협력 확대",
+    "source": "이데일리",
+    "desc": "AI 반도체 '각자도생' 끝났다…개발·생산·패키징 전방위 협력 확대 이데일리",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOEtnTmVjWlNKWlBJQU5vVkpnMGx0YndkMmFHVHd2MzNfRlZuYlhma3lOSUFnYmZGTUd5UjZNQmd5Yjd3X3FFTnN4UEhkb3hILTZFWDlzYV9OTmpId3JUcjdsZDJtTEZITnNaU19WYW5IYk1YUmVpUHVzeTRWRGo2ZQ?oc=5"
+  },
+  {
     "date": "2026-10-26",
     "cat": "생성AI",
     "title": "OpenAI, Anthropic, 그리고 Google DeepMind가 영국의 새로운 AI 생물보안 임무에 합류했습니다.",
@@ -3982,21 +3998,5 @@
     "source": "전자신문",
     "desc": "전북대, 멀티 LLM 생성형 AI 서비스 개시 한 달만에 사용자 6600명 돌파 전자신문",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9NTDdRaG5LbG5mek5Iamg2Wko2d29fMWMtMUZFeEhZZ3FmRUhYcnplSl9wNWNONE9PaEt2ak94aUsyeTVZbi1KSFRIN19Idw?oc=5"
-  },
-  {
-    "date": "2026-05-11",
-    "cat": "생성AI",
-    "title": "\"LLM+의료영상\" 새 공식 제시…제이엘케이, JOOMED 공개",
-    "source": "메디칼타임즈",
-    "desc": "\"LLM+의료영상\" 새 공식 제시…제이엘케이, JOOMED 공개 메디칼타임즈",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01WnpvRWlvOVZQVDRsNG1YMDl6cENWcjVWMjdTeTBUbTlVQU52YzRTOTM4SlIwSjl2TG83UnRNTmRHblJ1ckQxR2JvSGpZUmF1UF9WTUY5VFdwM2h2clRaSmpfNWpmWHZiUzJCMUlxOENad2s?oc=5"
-  },
-  {
-    "date": "2026-05-11",
-    "cat": "생성AI",
-    "title": "서울시, 자체 LLM 구축 완료…생성형 AI 기반 '챗봇 2.0' 가동",
-    "source": "전자신문",
-    "desc": "서울시, 자체 LLM 구축 완료…생성형 AI 기반 '챗봇 2.0' 가동 전자신문",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9iM2RYMG0xdTlvLTdzWjAzT0dPUWlqZklrbHJhREdMV1MwbTkyLVB4WEUwbUxFeHFqekZZYXk5OG1TZEFQYzBGNUZoQm8wQQ?oc=5"
   }
 ]
