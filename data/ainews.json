@@ -56,6 +56,22 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWXlvcUdnZ3Qtb3AwSm54WTRIemZVZ0h0Zkxwc2l4YkVQQ25xRXhycDBUZFRBazBiWXZ6cTRqX1p2Z2xTSUUxb25UdlRSaEduRFBoR0k3NFd5amxXOXM5VEs5VUtrTWVReS1yb212VEFDSW1TQjVkVURYejlneDAtaDBySHN0WHUwMUI1TDh1V2xTbXJ1YmtSdjN1djhQa0ZKaldFMGZ3Z0tWVzEydEdqNWxubVo3SVlISXVUOTlNR2hnU2RSX0o4?oc=5"
   },
   {
+    "date": "2026-10-26",
+    "cat": "기업동향",
+    "title": "고객이 설계부터 관여… 맞춤형 HBM 시대로",
+    "source": "조선일보",
+    "desc": "고객이 설계부터 관여… 맞춤형 HBM 시대로. AI 분야의 최신 동향입니다.",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSGZlVjZod25uZnhKWVdJYzZCUFBKaW5YdEJRb2x0SzRrcDk1Q2VfaDVRNFlpVzMwM3JQSUN3UHZUUWV4cTYxNFR5MUZLTlJkX1JRdHE0ODVHUHl6M0o1aG1rRU55UDFvVENweUhlY2ZQNUctRDBTanlieWkzMFdfbEc4UQ?oc=5"
+  },
+  {
+    "date": "2026-10-26",
+    "cat": "생성AI",
+    "title": "영국, OpenAI와 Anthropic의 지원으로 AI 생물보안 연구소 설립",
+    "source": "Unite.AI",
+    "desc": "영국, OpenAI와 Anthropic의 지원으로 AI 생물보안 연구소 설립 Unite.AI",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcHd0ZHVLNC1SeXdQVjByNGZ6STJQaHB3LWRublFUcm5RbmMwRXExRTNPUm1FVzJLRFJQYllwdlRXdzhDaGthaUM1WXdKWk02c2draGhOa29hV3ZfYzI1a0VDYTR4ckZKOFlNWmdHTWtQdGh1V3BfNmtGOTRiTUl2SVRzUzlRZ1RNQlpxcF9veGx2UG8?oc=5"
+  },
+  {
     "date": "2026-10-25",
     "cat": "기업동향",
     "title": "맞춤형 HBM 시대 본격 개막...반도체 ‘적과의 동침’ ‘합종연횡’ 가속화",
@@ -358,6 +374,14 @@
     "source": "한국미디어일보",
     "desc": "“GPU는 엔비디아 90%·HBM은 SK하이닉스”…반도체 세계 1위는 분야마다 달랐다 한국미디어일보",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1vMG81LXBwTlYwQ3pmTnZtdzkwQTlOTlZ1VVJoMnZzWDVhNGo3SHE1VDF1ZFpfZXM2YmdZU1hrVG9mX0U0S0p1Z1FvdnNGOHJ0OVM0TU8xY1A2cloyZXR6Q3l2U3E5ZmliX3pidnN2VmtmdlV3T0NpRXlzRUQ?oc=5"
+  },
+  {
+    "date": "2026-10-03",
+    "cat": "생성AI",
+    "title": "불규칙, 이미 사이버 공격을 계획하는 AI 모델 감사",
+    "source": "Foro3D",
+    "desc": "불규칙, 이미 사이버 공격을 계획하는 AI 모델 감사 Foro3D",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdW93SUNJbWhGOGc0TDMyeHFZNDNQRGhKMU1hZGVTMVFJZGJ2M25zb0Q2UldHSGpNc25WUFNsSUdic1pNazFsckVocmpHNGdHZU9RZVB1WU9iVDdud0c0YUlLcXFWR1V5WTNLcXJ0LTVuNXd3a3VlUnhtWk0tTEJFc0ludzR1UkNIUnA0XzVXT0plU3pyZDVHWHFGRGJab2d6RWV2dUxsYm5nd2FN?oc=5"
   },
   {
     "date": "2026-10-02",
@@ -1038,6 +1062,14 @@
     "source": "비즈워치",
     "desc": "메모리 찍고 파운드리까지…삼성-엔비디아, '전방위' AI 동맹 비즈워치",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RQWk4TmdrT0MySnR5enEtbk9KN19oeWMxbnVPbFlqcEV1WmN5RUY5SllvSG9Rc25HX1otZGo4bGpQc2JZeWU2S3E4TGxrUHFhSmg1ZWN6RDgzbHZkeE9weHE2S0pLRFpMcXk0Nw?oc=5"
+  },
+  {
+    "date": "2026-08-26",
+    "cat": "기업동향",
+    "title": "삼성·SK, HBM4 8단 출하 비중 늘린다…엔비디아 공급망 변화 예고",
+    "source": "지디넷코리아",
+    "desc": "삼성·SK, HBM4 8단 출하 비중 늘린다…엔비디아 공급망 변화 예고 지디넷코리아",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sSGpEN1g0a3M5ME00LXdpOVhrbTlsTmRNZ3JpZC1IMnNGel9xaGt4N3BhWWdZblhUUGVobnBzdENVYk9wUHQ4dVFjUy1KcnNpUmx2QkNR?oc=5"
   },
   {
     "date": "2026-08-25",
@@ -3966,37 +3998,5 @@
     "source": "초이스스탁US",
     "desc": "엔비디아 차이나 공백… 삼성·SK HBM 전선 '숨은 변수' 초이스스탁US",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iSWFsY1VJc3hibThTUTZ6NGdhZkVaZjl4RjBVYnFoOW1xLUdSdnB1aXpBSnBpaU1GUVZ6OFBnMVFDbjBKbDRGUmVGeERqNk9KT0lRTW15SlE1VGtkMEJKeTN4MGZMQzQ?oc=5"
-  },
-  {
-    "date": "2026-05-21",
-    "cat": "국내AI",
-    "title": "‘GG’인가 ‘New Game’인가…AI 기본법 앞의 한국 게임산업 [BKL 게임&비즈리포트]",
-    "source": "매일경제",
-    "desc": "‘GG’인가 ‘New Game’인가…AI 기본법 앞의 한국 게임산업 [BKL 게임&비즈리포트] 매일경제",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TZm1obUx1Qkw2Ml9LUFhKMXR1VWJNS3liUmU0NFl4X25TNjRUMnNNVi1Ib2hIcG16b2hqYk9MOWsyREVPcnpMTVdnRjlfeHRZb2Nyeg?oc=5"
-  },
-  {
-    "date": "2026-05-21",
-    "cat": "국내AI",
-    "title": "확률적 생성의 덫 ‘AI 환각’ 문제 지속… 신뢰 확보 ‘과제’",
-    "source": "정보통신신문",
-    "desc": "확률적 생성의 덫 ‘AI 환각’ 문제 지속… 신뢰 확보 ‘과제’ 정보통신신문",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MczlOanJmdUlwcTVTcm1mQWtPemFOamdqQ254dUltY1lBeTVqalVZR2N2YmlKZVhZck9rckp6dnhzVzFYUmtBY3FlNzRuVktSamxabXQ3WDZZcExZVnB5NVlYNW1LRkFm0gFsQVVfeXFMTWd3WXJZZm9sRU9QdnBIOXJrZlhVeE9sZnpTb1hJeFdUTl9ZRWhDRmZtTW9nSTV4cnU1eEFyU1hZTFhVck1nb3NFOWd0NE1yaUxTcVpBbVJfcmg0ckNIWjY0UUpVU2tFTXdXNVA4?oc=5"
-  },
-  {
-    "date": "2026-05-20",
-    "cat": "생성AI",
-    "title": "Karpathy의 Anthropic행은 더 큰 신호다",
-    "source": "브런치",
-    "desc": "Karpathy의 Anthropic행은 더 큰 신호다 브런치",
-    "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFA5M2todUZtYVJBTVEtNFFfeGRqUzk4X2pNRVRyakZpSHRtNzNwdVBFVnV6d05Bb3hRRUN6bGxVSWNfWEkx?oc=5"
-  },
-  {
-    "date": "2026-05-20",
-    "cat": "연구/기술",
-    "title": "챗GPT 1위는 그대로인데 클로드 사용자가 1년 새 12배 폭증한 이유",
-    "source": "지디넷코리아",
-    "desc": "챗GPT 1위는 그대로인데 클로드 사용자가 1년 새 12배 폭증한 이유 지디넷코리아",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lWmNzbjZ0aVlieTB2R1dpWjlWUjVhdS1TYUltWGNJV3VkcnZMOF93Z0lHN09jNVJNZE5UNHE2OXhUQ2tQVGppU3A3UV9saDBGOGkxektR?oc=5"
   }
 ]
