@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-11-03",
+    "cat": "생성AI",
+    "title": "우석대, 멀티 LLM 플랫폼 ‘AI:ON 우석’ 본격 운영",
+    "source": "투데이안",
+    "desc": "우석대, 멀티 LLM 플랫폼 ‘AI:ON 우석’ 본격 운영 투데이안",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2UUVRRDI1QjEwQTZ1VnRTMUJ2R0tva2c1WXk5M0I4OXhvMnk0VERSS3F5NWo5bl9PNENGLWlGbDctWTBXZE5OVWpxdkplOFhNYVlqNFVfejZmWEpCUTA0aU1oTDBYZkNp?oc=5"
+  },
+  {
+    "date": "2026-11-02",
+    "cat": "기업동향",
+    "title": "삼성·SK·LG, 엔비디아 AI 행사 총출동…반도체 넘어 로봇·제조 협력 확대",
+    "source": "뉴시안",
+    "desc": "삼성·SK·LG, 엔비디아 AI 행사 총출동…반도체 넘어 로봇·제조 협력 확대 뉴시안",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iMldFUDdtQmJuaEFURVozODJMRUZWcTJsVlpKajlaUFdVaFJsWl9zeFNKWWlKZ25BbG84NFlHeWdhejJKVkhWaF9RbnVBS3RCUEFoc0xIRlhBSE81TmllWGk5UU5nQ1hYLWFoYQ?oc=5"
+  },
+  {
     "date": "2026-10-30",
     "cat": "기업동향",
     "title": "이제 반도체도 맞춤 제작! ‘커스텀 HBM’ 뜬다",
@@ -2264,6 +2280,14 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdjdBeS1EanRqZ2p1aHhwLXRmd3pMNVRvVjQ5VVJZcl9BNVFldW5GbUtJcWxzRkFTY1B5VU15c200M0V2ZDl4UmJyZmlfVXFLQ2h6cjYtekYtUHhscWdQSFgxb3VpWGVfc3hFaFVZbG4zOGJBWnFTZ3psVXNvOUtxRU1JdVlLV01UV0RMS2gxTUJVOE43dm1FRllXZmZ1Zw?oc=5"
   },
   {
+    "date": "2026-07-17",
+    "cat": "정책/규제",
+    "title": "[AI기본법] ② 규제냐 성장판이냐…AI산업 첫 시험대",
+    "source": "연합뉴스",
+    "desc": "[AI기본법] ② 규제냐 성장판이냐…AI산업 첫 시험대 연합뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GSFNOSkFrcDZ4RWxTYkF1X3RpSWEzZU5tUURlNXQ4UF9ZX3g5c1hVeGgtcEdITm9DNDVrTmp5UmU3UmZPN2dub0ttcXBEeHpBSjQxMzJ3cEl4ZFnSAWBBVV95cUxNa0Z6LU9BUXAxMHVSOHBlQmFlclZoNjJ0aDltMm51dWlYdFQya3Rvbm5rZmNra2d5bXk2N1hBRmZjOGdXRHhqMDFZenlGZzlpMXo3TkNwd1ZlRkVmNkpXRDI?oc=5"
+  },
+  {
     "date": "2026-07-16",
     "cat": "연구/기술",
     "title": "[경제] 제네시스코텍스AI, '인공지능 토론 엔진' 상용화… \"다중 AI 토론으로 신뢰성 높여\" |",
@@ -2878,6 +2902,14 @@
     "source": "top1markets.com",
     "desc": "Alphabet Stock at $342: Google Lost Its Gemini Co-Lead and a Nobel Laureate in the Same Week top1markets.com",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVHh2UGNfbUdmT3lDN1dnNlY2cHpCTWZCOU9oT3dPUmxOZVNiVmVKdUFZTTlDcVY3eEpNWmpkNjh6eFRhS3Q0SFF3Vmd6OS1FSG1xUXdzNVdVNzNlZzZvMWo0SXhOT1FNQjV2SHZTMUlmbTdBRnRXMWkxLXphUmVJZHdjRFItb3dHcDR2OEwwZXRLR1N6OU5KNVctcFlwQ3BFNlVHZndhM2twcXpoMDZCaA?oc=5"
+  },
+  {
+    "date": "2026-06-23",
+    "cat": "생성AI",
+    "title": "충북대, ChatGPT·Claude·Gemini 통합한 생성형 AI 플랫폼 6월 개통",
+    "source": "경충일보",
+    "desc": "충북대, ChatGPT·Claude·Gemini 통합한 생성형 AI 플랫폼 6월 개통 경충일보",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzaERoUGN3eHhHbUUtanB0T0RWOGxkaGtYY1BRY05KVUtiekdVMkRLRWFPcWMzZXJ1eUJpME5KU25RdXh3NmhRbVN5WlpZdm00NmpubXg5M25zZw?oc=5"
   },
   {
     "date": "2026-06-22",
@@ -3966,37 +3998,5 @@
     "source": "서울경제",
     "desc": "[사설] 피지컬AI 산업 대전환, 규제 혁파와 파격 정책이 관건이다 서울경제",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0Y19md0NSOVFrQTlxMjZnRUUzM0hZdmRfTUhTNVhDb00wNlp3MFh6QlVGTE5qdEUyY3JnbjJqaS0yTmF1VzA4akRYenVrc2JjelHSAVNBVV95cUxNa1FZZGtmSGx3bVRqME5IUENUOHVLRU1KNjloNTN1OTdlZVE2TXluZ2VqeXNBZTlPdGtleDF5eEFtMzVzVkd2QXlyeE9Lb3A5X0pwOA?oc=5"
-  },
-  {
-    "date": "2026-05-28",
-    "cat": "생성AI",
-    "title": "Anthropic 공동 설립자, 교황에게 AI 모델 안에 \"불안한\" 숨겨진 행동들이 있다고 말하다",
-    "source": "Yellow.com",
-    "desc": "Anthropic 공동 설립자, 교황에게 AI 모델 안에 \"불안한\" 숨겨진 행동들이 있다고 말하다 Yellow.com",
-    "link": "https://news.google.com/rss/articles/CBMiugNBVV95cUxPXzZNdkI1NXdXd3ZSQXBhbzdCVEg1TjM2aVZaOTdZcHhOSk44aHlRQi1WLWpLU0FSOVVWSlVCaU9YX1NKNWQ3WHlScDZFanhvZ0VmRTFTRmQ1RHNuYkJ0bkdGaGVvZXE1cjFpQ0lhMEttRHVhanYxb3NoTzVYM3MwUXBGeWVhV3FIMGNxUVItTjJpRTBVV2k2TXhWY2lTdnFpX2VlTjRONVNhNEtvWXc0VEZaSDFyS0NJZWNkX1pjNnVGQWtlM1ozUDJJaXZtanZYNzNUV0JMb0Y2WHc1a1ZqSVFuUl9sOW1xRWk5c011Z1IwN1NSdlJMYkttdHBwVHpfNllOSFNBUHhFMjROdDNJcFYzSXVvano2RXctNGVybXpNZ2UzMk1UNjFWQm1EZ2dBMDZXVlpTVDFtSmN2empJYnRON1VPUUE0eEZoalUxZTlwSGhvNHAtQTR5b21EanJhN1ZfOFhuLW5TSktKeHNSQk5hWklwVVlOWEk4aDhLTXhCZlY5bG5ZdGhtbmJQVzZlTS1lNTlNS29zMmlDQWxlQXNoZG1Zcmptdi1xcjdpdmRvcFZiSkhtZnJn?oc=5"
-  },
-  {
-    "date": "2026-05-25",
-    "cat": "기업동향",
-    "title": "K-반도체, 메모리가 AI 지배하는 ‘HBM 시대’ 열다 [창간기획]",
-    "source": "에너지경제신문",
-    "desc": "K-반도체, 메모리가 AI 지배하는 ‘HBM 시대’ 열다 [창간기획] 에너지경제신문",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iS19FclcxcXBTU21xdTB0RWF4YS1jMHlNUEFmYmJoa242MWc3YVhXdy0yWmRrWnNSS0hGVnVLNldkZVJ5QzBGZHNLcm5DTjB5T2FJX3pEdE1DNFE?oc=5"
-  },
-  {
-    "date": "2026-05-22",
-    "cat": "생성AI",
-    "title": "LLM만으론 美 못 이긴다…전 텐센트 AI 수장, 새 승부처로 'AI 영상' 지목",
-    "source": "디지털투데이",
-    "desc": "LLM만으론 美 못 이긴다…전 텐센트 AI 수장, 새 승부처로 'AI 영상' 지목 디지털투데이",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWczBzUlV5R01lcElDdDRjaWVxS01ZU2lZUHFucFg5eFhUNGdkRlB4eUlZT0pldDZjWUFTS3phQzh3alBkWUFSbWJqbHNxS040a3E2MDlCTFhCeHNIbTdFNGhyQUdoV2dzUWthbnhoazhYNGs?oc=5"
-  },
-  {
-    "date": "2026-05-22",
-    "cat": "기업동향",
-    "title": "엔비디아 차이나 공백… 삼성·SK HBM 전선 '숨은 변수'",
-    "source": "초이스스탁US",
-    "desc": "엔비디아 차이나 공백… 삼성·SK HBM 전선 '숨은 변수' 초이스스탁US",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iSWFsY1VJc3hibThTUTZ6NGdhZkVaZjl4RjBVYnFoOW1xLUdSdnB1aXpBSnBpaU1GUVZ6OFBnMVFDbjBKbDRGUmVGeERqNk9KT0lRTW15SlE1VGtkMEJKeTN4MGZMQzQ?oc=5"
   }
 ]
