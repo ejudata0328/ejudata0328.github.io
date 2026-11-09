@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-11-08",
+    "cat": "생성AI",
+    "title": "AI 추천도 ‘자기복제’…UNIST, LLM 추천 편향·환각 추적 기술 개발 - 울산매일",
+    "source": "울산매일 - 울산최초, 최고의 조간신문",
+    "desc": "AI 추천도 ‘자기복제’…UNIST, LLM 추천 편향·환각 추적 기술 개발 울산매일 - 울산최초, 최고의 조간신문",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIRVRiZlJWelBYNUdra2RBRWR6NEFtd1hkWGxBeWtteDFaaFo2bVhMZmVKNzhTU1JDTklmMVVnVG1MSXprRjhJcWRmWUo1M3BCSTBQV3lRZ3p6b084d2RtbGJrZUNuTXlIY3fSAW5BVV95cUxNWWlJOGoyMHNZb1RCZGdlSGlKN1ZJU0txVGRhM2UxUGZETS1DQ1U2YUYyenBUUjQ5T3VGbVpyVGVCbXBvaF95Q2lDMUgzXzdwUm5ZQzMyUUhaVmRYdnphODNTWWhpeWpSZW1WTC1JQQ?oc=5"
+  },
+  {
+    "date": "2026-11-08",
+    "cat": "생성AI",
+    "title": "[재계는 지금] 카카오, 멀티모달 모델 ‘카나나-2-v-디사이드’ 오픈소스 공개 : 네이버 블로그",
+    "source": "Naver Blog",
+    "desc": "[재계는 지금] 카카오, 멀티모달 모델 ‘카나나-2-v-디사이드’ 오픈소스 공개 : 네이버 블로그 Naver Blog",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObGhxVEtQbDV1Y3hwcnN6SzJRbURqNlB5bFh6cGZaYTBVUnVEOEtkQW1zWjdqbXlRdF9BTWFUc0RRYS1KWnJFNTZfRFpERmt6cHV4REpyR3VSUTJ4N3NMdlNuRVRTMlJmR0pQVGs5bmo1SktDeGtnNzh6QUp3OW85dzR6elhhUmpXdUNWdnRtMA?oc=5"
+  },
+  {
     "date": "2026-11-06",
     "cat": "정책/규제",
     "title": "[AI프리즘] AI 입법 중복 막는다…정부, 기본법 중심 정비",
@@ -334,6 +350,14 @@
     "source": "전자신문",
     "desc": "“AI의 진화, 똑똑함에서 정확함으로”…AI 플랫폼기업 팔레트, 'Palette Agent' 선봬 전자신문",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5BdnYxWjFFZndGdDg3ZVZ2cGZuVTNVZkxSNU1DRktNNjBWOVNBOHMzWVBtSzcxb2tVaVFLeUJZM04wdnV0dVQzUmJ4WE1CUQ?oc=5"
+  },
+  {
+    "date": "2026-10-13",
+    "cat": "기업동향",
+    "title": "백악관 번복 이후 출시 전 영국 AI 모델 테스트 재개",
+    "source": "remio",
+    "desc": "백악관 번복 이후 출시 전 영국 AI 모델 테스트 재개 remio",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSjlRWlNKaHcwc2dpSHhXbE9sdkR1bzllc0lDck5sT3pVMjR1bExuVU1TNnVFbTUxbHJRUUd4dmhfNGFSOHBBRjZ1Wm1XNG9adnV4NnJ5Q290d0hYc3IxNnh3cFJDYVBVMWRqRFZ3c0QtTGNla0hEYXNMaEZtakticTdQNDRUNjF6c21QQTg2aDV2eFNjU2F2ZGI3TXZxSjh0aUpwanZ3?oc=5"
   },
   {
     "date": "2026-10-10",
@@ -3974,29 +3998,5 @@
     "source": "thedailyeconomy.kr",
     "desc": "HBM이 바꾼 K반도체 위상…AI 공급망의 핵심축으로 부상 thedailyeconomy.kr",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01YVR1dWNDM0c4czBpM2x2VzcxaUljY3BneklydUwwQ0tRRlRMOEtGZ09JcjhDNG1GRWdOT1BHTDJzNUNCc3RmQjg5TUM1NWJUMlRFaGlsWEQybVVSbVI5dVFvNXB6bGxnM1AyUFQweXY?oc=5"
-  },
-  {
-    "date": "2026-06-02",
-    "cat": "기업동향",
-    "title": "SK하이닉스, HBM 넘어 AI 인프라 기업으로…엔비디아와 동맹 강화",
-    "source": "이지경제",
-    "desc": "SK하이닉스, HBM 넘어 AI 인프라 기업으로…엔비디아와 동맹 강화 이지경제",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CckJNOE12VnhJaVFEY2J0Q0xWWk50Rmpnei1iZFo5MXBoVzJUSElpWFlqcmtldVdfMGlxRXFITkJKejNRNk9WWUZGdjZEU1Z2TG5GUDM5NXJJaU5hOHFqMW8tNzRrUWJnVXF2VEpn?oc=5"
-  },
-  {
-    "date": "2026-06-02",
-    "cat": "기업동향",
-    "title": "최태원·젠슨 황 대만서 또 만났다…SK-엔비디아 ‘HBM 동맹’ 재확인",
-    "source": "인포스탁데일리",
-    "desc": "최태원·젠슨 황 대만서 또 만났다…SK-엔비디아 ‘HBM 동맹’ 재확인 인포스탁데일리",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkOW44NnVWdGE2cXFmQVlLM0sxcEpzLV9uenhXXy1qYVdObTJWLXdKSzNsTXhvYmdDLUN6a2RyaUxEeHVBUGxXU09MMUE3UndxUFB1Tld4XzUyUlNSaDZuWEZfVmlNdTVmc19SZUdHQkV2cEplRkE?oc=5"
-  },
-  {
-    "date": "2026-06-02",
-    "cat": "생성AI",
-    "title": "[AI 시대의 핵심 역량 '프롬프트 설계'... ChatGPT· 클로드· Gemini 성능을 끌어올리는 방법] 예를 들어 단순 요약을 요청하는 대신 핵심 항목 수, 문장 길이, 분석 관점 등을 함께 제시하면 보다 정교한 결과를 얻을 수 있다",
-    "source": "AI넷",
-    "desc": "[AI 시대의 핵심 역량 '프롬프트 설계'... ChatGPT· 클로드· Gemini 성능을 끌어올리는 방법] 예를 들어 단순 요약을 요청하는 대신 핵심 항목 수, 문장 길이, 분석 관점 등을 함께 제시하면 보다 정교한 결과를 얻을 수 있다 AI넷",
-    "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE81cUlJWWxZV19kb1hZdUZMYVJRS3NkOEsyNnByZkU4SEFqaHNYWEtBd3JaMUVDR0t3al9raGkzOGg?oc=5"
   }
 ]
