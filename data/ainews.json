@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-11-11",
+    "cat": "기업동향",
+    "title": "젠슨 황 리스크에 韓 AI 공급망 긴장… GPU·HBM ‘이중 변수’ [엔비디아 리스크②]",
+    "source": "IT조선",
+    "desc": "젠슨 황 리스크에 韓 AI 공급망 긴장… GPU·HBM ‘이중 변수’ [엔비디아 리스크②] IT조선",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iR3JNQzlwejR4NWdEWGtKSk16QmZjV2w1d25CNE9BeTJ5YmFmbVZmaDhDd1lUR3d4UElXeUx3QnZiN1RjTHlxUEpEdVpFVHNuNlVKNVM4dm1YRHRMYVJ6UkNpNzluakFIeXlGeWg5NETSAXRBVV95cUxNa0hiQ3R2N1o5cXVLemVlMGFnYVBKLXpiUGpreXNjd0x4THpIUkFaSDhCNXY3T055NEp3bnhaS1RtcmY3aF9pTU9hT21NMFd5SkFvLVlLakhqaHVRNHAyTnJ0b0JlS3hYcW5DeFo0U0Z0bENZYw?oc=5"
+  },
+  {
+    "date": "2026-11-11",
+    "cat": "기업동향",
+    "title": "엔비디아, 젠슨 황 해임 준비까지…'AI 반도체' 시장 판도 달라지나",
+    "source": "뉴시스",
+    "desc": "엔비디아, 젠슨 황 해임 준비까지…'AI 반도체' 시장 판도 달라지나 뉴시스",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11MXJZcHpFMXJ0a3FBNUlMaThBZzY2SjFtZEFtS1pkSHdjLS14WGhyUW5Pa2QyWi16WlViX3hZaXZhWTBtbkVNWWQwUXhlc3JZUEpiVlFHUlVvd19GczRGVdIBeEFVX3lxTE9Lc3BEaXNSRzM5R3hyTXNzWFRNcnlnNzdLcFRhNTN4bDJobHFrc3JmN3J0MEpRMkQ2b0NpWmJFQjI3UmtBeXRtejZRUjB2cms5MXZLM2NXVE1QTmpqVVl5cGlseVJlRXNQSUZoNWVTUXBBSGRtUktuMg?oc=5"
+  },
+  {
+    "date": "2026-11-11",
+    "cat": "기업동향",
+    "title": "삼성·SK는 HBM, 네이버·현대차는 GPU…‘젠슨 황 리스크’에 얽힌 한국 AI",
+    "source": "마이데일리",
+    "desc": "삼성·SK는 HBM, 네이버·현대차는 GPU…‘젠슨 황 리스크’에 얽힌 한국 AI 마이데일리",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zbkZaZmd6b21XRnhHVHBzYkdIZVlWRWtJM0VnNTFhTDBQQ0FFb3dVMjU0d0VUWjdIVXJuWHh4aEs4b2FWdEZGdmF1RHBQamtOTXV3UDJTVjN5Y1REc0c0aQ?oc=5"
+  },
+  {
+    "date": "2026-11-11",
+    "cat": "기업동향",
+    "title": "[젠슨 황 리스크] 엔비디아發 HBM 공급망 변수…삼전닉스 셈법 복잡",
+    "source": "www.ebn.co.kr",
+    "desc": "[젠슨 황 리스크] 엔비디아發 HBM 공급망 변수…삼전닉스 셈법 복잡 www.ebn.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BODNNQ0VNNzNzbXRQVlF1MEhHSzlJbWxnMERZakZfSElWSnhQaDdfRUZiampNVXVKNGdvVllQRG9VVm80QlpJQTFFWFlnRGVkYm8zVWF5Yzhjd044bXVhWU40by1lYmpD?oc=5"
+  },
+  {
     "date": "2026-11-10",
     "cat": "기업동향",
     "title": "'젠슨 황 리스크'에 국내 반도체업계 긴장…HBM 공급망 영향 '촉각'",
@@ -3966,37 +3998,5 @@
     "source": "테크월드",
     "desc": "[TECH한주] 젠슨 황이 원하는 HBM, 그 ‘단단한 결속’을 책임지는 에스티아이 테크월드",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tNmFKaU1RbkgxVHBjVTJiVzJWVUZ4dldpUUNaUXljMlhtZS1TZF9lYWV5ZHZCY0s1UDlldEhEQzM3LU9lSFJKNl83cUhORmtpZ0RVUEEzaXRCLVB3V3EtTFhIR2V4dy05?oc=5"
-  },
-  {
-    "date": "2026-06-07",
-    "cat": "기업동향",
-    "title": "\"HBM 넘어 AI 인프라 확장\"…SK하이닉스-엔비디아, AI 팩토리용 메모리 공동 개발 나선다",
-    "source": "아시아경제",
-    "desc": "\"HBM 넘어 AI 인프라 확장\"…SK하이닉스-엔비디아, AI 팩토리용 메모리 공동 개발 나선다 아시아경제",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5POGwzNk9VQzBBUTBNdXBxTlhoaE1JSmk0NWhldHRlTGVMbTQ5bEN3ZjlkUzRFQnpfVGxwcFZQRktuYXh0ZlR4MEQ3ZkY5WG13TU95d0xmTnpOMU0wVXBXWA?oc=5"
-  },
-  {
-    "date": "2026-06-07",
-    "cat": "기업동향",
-    "title": "[젠슨 황 방한] 최태원 만나 \"HBM 부족해, 더 달라\"…AI 생태계 점검 투어",
-    "source": "딜사이트",
-    "desc": "[젠슨 황 방한] 최태원 만나 \"HBM 부족해, 더 달라\"…AI 생태계 점검 투어 딜사이트",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBueEhlYTZINmtCYnhWaU52eEtTM1pEQTlxYVpkQ1lvUUlHR2dEck50cDZMYzBRZWZYemkxMUp3NEUxUHFuTlZVdmhGczhBTTg?oc=5"
-  },
-  {
-    "date": "2026-06-06",
-    "cat": "생성AI",
-    "title": "OpenAI, Anthropic, Google, 그리고 Microsoft CEO들, 의회에 합성 DNA 의무 스크리닝 입법 촉구",
-    "source": "Yellow.com",
-    "desc": "OpenAI, Anthropic, Google, 그리고 Microsoft CEO들, 의회에 합성 DNA 의무 스크리닝 입법 촉구 Yellow.com",
-    "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPdUxrWVdJNnZlbWJOdkRfbXZfWHNZSFg5UHZNWjA5SF9RLUJOdjI0U2RkOEM0c0JwbWNYRjIxR3dQbzlibWx4SWJnRkotRFRKQTV6eTFpaFZ1QmpOdmpRVlNpRmNxRThBY25ndmpNazBZYjVQQ1hPNmhNSHJQU3JvV3VWQnRpYWo3U0pXRXl2NXdDcDdQc0FHSmdrd2p3Y2xCbkJEOG5QNUFrVXAxTkNDZ1ptRWxPbzF6SlhxUEVvd2pWb2VYdlpwaUdJdG40ZHVhRU9HNXd0M2h0TmhoaGhPcm5seEdTNVJJb21Ndjc5b0stZFhiako3M21Ea29zUmU3RFdXNmZHOEl1OG9zVW5yV21iUUJCOU16eGQwbUpRVTQ4dS1fbl8yNjBiWWY0UlJXY1Bz?oc=5"
-  },
-  {
-    "date": "2026-06-06",
-    "cat": "연구/기술",
-    "title": "AI는 되돌릴 수 없는 지점에 다가가고 있는가? 앤스로픽, ‘일시 중단 프레임워크’ 제안",
-    "source": "Yellow.com",
-    "desc": "AI는 되돌릴 수 없는 지점에 다가가고 있는가? 앤스로픽, ‘일시 중단 프레임워크’ 제안 Yellow.com",
-    "link": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxOby0walRzTXFhQ0h0Si1sajE4WTRDREhEYXpHY0RGTXYwcTgtYk1McWxONV96b040bTZpNUZzNk1ra1lVN2d0WmI1dUswbmVGb0ppRUZkODBFWGdZb1A1UXZ0cmFvVWZPZGF4NTJ3bVhlVkRmeUtBRlJrTnJtT0p0VE9FSmVENEJhX2VSNlRRdGlXamsxTnlrS0l6N0F0a0Rmc25FQXVZSkdERFl1dWg1NGFqdjJ1bHZud0NhaTJ3cE9OenJMMnpDdlNESkZfU0NEa0lGNGVhWkhwdExUNjZFcmhkOG1rNzlRZVI2M3ZFNE1WSWVIWUpTdjlzdjBMZnJtUURwNEg2Ny1rbUtuNWlNc0pBOF83dy1Ma1A1c3ZwVHhXMEpqSnFOVUcwTWRqb0dyclZPWDBZcEhGZXdxY3FWX0pfYmJmcUt1eXgxdWZUUllyZzJ0b2ZMUHQ1ZHRDS2FyUnN0dFpFXzdaRVhTNFRzVVJwODg0akJOSUFyYnNtdVNVSkV6SHI3eWFPUVBZQkpIWEJNdzJOdTgyWHVqbC1iQUdTZUVwN3VNanBQMElQdm16THNYWnhJaTkyVldlNXNocy1Ta01aYnJDcndpNGQzaXdfNGw0RUtObjlabDVqdGZpWFVGZFNlbVFB?oc=5"
   }
 ]
