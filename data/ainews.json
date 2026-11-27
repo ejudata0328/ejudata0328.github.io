@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-27",
+    "cat": "기업동향",
+    "title": "日 키옥시아, 엔비디아와 'HBM->SSD 대체' 실험…韓 주도 AI 메모리 겨냥",
+    "source": "아주경제",
+    "desc": "日 키옥시아, 엔비디아와 'HBM->SSD 대체' 실험…韓 주도 AI 메모리 겨냥 아주경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fWG00UHZXS0ZwNWt0Nnl5QWtkSzdfSi0wZU9mTUNJRXlBbHl1ZFZmOXJjcHJZZy1BMGZueTNfeXJVWWc3RWlHRjhMNUNRWEJmTmlGZDdqWm5Tdw?oc=5"
+  },
+  {
+    "date": "2026-11-26",
+    "cat": "생성AI",
+    "title": "[Gemini vs Claude vs ChatGPT: 2026년 11월, 선두는 누구인가] 2026년 11월 기준으로 Claude가 일부 독립 비교에서 근소하게 앞서 있지만, ChatGPT와 Gemini도 만만치 않은 경쟁력을",
+    "source": "AI넷",
+    "desc": "[Gemini vs Claude vs ChatGPT: 2026년 11월, 선두는 누구인가] 2026년 11월 기준으로 Claude가 일부 독립 비교에서 근소하게 앞서 있지만, ChatGPT와 Gemini도 만만치 않은 경쟁력을 AI넷",
+    "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFA4ZmpwOWVqR3Jua2YyNkFGeDYtNnI4WDdOZUl5X3FCM29pVlFpNUFQb2l0TTRRUXpfZWFEN24xblU?oc=5"
+  },
+  {
+    "date": "2026-11-26",
+    "cat": "기업동향",
+    "title": "키옥시아, 엔비디아와 AI 메모리 실증...\"韓 HBM 일부 대체 노린다\"",
+    "source": "뉴스핌",
+    "desc": "키옥시아, 엔비디아와 AI 메모리 실증...\"韓 HBM 일부 대체 노린다\" 뉴스핌",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kUmlzb09jamw3WlIzOUJTdEhqdjlkVGR2aUczWHQ1Nk0wSHo2c3R2RXQxUFZEMmdWM1I4Yk9ZTm1WcXBQbHVCdTFfQVVURGRudGtkUmwzb2gxYjQw?oc=5"
+  },
+  {
+    "date": "2026-11-26",
+    "cat": "기업동향",
+    "title": "中 엔비디아 의존도 낮추기… 2028년 AI 반도체 국산화율 88% 전망",
+    "source": "아주경제",
+    "desc": "中 엔비디아 의존도 낮추기… 2028년 AI 반도체 국산화율 88% 전망 아주경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KS0YyTFJJWndmb2pCc24tc0ZxcVkzQm5xazRmY0lQbnhtNzRBQ1Q3ZGlkYmJhUXZBVnpoM0pKQk5ZTHNPSlc0UGk4UkJmRlFFaXl0NVhfSXdyZ9IBWEFVX3lxTFB1S1QwdW9SdzMwRU5GU0hncG1QSGR0UHdJMGdlY21kemlBX0p3M0FnalV1NUszU1JpbzBMa3ViaWRQWlFQWV9KOWlTYjJFZk16eTBQcENuQXE?oc=5"
+  },
+  {
+    "date": "2026-11-26",
+    "cat": "연구/기술",
+    "title": "xAI 창립 멤버들, ‘에포컬’ 설립…미래 예측 AI용 타임 포털 공개",
+    "source": "위런치",
+    "desc": "xAI 창립 멤버들, ‘에포컬’ 설립…미래 예측 AI용 타임 포털 공개 위런치",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9SMkFyd25JUmpXMThWWGdrTi03YkJ2bzZIVmM0a1RrQ05oMVY3aFVkRDZuX1gtOElQa0xuZGxDcWllODJWbm9aaXpvMi1ZSl9JUXFCRkY2b3dtS3JkQWYxbEJLSms?oc=5"
+  },
+  {
     "date": "2026-11-25",
     "cat": "기업동향",
     "title": "젠슨 황 돌아온 엔비디아…삼성·SK 넘어 K-AI 공급망 기대",
@@ -38,6 +78,14 @@
     "source": "핀포인트뉴스",
     "desc": "엔비디아 살린 트럼프, 중국 수출은 별개…HBM·후공정 관련주 촉각 핀포인트뉴스",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kd3FGOHRLN0R4X3RiWmppY05DSGVJRFYzNkxyOWxla004ZllvM2xkMTNFZU1STF9OTHRuTWtFNHpicDFobm8yXzJ1TUZXTnpBZ244b0t0dmRRdVZaeWc2Y1ZpZjRnekloVU05eGlwZXdxdnPSAXdBVV95cUxPeHRkUXlTMUlsSVJERFRuRTdXakdHQlhKRDB3d0FYREdKa1ZQUTctS0FCTG5OOWVybHFRRFJvTTFkMHFsQWZrdElmclYyTGx6TU9Jd2RleF80cWlHdWZJS3FvcEtpS2JjVndGMGpxdWU1MWE1d1hlUQ?oc=5"
+  },
+  {
+    "date": "2026-11-25",
+    "cat": "기업동향",
+    "title": "HBM 가격 두배 뛰고 구글 부상…삼성전자·SK하이닉스 경쟁축 이동",
+    "source": "서울이코노미뉴스",
+    "desc": "HBM 가격 두배 뛰고 구글 부상…삼성전자·SK하이닉스 경쟁축 이동 서울이코노미뉴스",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLa21oOE4wdnZhenRFMzJibFlpLWswSWx1QU1lUXBTRGFvQXpTT3Rzb0ZQX09YYjQybzNXVmtqYUctNm9ON24wOWFrVEx0Ym1OSno3aExHd3B1TWdxengxTUNOUWNkTWRBTWxhX2RB?oc=5"
   },
   {
     "date": "2026-11-24",
@@ -168,12 +216,36 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQzdqT1FRVmpMRC1NRjVOMl90YzQxdVNIOE9FWmRHdkVzNThDTzRkWjJNeHdWNkpaWXN3UWlJMTBNODlLSkJfLU96OExfRU1ZSWdESzM1UkJKS2NMaHhxTmQ1VnB6OFNlbFdNWHdLZVRtV1ZVQmVfWTVKMWIyc3dlNQ?oc=5"
   },
   {
+    "date": "2026-11-24",
+    "cat": "정책/규제",
+    "title": "한국 전문가, UN AI 거버넌스 국제 보고서 집필 참여…11개국 정책 비교 분석",
+    "source": "스타트업엔(StartupN)",
+    "desc": "한국 전문가, UN AI 거버넌스 국제 보고서 집필 참여…11개국 정책 비교 분석 스타트업엔(StartupN)",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vTnJjQk4zZU9EblF1RWc0dmxVcnF3UW5fMzZYWDhRV1R4WGU3WnFoVElTb0RvaUFKNTQ5X3RQbHVNbXhZRklPVkd2N2JwdFp5X0phV3VUT0xoX0MwdzJROUwwMjFHZHBl0gFsQVVfeXFMTkd6MWcwbnloUDdPanFrZHVzLVZYT1VzMFpwQVI5YzNaWVBiT2VQdFJoWlJMc2VhNmVaMmt6RUJ0QzJ0QUVSUDl2N2t0RE1BNW56MEo2U0xnTXRrV05PREMxMVVWYXYyWC04SVZk?oc=5"
+  },
+  {
     "date": "2026-11-23",
     "cat": "기업동향",
     "title": "엔비디아 이어 AMD까지 AI 투심 급랭…삼전닉스 '위기이자 기회'",
     "source": "뉴스1",
     "desc": "엔비디아 이어 AMD까지 AI 투심 급랭…삼전닉스 '위기이자 기회' 뉴스1",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xYmNUZ1poS0lvcXVzR0VkTzBKcnpxeEkwM3U1VklKcGFhWnB4T0xHUmRIZzQ1QVpFVzZPS0xKQlFEWEVBdGV6TkFZVEJtdXZUVXFFNTFkRXF1UXNLNGdpUWtYMTA?oc=5"
+  },
+  {
+    "date": "2026-11-23",
+    "cat": "기업동향",
+    "title": "정부, 엔비디아·AMD·인텔과 국산 AI 반도체 협력 확대…HBM 공급망 안정화 추진",
+    "source": "중앙이코노미뉴스",
+    "desc": "정부, 엔비디아·AMD·인텔과 국산 AI 반도체 협력 확대…HBM 공급망 안정화 추진 중앙이코노미뉴스",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ubkJSb05Xd2pmRktuQURMcW00dXNIbjhFWE5ramM3WU9OWlBvWHdQdFVSZXl5cm1PSGt2cDN6VnJEWWJ0QW5WcWNXa2Q4VEZRRVc3LXhlcXZRUmZSS2JyWlVXNjR5NndrOHVBbFZTRm45QQ?oc=5"
+  },
+  {
+    "date": "2026-11-23",
+    "cat": "기업동향",
+    "title": "엔비디아 젠슨 황 복귀에 삼성전자·SK하이닉스 '안도'…HBM 동맹 불확실성 완화",
+    "source": "중앙이코노미뉴스",
+    "desc": "엔비디아 젠슨 황 복귀에 삼성전자·SK하이닉스 '안도'…HBM 동맹 불확실성 완화 중앙이코노미뉴스",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fOVp0NmlQWFBHZWRVektCUWhuem5GRlJoSTFtTy1fNDZ2eGJHS19fY0tYTEI2Ny01QlFLeTJsdEdaS2N6UXdvZnh2M3diUU9fYTNqTjMwQzVvcUtUT0NFR0loT09GRERQNGVZVVRFSGRKQQ?oc=5"
   },
   {
     "date": "2026-11-22",
@@ -189,6 +261,14 @@
     "title": "제미니와 클로드는 ChatGPT를 사용하여 어려운 결정에 대한 조언을 제공하는 'AI 자문위원회'를 구성합니다.",
     "source": "Vietnam.vn",
     "desc": "제미니와 클로드는 ChatGPT를 사용하여 어려운 결정에 대한 조언을 제공하는 'AI 자문위원회'를 구성합니다. Vietnam.vn",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWHJuekt2SFREWE9PU0ZtYno5cUEzZ0xpU0tPTk92UGZ4aUp6UmE3U0h4STVrVzk2WHU2WENGRk5nVUJNU0pQQWhlRkZvU3ZVYlJkUl84dllIRlpvemI1d3pIeTJ1bFFZcEZnd1hTZUZfU1BKUFZNd0tGdUNLckxtTzNOb1pzWHo5YkJDWllIT0g2bXZmcFM1NGNLcUNZODNRZ1NMRkp2Zw?oc=5"
+  },
+  {
+    "date": "2026-11-21",
+    "cat": "생성AI",
+    "title": "Cách dùng ChatGPT, Gemini và Claude lập ‘hội đồng AI' tư vấn những quyết định khó",
+    "source": "Vietnam.vn",
+    "desc": "Cách dùng ChatGPT, Gemini và Claude lập ‘hội đồng AI' tư vấn những quyết định khó Vietnam.vn",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWHJuekt2SFREWE9PU0ZtYno5cUEzZ0xpU0tPTk92UGZ4aUp6UmE3U0h4STVrVzk2WHU2WENGRk5nVUJNU0pQQWhlRkZvU3ZVYlJkUl84dllIRlpvemI1d3pIeTJ1bFFZcEZnd1hTZUZfU1BKUFZNd0tGdUNLckxtTzNOb1pzWHo5YkJDWllIT0g2bXZmcFM1NGNLcUNZODNRZ1NMRkp2Zw?oc=5"
   },
   {
@@ -302,6 +382,14 @@
     "source": "더퍼블릭",
     "desc": "“왕은 떠나도 AI 제국은 넓어진다…삼성전자, 탈(脫) 엔비디아 시대 최대 수혜주” 더퍼블릭",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zNEp2LUY2dHo1RFYyaXdkUEJXbzE4ZzIyb0dOcUo4YjRzREpiNEpQZXlKYlVWbUs3Y045Sm1BTHRPLUFVS3dCMkZLNGJ1bjM2bldmdEhySTFZakdoR2pyZEtJM1hMY1Jiblgw0gFvQVVfeXFMUDdhNFVZT01hTm9kc0N0bEp3YVFlaXI1NlktSjJHel9EVlpwSEpFWFlWX2VZYmdzdENLREpYaEp6VVNhTWUwbWhPOUFBOGNtaEFJVjFEUFpScmk3QW1SeEY4T3hqbWtrdHpZWWdqSVBV?oc=5"
+  },
+  {
+    "date": "2026-11-16",
+    "cat": "연구/기술",
+    "title": "AI가 스스로 판단하다 사고 쳤다면?…책임 물을 법은 '공백'",
+    "source": "뉴시스",
+    "desc": "AI가 스스로 판단하다 사고 쳤다면?…책임 물을 법은 '공백' 뉴시스",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KWDJ0WDlqdl9IVFNRZWRqaUg5bEkwN3FtLXRoVHNkbjRWUG9YajBzY1pWdmRsRXhGeWlVZ1NhYWtGSTByMGM5VXBKdFNQeExRVzh1S3JjM190YVdqdWZwctIBeEFVX3lxTE1EdEF6TWdCbkdNZ29fQmVaazZSOWZMMjZNc3dSMTlMQXota1JxLXU2Z2JIWUJMd045TmluQmpOUXZtWFo4M0RzMTJhMnpYSWotdEZSbXBoejVCamhEMmlFTlM5d1gyY2ZqWkIxN2l1cjVHcmtSa3RnMg?oc=5"
   },
   {
     "date": "2026-11-15",
@@ -2248,6 +2336,22 @@
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KRGV6UGxDbFZWVVVBUFZJcFA5d0hDbURoZkoyZGItaXdudFYzV1lVSm05UGpscUF2ZGNLQ29xaWhpSWRrblpRdlhhVUdBVXJEZzJoMUxfUk5iX2dIRzVyX2pZYkJ5elJq?oc=5"
   },
   {
+    "date": "2026-08-18",
+    "cat": "연구/기술",
+    "title": "독파모 탈락 모티프, KT와 '모두의 AI' 재도전",
+    "source": "지디넷코리아",
+    "desc": "독파모 탈락 모티프, KT와 '모두의 AI' 재도전 지디넷코리아",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6VU1UT0VjdXJJeGc3TXdERVA5MjNyZlpmQmlTSXlGTW5jZkNNeTdraHdaNE5LdWlzS0l4QUQ5SFBkT3pIODhwakFCYlpQYUNrQ0FyaEt3?oc=5"
+  },
+  {
+    "date": "2026-08-18",
+    "cat": "국내AI",
+    "title": "네이버, ‘모두의 AI’ 사업 불참…통신 3사·카카오 참여",
+    "source": "서울경제",
+    "desc": "네이버, ‘모두의 AI’ 사업 불참…통신 3사·카카오 참여 서울경제",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hbHdlQzFHOWVYUHR6amdKT0NpNmMtU19yOU9mS0FVTUNxRUJGRW5TSVpxbkdqVFZkMDI4Tk5Qa1lRdWdnQ1dZTGFnMGF6X1FGSXfSAVNBVV95cUxPVXlSUWV5YUJhbzU5T0dDbDM4RHp3TDQwdVoydU5OV1ZiMGRPSXV0b0FqM1F0dXBvUHhhRDBHWkUzVWg4d2NhUFNlRVVLeC12WUNKRQ?oc=5"
+  },
+  {
     "date": "2026-08-17",
     "cat": "기업동향",
     "title": "[반도체 패권 전쟁 ④] 삼성전자·SK하이닉스의 승부수···HBM 넘어 ‘AI 반도체 기업’으로 진화하라",
@@ -3894,109 +3998,5 @@
     "source": "네이트",
     "desc": "Korea, Anthropic form AI safety alliance amid U.S. export curbs 네이트",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5GUzZBUXlfaFkybnZ2S2s3X3c4S3VwN1NCNWswZ1M1TWpfRTdLLTNDNkh6UnlWM2o1MXVxcVMweFdQNjluS1pMcW5WdjJmMUZXNWZnRG1WTDMtTHIyU084dTVsc1YycFNXWjBDT2RBSGtuQ2xoS0FLRA?oc=5"
-  },
-  {
-    "date": "2026-06-18",
-    "cat": "기업동향",
-    "title": "SK하이닉스, HBM4E 12단 첫 샘플 공급···AI 반도체 경쟁력 한 단계 높였다",
-    "source": "smartbizn.com",
-    "desc": "SK하이닉스, HBM4E 12단 첫 샘플 공급···AI 반도체 경쟁력 한 단계 높였다 smartbizn.com",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zU1VUZW01LUJBVlZ3SWF1WnhFYXlQTktKMVZDQ2VVdHNlWEhTcFVxRGJ1ck5FTFdyTUZ4NHRNbnhuWlZlWFpBS3pnTWxNNFltVUhRSjFzc2c5VmlqT3Ryc0l5UXBVOS1wbHBNOA?oc=5"
-  },
-  {
-    "date": "2026-06-18",
-    "cat": "정책/규제",
-    "title": "딥페이크·청소년 보호 꺼낸 구글…AI 규제 대응 빨라졌다",
-    "source": "지디넷코리아",
-    "desc": "딥페이크·청소년 보호 꺼낸 구글…AI 규제 대응 빨라졌다 지디넷코리아",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqaktEa1puaFdNd3VwVUFfSUlHMUNTSHVOYTBFT3lPSUpXTmVfLXdUNkthRmp0cERKeExGNEFhYS1HXzloQlVIaG9XS2xxSlVvRGZybUl3?oc=5"
-  },
-  {
-    "date": "2026-06-18",
-    "cat": "정책/규제",
-    "title": "공간정보 규제 풀어 AI·자율주행 키운다",
-    "source": "정보통신신문",
-    "desc": "공간정보 규제 풀어 AI·자율주행 키운다. AI 분야의 최신 동향입니다.",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84a1lQNDB0RUtnNWlvang4UzU3YmZRbXRoVVFicnJubzhPc1k4RFAwV3ZwVXhSa1p3MkRaMkFDSEJfVmZ5OE10aER6NlBIRXV6bDhaU0tqaXlCY092RG5WNlpSX0tQbXV50gFsQVVfeXFMTmEzaTFOaEViaXZqYkJZNkxJelBFTWN2bnBsWWpLUWlsaERna3NpcV9mSW0zazR5TTB3M0oyOG55RWJEcThScEd4OWM5Q0g0Y2E3MkY2VzloeFg1Z3A4LXdPU2czVlNHNHYzbVBV?oc=5"
-  },
-  {
-    "date": "2026-06-18",
-    "cat": "연구/기술",
-    "title": "\"AI는 모두의 것이어야 한다\"...이재명 대통령, G7서 '공유·안전' 두 축 제안",
-    "source": "더쎈뉴스",
-    "desc": "\"AI는 모두의 것이어야 한다\"...이재명 대통령, G7서 '공유·안전' 두 축 제안 더쎈뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DUlczRk9PeDlpenZocU1YNzVxak1zSVFUQV9PdlRNNTZmREQtc0NKbEN6NUFZQ1BQSVh0aGcyVzBXWjFhYmloa0xsb1N0d1FDMUZ4SXBmRnMtQ0FxSnJCeUpUZ3lQMUx0?oc=5"
-  },
-  {
-    "date": "2026-06-18",
-    "cat": "기업동향",
-    "title": "SK하이닉스, HBM4E 샘플 공급...격화하는 HBM 전쟁",
-    "source": "조선일보",
-    "desc": "SK하이닉스, HBM4E 샘플 공급...격화하는 HBM 전쟁 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQlNTOVVoQnZkSXBOWDZFaHpCemc1dmwtYUFXZ2tGaEFYMlFZeE0yUUowelNobnotN0ZOUThIRUFnRHBYLWg0VTFrVzZDVFdTZElheHpIS2MxODcyUU5XRVNueVhHVjlvdC1rbUQ2VEFFWmdLYWE3VXlyODJYZV9saDA0TQ?oc=5"
-  },
-  {
-    "date": "2026-06-18",
-    "cat": "기업동향",
-    "title": "SK하이닉스 독점 깨진 HBM 시장…메모리 3사, 물량·마진 경쟁 돌입",
-    "source": "녹색경제신문",
-    "desc": "SK하이닉스 독점 깨진 HBM 시장…메모리 3사, 물량·마진 경쟁 돌입 녹색경제신문",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9IQXJ6d1lYc0Z0S1lORmRHdGxQSGZJWGtrdFNZeHdkYTJ4U3lnWGdxUS1LdlZoVHNXNlNwTVFzZW12RjlLSGZBZDI5bmZfRlg4X1c2elZZN0I2OVZ5MFRyUEhJSlZWNE9f?oc=5"
-  },
-  {
-    "date": "2026-06-18",
-    "cat": "생성AI",
-    "title": "ChatGPT·Claude·Gemini 한곳에서… 용인대, 생성형 AI 통합 서비스 도입",
-    "source": "용인대학신문",
-    "desc": "ChatGPT·Claude·Gemini 한곳에서… 용인대, 생성형 AI 통합 서비스 도입 용인대학신문",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LaXVDLUFzVVV3R2ZkRUVvYTBYbURJT1hUQV9SeFc5VGI5bndwZVRLUDFYaW1VRmk0dnBiTDZFV1FkS0NnYVQ5RThxa19XT3pLeWZ4aU1lS0NBTXBzeXA3VHMxYk5hMGRuUVM5Sg?oc=5"
-  },
-  {
-    "date": "2026-06-18",
-    "cat": "기업동향",
-    "title": "SK하이닉스도 차세대 HBM 샘플 공급",
-    "source": "한국경제",
-    "desc": "SK하이닉스도 차세대 HBM 샘플 공급. AI 분야의 최신 동향입니다.",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lZkNVU2RnZURScXMzcUVlSnJqWG1TcDRnUk9LV0pVWUdwa2pJZFJrbGpHdUFCTzFoNWxIVmMwcExBNjEzMW5GRm01aHdDdXV3V2FxZXp6MExoUdIBVEFVX3lxTE1OdFI2TDZpSS1ldmtMSUFVNlFISEo0SGlpRUp4cHJMV3p2c3JLOEQ2N1F1OG5NTHNTc09Ld2xJdWV5UlM4ajIyeFVJTFRIZVpxX1FGMA?oc=5"
-  },
-  {
-    "date": "2026-06-18",
-    "cat": "기업동향",
-    "title": "삼성 반도체, 차세대 HBM4 선두 굳힌다…“‘만년 적자’ 파운드리도 2나노 ‘승부수’”",
-    "source": "CEO스코어데일리",
-    "desc": "삼성 반도체, 차세대 HBM4 선두 굳힌다…“‘만년 적자’ 파운드리도 2나노 ‘승부수’” CEO스코어데일리",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYTkY0TkMzSTlrNTVpVXFyTUR3VUN5TDNienJodXdqbVFONExmSldSNk9YdTJkMkpEU01pV0xvNEdDOHVHUE90Z1JCYVUzNzRFUjRMdm1DSDhXSUc1QmxleXlyRklwM2F5?oc=5"
-  },
-  {
-    "date": "2026-06-17",
-    "cat": "연구/기술",
-    "title": "박영사 『인공지능법 연구』 출간",
-    "source": "핸드메이커",
-    "desc": "박영사 『인공지능법 연구』 출간. AI 분야의 최신 동향입니다.",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4wOUw0TXpEUmpZWnhOT2EzSW45OXZCQThxeXJjQ0NPemRmWTRzY2p4Smdrd0pqem0xMkkxTkIwcmN3SmZoS2pjdWMxWGY3NzZBa25ndEV1YzIzRmROQV9QdUZIQWZ6NTV4MFp30gFrQVVfeXFMTjA5TDRNekRSallaeE5PYTNJbjk5dkJBOHF5cmNDQ096ZGZZNHNjanhKZ2t3Smp6bTEySTFOQjByY3dKZmhLamN1YzFYZjc3NkFrbmd0RXVjMjNGZE5BX1B1RkhBZno1NXgwWnc?oc=5"
-  },
-  {
-    "date": "2026-06-17",
-    "cat": "정책/규제",
-    "title": "[2026년 상반기 게임 결산 - 정책] AI 시대, 규제와 진흥 균형 모색",
-    "source": "더게임스",
-    "desc": "[2026년 상반기 게임 결산 - 정책] AI 시대, 규제와 진흥 균형 모색 더게임스",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwWmo0Ym9ucTVqNWlvX0tleU9iZGpoZTAzWXo5V2FpSkRVWEtucXlXbHJDOWtJN1VwdWxlVG1xY3FZc29xOUN3d1h1R05hSVRfUXFDSUhLQkJfM3NuTUV1bUppbTgwVGdCVDZMYw?oc=5"
-  },
-  {
-    "date": "2026-06-17",
-    "cat": "기업동향",
-    "title": "AI 주도권, 연산에서 메모리로… HBM 가격, 2027년 '두 배' 뛴다",
-    "source": "글로벌이코노믹",
-    "desc": "AI 주도권, 연산에서 메모리로… HBM 가격, 2027년 '두 배' 뛴다 글로벌이코노믹",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVk45QjNqcW41TUJ1bFVYWW1HRkhXWWtwNkU5RlpZazRudmowR0RuQURpT2p1aGI5ZFRmTmdaaVl2UVM4R3FLWDJ6Slo0NHFtU29CV2JnOGVHb2FBTVJhOHBZa1A3TkxxTGRUT0daOTdlYkJCMnNWMGZucExDdmk0NmdLNXFhQTMw?oc=5"
-  },
-  {
-    "date": "2026-06-17",
-    "cat": "연구/기술",
-    "title": "Vanderbilt’s Hwang Tae-hyun Warns Korea Is Losing AI Bio Advantage Despite Rich Cancer Data",
-    "source": "동아사이언스",
-    "desc": "Vanderbilt’s Hwang Tae-hyun Warns Korea Is Losing AI Bio Advantage Despite Rich Cancer Data 동아사이언스",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrbUhncERHbEtrY21XQlF1Q05QMk1MSThLbndJOFppb3U1RGNDR3V4dW1Ld3Z6djhZVFhhSVVWczYxTXVJbGZBT1NiUjdJaktWUGVxNA?oc=5"
   }
 ]
